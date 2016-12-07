@@ -1,2 +1,2 @@
 # demo
-平常练习的一些案例
+practice daily
