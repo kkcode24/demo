@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="count.js"></script>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<title>count</title>
+</head>
+<body>
+<script type="text/javascript">
+     /*//在js中一切都是对象
+
+     //创建一个类，使用构造函数创建一个类
+     function person(){}
+	 //创建对象。var 对象名= new 类名();
+	 var a = new person();
+	 window.alert(a.constructor);// a对象实例的构造函数
+	 window.alert(typeof(a));
+	 var b='1234';
+	 window.alert(b.constructor);
+	 window.alert(typeof(b));
+	 //如何判断一个对象是不是person类
+	 if(a instanceof person){
+	     alert('a1是一个person类');
+	 }
+	 if(a.constructor==person){
+	     alert('a2是一个person类');
+	 }
+	 */
+	 //访问对象的属性方法有两种：
+	 //1.对象名.属性名;（普通访问）
+	 //2.对象名['属性名'];(动态访问)
+	 function test(){};
+	 var p1 = new test();
+	 p1.name = 'yike';
+	 document.write(p1.name);
+	 var val = 'n'+'ame';
+	 document.write(p1[val]);
+	 var b=p1;
+	 b.name='兄地';
+	 alert(b.name+p1.name);
+   /*在js中也有堆和栈。
+   栈中p1指向堆中的地址即p1=ox1423;
+     然后堆中放有内容：例如：ox1423['yike']
+	 再然后b=p1;所以b也指向p1所指向的地址 b=ox1423;
+	 此时，b,p1指向同一个地址即堆。
+	 然后b.name修改了堆中的内容.所以p1.name 的值也改变了。
+   */
+    b=null;//Garbage Collection。把b指向堆地址的线断掉;即b指向null;(通俗点讲就是把null赋值给b)
+    alert(b.name);//此时访问不到堆地址的内容；	
+</script>
+</body>
+</html>

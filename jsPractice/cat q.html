@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="count.js"></script>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<title>count</title>
+</head>
+<body>
+<script type="text/javascript">
+     /*var name=prompt('please enter a cat's name');
+     switch(name){
+	 case '小白':
+	 document.write('小白今年三岁了，毛发是白色的');
+	 break; 
+	 case '小花':
+	 document.write('小花今年十岁了，毛发是花色的');
+	 break;
+	 default:
+	 document.write('张老太没有这只猫');
+	}*/
+	//var cat1_name='小白';
+	//var cat1_age = 3;
+	//var cat1_color='white';
+	//这里就是一个猫类
+	function cat(){
+	
+	}
+	//如果你这样用：cat();那么这就是函数；
+	cat1 = new cat();//这就是类；这时cat1就是一个对象（实例）
+	cat1.name='小白';
+	cat1.age=3;
+	cat1.color='white';
+	//从上面的代码我们可以看出：
+	//1.js中的对象的属性可以动态的增加
+	//2.属性没有限制
+	document.write(cat1.name+cat1.age+cat1.color);
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<title>打印菱形</title>
+</head>
+<body>
+<script type="text/javascript">
+/*  *     2*1-1
+   ***    2*2-1
+  *****   2*3-1
+ *******  2*4-1	
+*/
+//金字塔
+//输入一个数，作为行数
+var n=prompt('please enter a number');
+  for (var i=1;i <= n;i++){
+  
+     for(var j=1;j <= n-i; j++ ){
+	     document.write('&nbsp;'); 
+	 }
+	 
+     for(var j=1;j <= 2*i-1;j++){
+          document.write('*');	 
+	 }
+	 document.write('<br/>');
+  }
+</script>
+</body>
+</html>

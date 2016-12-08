@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+<title>count</title>
+</head>
+<body>
+<script type="text/javascript">
+     var arr = [5,0,-56,900,12,4,8,9];
+	 //外层需要的总共排序次数（arr.length - 1）
+	 for(var i=0;i <arr.length-1;i++){
+	     //document.write('1')
+	     //小的排序，排了一次少一次。j+i<arr.length-1;
+		 for(var j=0;j<arr.length-1-i;j++){
+		     //交换
+		     if(arr[j]>arr[j+1]){
+				 temp=arr[j];
+				 arr[j]=arr[j+1];
+				 arr[j+1]=temp;
+			 }
+		 }
+	 }
+	 for(var i=0;i<arr.length;i++){
+	     document.write(arr[i]+'&nbsp;');	 
+	 }
+	 document.write('<br />');
+	 //优化
+	 var arr = [5,0,-56,900,12,4,8,9];
+	 var flag= false;
+	 for(var i=0;i <arr.length-1;i++){
+	      //document.write('d')
+		 for(var j=0;j<arr.length-1-i;j++){
+		     if(arr[j]>arr[j+1]){
+				 temp=arr[j];
+				 arr[j]=arr[j+1];
+				 arr[j+1]=temp;
+				 flag = true;
+			 }
+		 }
+		 if(flag){flag=false;}else{break;}
+	 }
+	 for(var i=0;i<arr.length;i++){
+	     document.write(arr[i]+'&nbsp;');
+	 }
+</script>
+</body>
+</html>

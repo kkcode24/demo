@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+<meta charset = "UTF-8">
+<head>
+<title> count years </title>
+</head>
+
+<body>
+
+<script language="javascript">
+function $$(id){
+ return document.getElementById(id);
+}
+function year(){
+document.title = "success";
+var years = $$('txt_year').value;
+var result = (years%4 ==0 && years%100 != 0)||(years%400 == 0)?years+"是闰年":years + "不是闰年";
+$$('txt_yearresult').value = result;
+}
+</script>
+
+
+<form name="form1" method ="post" action="">
+
+<table width="392" height="101" border="1" align="center" cellpadding="1" cellspacing="1" bordercolor="#009900" bgcolor="#ccff00">
+
+<tr>
+<td height="25" colspan="2" align="center" class="STYLE5">判断指定的年份是否为润年</td>
+</tr>
+
+<tr>
+<td width="152" height="30" bgcolor="#FFFF99" ><span class="STYLE3">请输入一个四位数的年份:</span></td>
+
+<td width="216" bgcolor="#FFFF99" >
+<table width="196" height="29" border="0" cellpadding="0" cellspacing="0" >
+<tr>
+<td width="136"><input name="txt_year" id="txt_year" type="text" value="2009" size="20"></td>
+<td width="60">&nbsp;
+<input type="button" name="Button" value="计算" onclick="year()" >
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<tr>
+<td height="37" colspan="2" align="center">
+<input id="txt_yearresult"  type="text" value="" size="51" />
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

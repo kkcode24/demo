@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>构造函数</title>
+	<script>
+		/*function person(name,age){
+			// 这个就是使用传入的实际参数，去初始化属性。
+			this.name=name;
+			this.age=age;
+			// 输出自己的名字,这里this.show就是公开函数，函数名是show
+			this.show=function(){
+				document.write('名字:'+this.name+'<br />'+'年龄:'+this.age);
+			}
+		}
+		var p1=new person('宋江',40);
+		p1.show();
+		var p2=new person('林冲',18);
+		p2.show();*/
+		//希望所有对象共享某个函数。
+		function Dog(){
+
+		}
+		//使用prototype[类]去绑定一个函数shout。
+		Dog.prototype.shout=function(){
+			window.alert('小狗');
+		}
+		var dog1=new Dog();
+		dog1.shout();
+		var dog2=new Dog();
+		dog2.shout(); 
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
