@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RegExp</title>
+	<script type="text/javascript">
+	  function demo(){
+
+		var cnt=document.getElementById('content').value;
+		var RegExp = /(\d){4}/gi;
+		//var RegExp =new RegExp("(\\d){4}","gi");过时了，不能用。
+		//alert(RegExp);
+		while(res=RegExp.exec(cnt)){
+			alert('find'+res[0]);
+		}
+	}
+	</script>
+</head>
+<body>
+	<!-- regular repression
+	 正则表达式就是用某种模式去匹配一类字符串的一个公式，反应到js中就是RegExp对象。 
+     正则的创建 gi  global ingnorecase （g全局匹配），（i忽略大小写）
+	 var RegExp=/正则表达式/gi;【隐式创建】
+	 var RegExp=new RegExp(正则表达式,"gi");【显式创建】，过时了-->
+	 <textarea name="" id="content" cols="30" rows="10"></textarea>
+	 <button onclick="demo()">按钮</button>
+</body>
+</html>

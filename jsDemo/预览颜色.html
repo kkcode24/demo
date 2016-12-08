@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>颜色预览</title>
+	<link rel="stylesheet" href="css.css" type="text/css" />
+	<script src="js.js"></script>
+</head>
+<body>
+<form id="myform">
+	<fieldset>
+		<legend>请选择颜色值：</legend>
+		<span id="spanColor">
+			<input id="txtR" type="range" value="0" min="0" max="255" onchange="setColor()" />
+			<input id="txtG" type="range" value="0" min="0" max="255" onchange="setColor()" />
+			<input id="txtB" type="range" value="0" min="0" max="255" onchange="setColor()" />
+		</span>
+		<span id="Prev"></span>
+		<p id="showColor">rgb(0,0,0)</p>
+	</fieldset>
+</form>	
+</body>
+</html>

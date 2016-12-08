@@ -1,0 +1,29 @@
+body{
+	font-size: 14px;
+}
+fieldset{
+	padding: 10px;
+	width:400px;
+	float:left;
+}
+#spanColor{
+	width:150px;
+	float:left;
+}
+#Prev{
+	width:100px;
+	height:70px;
+	border: 1px solid #ccc;
+	float:right;
+	background-color: #000;
+}
+#showColor{
+	font-weight: bold;
+	clear:both;
+	text-align: center;
+}
+p{
+	clear:both;
+	padding: 0px;
+	margin:8px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>增删改查</title>
+</head>
+<body>
+	请输入站名:<input type="text" value="" id="inp1">
+	请输入网址:<input type="text" value="" id="inp2">
+    <input type="submit" value="增加" onclick="append()">
+    <input type="button" value="删除" onclick="remove()">
+    <div id="div1" style="width:200px;height:200px;border:1px solid red;">div1</div>
+</body>
+<script type="text/javascript">
+	function $(id){
+		return document.getElementById(id);
+	}
+	function append(){
+        var inpValue1=$('inp1').value;
+        var inpValue2=$('inp2').value;
+        var myElement=document.createElement("a");
+        myElement.innerText=inpValue1;
+        myElement.href=inpValue2;
+        myElement.id="id1";
+        myElement.target='_blank';
+        $('div1').appendChild(myElement);
+	}
+	function remove(){
+		// 删除一个元素,火狐不支持removeChild的方法IE支持
+		$('div1').removeChild($('id1'));
+	}
+</script>
+</html>

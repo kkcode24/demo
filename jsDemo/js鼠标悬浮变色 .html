@@ -1,0 +1,29 @@
+<!-- html:xt 然后使用快捷键ctrl+e生成一个html文件框架 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+     div{width:200px;height:200px; background-color: red;margin-bottom: 10px;}
+     #box2{
+     	display: none;
+     }
+	</style>
+	<script type="text/javascript">
+		function bian(){
+			document.getElementById('box1').style.backgroundColor="blue";
+			document.getElementById('box2').style.display="block";
+			// 驼峰命名法
+		}
+		function bianhui(){
+			document.getElementById('box1').style.backgroundColor="red";
+			document.getElementById('box2').style.display="none";
+		}
+	</script>
+</head>
+<body>
+<div id="box1" onmouseover="bian()" onmouseout="bianhui()"></div>
+<div id="box2"></div>
+</body>
+</html>

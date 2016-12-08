@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>time</title>
+</head>
+<body>
+	<input type="button" name="time" value="10" />
+</body>
+<script>
+	function time() {
+		var inp = document.getElementsByName('time')[0];
+		var time = parseInt(inp.value)-1;
+		inp.value=time;	
+		if (time==0) {
+			clearInterval(clock);
+		}	
+	}
+	clock = setInterval('time()',1000);
+</script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>画矩形</title>
+	<style type="text/css">
+	<!--
+	#myCanvas{
+		border:1px solid #000;
+		background: silver;
+	}
+	-->
+	</style>
+</head>
+<body>
+	<canvas id="myCanvas" width="400" height="300">
+		Your browser does not support the canvas element.
+	</canvas>
+</body>
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="red";
+cxt.fillRect(20,20,200,100);//(20,20)代表起始原点，150*50代表矩形宽高
+//以下属性貌似取消了
+// cxt.fillStyle="green";
+// cxt.strokeStyle="#EEEEFF";
+// cxt.lineWidth=1;
+// cxt.strokeStyle(50,50,150,100);
+</script>
+</html>

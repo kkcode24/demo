@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>video元素的error属性</title>
+</head>
+<body>
+<!-- <center>
+		loop的值可以是布尔值，也可以是数值0，1 
+		hidden的值只能取true和flase，也就是布尔值 
+	<embed src="1.mp4" width="720" height="400" autostart="true" loop="0" hidden="flase"></embed>
+	</center> 
+-->
+
+    <center>
+    	<div>
+    		<video id="vdoMain" src="1.mp4" width="360" height="320" onError= "Video_Error(this)"
+    		controls="true" poster="./images/important.png">your browser does not support HTML5 video</video>
+    	</div>
+    	<span id="spanStatus"></span>
+    </center>
+
+
+
+
+</body>
+
+<script type="text/javascript">
+
+	function $$(id) {
+		return document.getElementById(id);
+	}
+
+	function Video_Error(e){
+		var intState=e.error.code;
+		$$("spanStatus").style.display="block";
+		$$("spanStatus").innerHTML= ErrorByNum(intState);
+	}
+
+	function ErrorByNum(n){
+
+		switch(n){
+			case 1:
+			return "加载异常，用户请求中止！";
+			case 2:
+			return "加载中止，网络错误！";
+			case 3:
+			return "加载完成，解码出错！";
+			case 4:
+			return "不支持的播放格式";
+		}
+	}
+
+
+
+
+
+
+</script>
+
+
+
+
+</html>

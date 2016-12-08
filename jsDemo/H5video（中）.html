@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Document</title>
+</head>
+<body onload="init()">
+  
+
+<div style="text-align:center;" >
+  <button onclick="setCurSrc()">获取视频地址</button> 
+  <button onclick="setCurTime()">切指到5秒处</button> 
+  <button onclick="changeSrc()">切换视频</button> 
+  <button onclick="playPause()">播放/暂停</button> 
+  <button onclick="makeBig()">大</button>
+  <button onclick="makeNormal()">中</button>
+  <button onclick="makeSmall()">小</button>
+  <button onclick="bgsd()">播放/暂停背景音乐</button>
+  <br /> 
+  <hr /> 
+  <video id="video1" src="1.mp4" width="420" style="margin-top:15px;" controls="controls" 
+  poster="./images/important.png">
+    //poster可以设置播放之前显示的图片
+    Your browser does not support HTML5 video.
+  </video>
+  <bgsound id="bgsud" src="" loop="-1"  />
+</div> 
+
+<script type="text/javascript">
+var video;
+var myVideo=document.getElementById("video1");
+
+function init(){
+  video = document.getElementById("video1");
+  //监听视频播放结束事件
+  video.addEventListener("ended",function(){alert("播放结束");},true);
+  //如果在video标签内加上loop属性并且使其属性值等于true，则此函数不可被调用
+}
+
+
+function playPause(){ 
+      if (myVideo.paused) 
+          myVideo.play(); 
+      else 
+          myVideo.pause(); 
+} 
+function changeSrc(){
+  // if(myVideo.src="1.mp4"){
+  //   myVideo.src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4";
+  // }
+  // else{
+  //   myVideo.src="1.mp4";
+  // }
+  
+  myVideo.src=(myVideo.src=="file:///F:/js练习/1.mp4")?"http://www.w3school.com.cn/example/html5/mov_bbb.mp4":"file:///F:/js练习/1.mp4";
+}
+function setCurSrc(){alert(myVideo.currentSrc);}
+function setCurTime(){ myVideo.currentTime=5;} 
+function makeBig(){ myVideo.width=720; } 
+function makeSmall(){ myVideo.width=320; } 
+function makeNormal(){ myVideo.width=420; }
+
+function bgsd(){
+  if (bgsud.src=="") {
+    bgsud.src="1.mp3";
+  }else{
+    bgsud.src="";
+  }
+}
+
+</script> 
+
+
+</body>
+</html>

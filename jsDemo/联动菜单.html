@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>联动菜单</title>
+	<script>
+	var area = [
+	["朝阳","海淀","门头沟"],
+	["南阳","安阳","洛阳","信阳"]
+	];
+ 		function ld(){
+			var sel = document.getElementById('prov');  
+			var opt=[];
+			
+			  if(sel.value == -1){
+			  	opt = '<option value="-1">请选择</option>';
+			  	document.getElementById('city').innerHTML = opt;
+			  	return false;
+			  }
+			 
+			var  len=area[sel.value].length;      
+			for(var i=0 ;i<len;i++){
+			opt[i]= '<option value="'+i+'">'+area[sel.value][i]+'</option>';
+				//alert(opt[i]);                
+			}
+			document.getElementById('city').innerHTML = opt;
+		}
+	</script>
+</head>
+<body>
+	<select name="prov" id="prov" onchange="ld()">
+		<option value="-1">请选择</option>
+		<option value="0">北京</option>
+		<option value="1">河南</option>
+	</select>
+	<select name="city" id="city">
+		<option value="-1">请选择</option>
+	</select>
+		
+</body>
+</html>

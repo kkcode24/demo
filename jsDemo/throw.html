@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>使用throw 语句抛出异常</title>
+	<script type="text/javascript">
+		try{
+			var num=1/0;
+			if (num=="Infinity") {
+				throw new Error("被除数不可以为0");
+			}
+		}catch(exception){
+			alert(exception.message);
+		}
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+	try{
+		document.forms.inputs.length;
+	}catch(exception){
+		alert("运行时有异常发生");
+	}finally{
+		alert("结束try...catch...finally语句");
+	}
+</script>
+	
+</body>
+</html>
