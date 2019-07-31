@@ -1,0 +1,31 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "一个简易的音乐播放器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "kkcode",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.6",
+    "run-sequence": "^2.2.1"
+  }
+}

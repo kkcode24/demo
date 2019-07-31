@@ -1,0 +1,1 @@
+require.config({paths:{jquery:"lib/jquery.min"}}),require(["jquery","player"],function(e,i){i.init()});
