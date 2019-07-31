@@ -1,0 +1,89 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>广告投放</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap wdggtf_01'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <view class='li_b'></view>
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>广告位名称广告位名称</view>
+                        <view class='p p2'>剩余：<view class='i'>01天13小时34分</view></view>
+                    </view>
+                    <view class='fr'>
+                        <view class='p p1'>编号15</view>
+                        <view class='p p2'><view class='i'>¥1200</view>/半年</view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>时限：<view class='i'>2019-01-29 17:23:23 - 2019-02-31 09:12:34</view></view>
+                    <view class='a' hover-class='a_hover'></view>
+                </view>
+            </view>
+            <view class='li off'>
+                <view class='li_b'></view>
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>广告位名称广告位名称</view>
+                        <view class='p p2'>剩余：<view class='i'>01天13小时34分</view></view>
+                    </view>
+                    <view class='fr'>
+                        <view class='p p1'>编号15</view>
+                        <view class='p p2'><view class='i'>¥1200</view>/半年</view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>时限：<view class='i'>2019-01-29 17:23:23 - 2019-02-31 09:12:34</view></view>
+                    <view class='a' hover-class='a_hover'></view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='li_b'></view>
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>广告位名称广告位名称</view>
+                        <view class='p p2'>剩余：<view class='i'>01天13小时34分</view></view>
+                    </view>
+                    <view class='fr'>
+                        <view class='p p1'>编号15</view>
+                        <view class='p p2'><view class='i'>¥1200</view>/半年</view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>时限：<view class='i'>2019-01-29 17:23:23 - 2019-02-31 09:12:34</view></view>
+                    <view class='a' hover-class='a_hover'></view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='li_b'></view>
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>广告位名称广告位名称</view>
+                        <view class='p p2'>剩余：<view class='i'>01天13小时34分</view></view>
+                    </view>
+                    <view class='fr'>
+                        <view class='p p1'>编号15</view>
+                        <view class='p p2'><view class='i'>¥1200</view>/半年</view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>时限：<view class='i'>2019-01-29 17:23:23 - 2019-02-31 09:12:34</view></view>
+                    <view class='a' hover-class='a_hover'></view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='fbcs_01'>
+        <image src='https://www.chengshishe.com/club/static/upimg/tfgg_01.png' mode='widthFix' bindtap='fbcs_click'></image>
+    </view>
+
+</view>

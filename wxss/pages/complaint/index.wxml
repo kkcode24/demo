@@ -1,0 +1,83 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>投诉建议</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap tsjy_01'>
+        <view class='li li_on'>
+            <view class='span'>投诉</view>
+            <view class='b'></view>
+        </view>
+        <view class='li'>
+            <view class='span'>建议</view>
+            <view class='b'></view>
+        </view>
+    </view>
+
+    <view class='wrap tsjy_02'>
+        <view class='wrap_c'>
+            <view class='li {{acitve=="1"?"on":"off"}}' data-id="1" bindtap="tsjy_click">
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>投诉标题投诉标题投诉标题投诉标题投诉标题</view>
+                        <view class='p p2'>2019-01-20</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a'></view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+                    <view class='p1'>
+                        <view class='p1_c'><view class='i'>@回复：</view>需求已经发布到平台了，请大家悦读理解并认真思考砥砺奋进快乐圣诞节付款链接乐山大佛来。</view>
+                    </view>
+                </view>
+            </view>
+
+            <view class='li {{acitve=="2"?"on":"off"}}' data-id="2" bindtap="tsjy_click">
+                <view class='li_t'>
+                    <view class='fl'>
+                        <view class='p p1'>投诉标题投诉标题投诉标题投诉标题投诉标题</view>
+                        <view class='p p2'>2019-01-20</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a'></view>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='p'>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+                    <view class='p1'>
+                        <view class='p1_c'><view class='i'>@回复：</view>需求已经发布到平台了，请大家悦读理解并认真思考砥砺奋进快乐圣诞节付款链接乐山大佛来。</view>
+                    </view>
+                </view>
+            </view>
+
+
+        </view>
+    </view>
+
+    <view class='fbcs_01'>
+        <image src='https://www.chengshishe.com/club/static/upimg/tsjyfb_01.png' mode='widthFix' bindtap='kjhb_click'></image>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

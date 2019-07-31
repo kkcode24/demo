@@ -1,0 +1,131 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr in_top'>
+        <view class='wrap_c'>
+            <view class='fl top_title'>{{title}}</view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap intop_page'>
+        <view class='wrap in_01'>
+            <image src='{{in_src}}' mode='widthFix'></image>
+        </view>
+
+        <view class='wrap in_02'>
+            <view class='wrap_c'>
+                <input type='text' class='in_02_txt' placeholder='找二手、找工作、找房子' style="{{in_02_txt_width}}"></input>
+                <button class='in_02_btn'></button>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap in_03'>
+        <view class='wrap_c'>
+            <view class='in_03_l'><view class='in_03l_add'>{{address}}</view></view>
+            <view class='in_03_r'>
+                <view class='li'><view class='i'>用户</view><view class='span'>{{userNum}}</view></view>
+                <view class='li'><view class='i'>信息</view><view class='span'>{{xxNum}}</view></view>
+                <view class='li'><view class='i'>在线</view><view class='span'>{{zxNum}}</view></view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap in_04'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <navigator hover-class='none' url="../housekeeping/index?classifyId={{classifyBmhb_id}}">
+                    <image src='{{classifyBmhb_iconurl}}' mode='widthFix'></image>
+                    <view class='span'>{{classifyBmhb_classifyName}}</view>
+                </navigator>
+            </view>
+            <block wx:for="{{classifyList}}" wx:key="id">
+            <view class='li'>
+                <navigator hover-class='none' url="../housekeeping/index?classifyId={{item.classifyId}}">
+                    <image src='{{item.iconurl}}' mode='widthFix'></image>
+                    <view class='span'>{{item.classifyName}}</view>
+                </navigator>
+            </view>
+            </block>
+        </view>
+    </view>
+
+    <view class='wrap gg_01'>
+        <view class='wrap_c'>
+            <navigator hover-class='none'>
+                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/fl_05.jpg'></image>
+            </navigator>
+        </view>
+    </view>
+
+    <view class='wrap in_05'>
+        <view class='wrap_c'>
+            <view class='li {{curtab==1?"on":""}}' data-curtab="1" bindtap='click_in05'>
+                <view class='span'>信息<view class='i'></view></view>                
+            </view>
+            <view class='li {{curtab==2?"on":""}}' data-curtab="2" bindtap='click_in05'>
+                <view class='span'>附近<view class='i'></view></view>                
+            </view>
+            <view class='li {{curtab==3?"on":""}}' data-curtab="3" bindtap='click_in05'>
+                <view class='span'>关注<view class='i'></view></view>                
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap in_06'>
+        <block wx:for="{{records}}" wx:key="id">
+        <view class='li'>
+            <view class='wrap_c'>
+                <!--<view class='li_gg_03'>
+                    <navigator hover-class='none'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/gg_02.jpg'></image>
+                    </navigator>
+                </view>-->
+                <view class='li_t'>
+                    <view class='lit_l'>
+                        <image class='lit_ll' src='{{item.merchantAvatar}}' mode='widthFix' bindtap='linkxq_click' data-classifyId="{{classifyId}}" data-infoId="{{item.infoId}}"></image>
+                        <view class='lit_lr'>
+                            <view class='lit_lr_t'>
+                                <view class='span' bindtap='linkxq_click' data-classifyId="{{classifyId}}" data-infoId="{{item.infoId}}">{{item.merchantName}}</view>
+                                <view class='lit_gz'>关注</view>
+                            </view>
+                            <view class='lit_lr_c'>
+                                <view class='span'>{{item.createTime}}</view><view class='i'>|</view><view class='span'>{{item.lineDistance}}</view><view class='i'>|</view><view class='span'>{{item.country}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='lit_r1'>
+                        <image src='https://www.chengshishe.com/club/static/images/sj_01.jpg' mode='widthFix' bindtap='cellphone' data-tel="{{item.merchantMobile}}"></image>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/sj_02.jpg' mode='widthFix' class="lit_rimg_01"></image>
+                        </navigator>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/cs_04.jpg' mode='widthFix' class="lit_rimg_02"></image>
+                        </navigator>
+                    </view>
+                </view>
+                <view class='li_nr'>
+                    <view class='p p1'>{{item.context}}</view>
+                    
+                </view>
+                <view class='li_b'>
+                    <view class='lib_l'><view class='i'>{{item.browseCount}}</view></view>
+                    <view class='lib_c'><view class='i'>{{item.likeCount}}</view></view>
+                    <view class='lib_r'><view class='i'>{{item.msgCount}}</view></view>
+                </view>
+            </view>
+        </view>
+        </block>
+    </view>
+
+    <view class='fbcs_01'>
+        <image bindtap='link_fb' src='https://www.chengshishe.com/club/static/upimg/fl_03.png' mode='widthFix'></image>
+    </view>
+
+    <!--公用底部-->
+    <import src ="../public/footer.wxml"/>
+    <template is="footer" data="{{li4:'on'}}"/>
+
+</view>
+

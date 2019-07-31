@@ -1,0 +1,45 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>公告</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap wdgg_01'>
+        <view class='wrap_c'>
+            <view class='li' bindtap='wdgg_click' data-title="此处显示系统公告标题" data-info="此处显示系统公告标题此处显示系统公告标题此处显示系统公告标题">
+                <view class='fl'>
+                    <view class='p p1'>此处显示系统公告标题......</view>
+                    <view class='p p2'>2019-01-20</view>
+                </view>
+                <view class='fr'><view class='a'></view></view>
+            </view>
+            <view class='li' bindtap='wdgg_click' data-title="此处显示系统公告标题1" data-info="11此处显示系统公告标题此处显示系统公告标题此处显示系统公告标题">
+                <view class='fl'>
+                    <view class='p p1'>此处显示系统公告标题......</view>
+                    <view class='p p2'>2019-01-20</view>
+                </view>
+                <view class='fr'><view class='a'></view></view>
+            </view>
+        </view>
+    </view>
+
+    <!--Q33-我的-公告-公告详情-->
+    <view class='ggxq_fr' style="{{style}}">
+        <view class='ggxq_bg' bindtap='ggxq_close'></view>
+        <view class='ggxq_c' style="{{ggxq_style}}">
+            <view class='ggxq_c_fr'>
+                <view class='p p1'>{{gg_title}}</view>
+                <view class='p p2'>{{gg_info}}</view>
+                <view class='p p3'>
+                    <view class='close' bindtap='ggxq_close'>关闭</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

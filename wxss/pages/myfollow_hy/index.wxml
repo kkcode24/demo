@@ -1,0 +1,95 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>我的关注</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    
+    <view class='wrap myfhy_01'>
+        <view class='li li_on'>
+            <view class='span'>用户</view>
+            <view class='b'></view>
+        </view>
+        <view class='li '>
+            <navigator hover-class='none' url="../myfollow_sj/index">
+                <view class='span'>商家</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+        <view class='li '>
+            <navigator hover-class='none' url="../myfollow_fl/index">
+                <view class='span'>分类</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+    </view>
+
+
+    <view class='wrap wdsx_01'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='em1'>
+                        <image mode='widthFix' src='https://tc.shawting.club/static/upimg/sx_01.jpg'></image>
+                    </view>
+                    <view class='em2'>
+                        <view class='p p1'>浮夸53867727 <view class='em3'><view class='i'>2323</view>关注</view></view>
+                        <view class='p p2'>谢谢您指点</view>
+                    </view>
+                </view>
+                <view class='fr'>
+                    <view class='p4'>已关注</view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='em1'>
+                        <image mode='widthFix' src='https://tc.shawting.club/static/upimg/sx_02.jpg'></image>
+                    </view>
+                    <view class='em2'>
+                        <view class='p p1'>区块链token <view class='em3'><view class='i'>2323</view>关注</view></view>
+                        <view class='p p2'>看什么？</view>
+                    </view>
+                </view>
+                <view class='fr'>
+                    <view class='p4'>已关注</view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='em1'>
+                        <image mode='widthFix' src='https://tc.shawting.club/static/upimg/sx_03.jpg'></image>
+                    </view>
+                    <view class='em2'>
+                        <view class='p p1'>长安街知事 <view class='em3'><view class='i'>2323</view>关注</view></view>
+                        <view class='p p2'>李甜，还兼任西高新六个企业高管</view>
+                    </view>
+                </view>
+                <view class='fr'>
+                    <view class='p4'>已关注</view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='em1'>
+                        <image mode='widthFix' src='https://tc.shawting.club/static/upimg/sx_04.jpg'></image>
+                    </view>
+                    <view class='em2'>
+                        <view class='p p1'>小学数学园地视频 <view class='em3'><view class='i'>2323</view>关注</view></view>
+                        <view class='p p2'>谢谢</view>
+                    </view>
+                </view>
+                <view class='fr'>
+                    <view class='p4'>已关注</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+
+</view>

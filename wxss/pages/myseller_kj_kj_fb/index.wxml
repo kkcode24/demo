@@ -1,0 +1,65 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>发布卡券</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap fbxx_01 fbxj_01'>
+        <view class='wrap_c'>
+            <view class='p p2'>
+                <view class='span sp1'>卡券选择</view>
+                <view class='sp2'>
+                    <view class='i'>代金券</view>
+                </view>
+            </view>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>折扣金额</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='' placeholder='优惠金额'></input>
+                    <view class='i_tip'>元</view>
+                </view>
+            </view>
+            <view class='p p3'>
+                <view class='span sp1'>使用条件</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='' placeholder='满XX元可用'></input>
+                    <view class='i_tip'>个</view>
+                </view>
+            </view>
+
+            <view class='p'>
+                <textarea placeholder='请输入卡券使用说明...'></textarea>
+            </view>
+            <view class='p p1'>0/200</view>
+
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>全部数量</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='' placeholder='请输入卡券数量'></input>
+                    <view class='i_tip'>元</view>
+                </view>
+            </view>
+
+            <view class='p p8' style='margin-bottom:0px;'>
+                <view class='span sp1'>有效时间</view>
+                <view class='sp2'>
+                    <input type="text" class='txt4' value='' placeholder='开始时间'></input><view class='i'>到</view><input type="text" class='txt4' value='' placeholder='结束时间'></input>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>发布</button>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>关于我们</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap about_01'>
+        <view class='wrap_c'>
+            <view class='p'>关于我们</view>
+        </view>
+    </view>
+
+    <view class='wrap about_02'>
+        <view class='wrap_c'>
+            <text>关于我们文字内容关于我们文字内容关于我们文字内容关于
+我们文字内容关于我们文字内容关于我们文字内容关于我们文字
+内容关于我们文字内容关于我们文字内容关于我们文字内容关于
+我们文字内容
+      关于我们文字内容关于我们文字内容关于我们文字内容关于
+我们文字内容关于我们文字内容关于我们文字内容关于我们文字
+内容关于我们文字内容关于我们文字内容关于我们文字内容关于
+我们文字内容字内容关于我们文字内容关于我们。</text>
+        </view>
+    </view>
+
+</view>

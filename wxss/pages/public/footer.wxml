@@ -1,0 +1,36 @@
+<!--底部-->
+<template name="footer">
+    <view class='wrap btn_01'>
+        <view class='li {{li1}}'>
+            <navigator hover-class='none' url="/pages/index/index" open-type="redirect">
+                <view class='li_icon li_icon_01'></view>
+                <view class='span'>商家</view>
+            </navigator>
+        </view>
+        <view class='li {{li2}}'>
+            <navigator hover-class='none' url="/pages/red_packet/index" open-type="redirect">
+                <view class='li_icon li_icon_02'></view>
+                <view class='span'>聚惠</view>
+            </navigator>
+        </view>
+        <view class='li {{li3}}'>
+            <navigator hover-class='none' url="/pages/city_even/index" open-type="redirect">
+                <view class='li_icon li_icon_03'></view>
+                <view class='span'>城事</view>
+            </navigator>
+        </view>
+        <view class='li {{li4}}'>
+            <navigator hover-class='none' url="/pages/classify/index" open-type="redirect">
+                <view class='li_icon li_icon_04'></view>
+                <view class='span'>分类</view>
+            </navigator>
+        </view>
+        <view class='li {{li5}}'>
+            <navigator hover-class='none' url="/pages/userzy/index" open-type="redirect">
+                <view class='li_icon li_icon_05'></view>
+                <view class='span'>我的</view>
+            </navigator>
+        </view>
+    </view>
+</template>
+<!--end底部-->

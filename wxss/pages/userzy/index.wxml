@@ -1,0 +1,286 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr in_top'>
+        <view class='wrap_c'>
+            <view class='fl top_title'>城事社 • 我的</view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap userzy_01'>
+        <view class='wrap_c'>
+            <view class='userzy_01_t'>
+                <view class='fl'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/cs_03.jpg'></image>
+                    <view class='uzy01t_r'>
+                        <view class='p p1'>远方的家乡</view>
+                        <view class='p p2'><view class='i'>5248</view></view>
+                    </view>
+                </view>
+                <view class='fr'>
+                    <navigator hover-class='none' url="../signin/index">
+                        <view class='a'>签到</view>
+                    </navigator>
+                </view>
+            </view>
+            <view class='userzy_01_c'>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myinfo/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_01.jpg'></image>
+                        <view class='p'>资料</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../mynotice/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_02.jpg'></image>
+                        <view class='p'>公告</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myletter/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_03.jpg'></image>
+                        <view class='p'>私信</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myfb_city_even/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_04.jpg'></image>
+                        <view class='p'>发布</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap userzy_02'>
+        <view class='wrap_c uszy_02fr'>
+            <view class='userzy_02_t'>
+                <view class='b'></view>
+                <view class='wrap_c'>
+                    城事足迹
+                </view>
+            </view>
+            <view class='userzy_02_c'>
+                <view class='wrap_c'>
+                    <view class='li'>
+                        <navigator hover-class='none' url="../mybrowse/index">
+                            <view class='p p1'><view class='sp1'>2,545</view><view class='sp2 sp_hid'>万</view></view>
+                            <view class='p p2'>今日浏览</view>
+                            <view class='i'></view>
+                        </navigator>
+                    </view>
+                    <view class='li'>
+                        <navigator hover-class='none' url="../myfollow_hy/index">
+                            <view class='p p1'><view class='sp1'>125</view><view class='sp2 sp_hid'>万</view></view>
+                            <view class='p p2'>我的关注</view>
+                            <view class='i'></view>
+                        </navigator>
+                    </view>
+                    <view class='li'>
+                        <navigator hover-class='none' url="../mymessage/index">
+                            <view class='p p1'><view class='sp1'>1.2</view><view class='sp2'>万</view></view>
+                            <view class='p p2'>我的留言</view>
+                            <view class='i'></view>
+                        </navigator>
+                    </view>
+                    <view class='li'>
+                        <navigator hover-class='none' url="../myfollow_dz/index">
+                            <view class='p p1'><view class='sp1'>5.4</view><view class='sp2'>万</view></view>
+                            <view class='p p2'>我的点赞</view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap userzy_02'>
+        <view class='wrap_c uszy_02fr'>
+            <view class='userzy_02_t'>
+                <view class='b'></view>
+                <view class='wrap_c'>
+                    推荐功能
+                </view>
+            </view>
+            <view class='userzy_icon'>
+                <view class='li'>
+                    <navigator class='a' hover-class='none'  url="../exchange/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_05.jpg'></image>
+                        <view class='p'>积分抽奖</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myseller_zh_cz/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_06.jpg'></image>
+                        <view class='p'>我的账户</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url='../mycoupon/index'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_07.jpg'></image>
+                        <view class='p'>我的卡券</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myadvert/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_08.jpg'></image>
+                        <view class='p'>广告投放</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myinquiry/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_09.jpg'></image>
+                        <view class='p'>询价采购</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../xycard/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_10.jpg'></image>
+                        <view class='p'>办信用卡</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap userzy_02'>
+        <view class='wrap_c uszy_02fr'>
+            <view class='userzy_02_t'>
+                <view class='b'></view>
+                <view class='wrap_c'>
+                    商家应用
+                </view>
+            </view>
+            <view class='userzy_icon'>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myseller_bj/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_11.jpg'></image>
+                        <view class='p'>编辑主页</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../myseller_jgsp/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_12.jpg'></image>
+                        <view class='p'>我的商品</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url='../myseller_kj_hb/index'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_13.jpg'></image>
+                        <view class='p'>红包卡券</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+            </view>
+            <view class='userzy_sj_c'>
+                <navigator hover-class='none' url="../myseller_rz/index">
+                    <view class='a'>商家认证</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap userzy_02'>
+        <view class='wrap_c uszy_02fr'>
+            <view class='userzy_02_t'>
+                <view class='b'></view>
+                <view class='wrap_c'>
+                    基本服务
+                </view>
+            </view>
+            <view class='userzy_icon'>
+                <view class='li'>
+                    <navigator class='a' hover-class='none'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_15.jpg'></image>
+                        <view class='p'>商务客服</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_16.jpg'></image>
+                        <view class='p'>便民客服</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <view class='a' hover-class='none' bindtap='sjkh_click'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_17.jpg'></image>
+                        <view class='p'>设计客服</view>
+                    </view>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../complaint/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_18.jpg'></image>
+                        <view class='p'>投诉建议</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <navigator class='a' hover-class='none' url="../aboutus/index">
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_19.jpg'></image>
+                        <view class='p'>关于我们</view>
+                    </navigator>
+                    <view class='b'></view>
+                </view>
+                <view class='li'>
+                    <view class='a' hover-class='none' bindtap='jbfwjszc_click'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/us_20.jpg'></image>
+                        <view class='p'>技术支持</view>
+                    </view>
+                    <view class='b'></view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <!--公用底部-->
+    <import src ="../public/footer.wxml"/>
+    <template is="footer" data="{{li5:'on'}}"/>
+
+
+    <!--Q82-我的-基本服务-客服-->
+    <view class='jbfwkf_msg' style="{{jbfwkf_style}}">
+        <view class='jbfwkf_msg_bg' bindtap='jbfwkf_close_click'></view>
+        <view class='jbfwkf_msg_c' style="{{jbfwkf_c_style}}">
+            <view class='jbfwkf_msg_c_fr'>
+                <view class="p1">设计客服</view>
+                <view class='p2'>
+                    <view class='p2_c'>135428aujdu</view>
+                    <view class='p2_c'><view class='a'>复制微信号</view></view>
+                    <view class='p2_c'>文字文字文字文字文字文字文字文字文字文字</view>
+                </view>
+                <view class='close' bindtap='jbfwkf_close_click'>确认</view>
+            </view>
+        </view>
+    </view>
+
+    <!--Q84-我的-基本服务-技术支持-->
+    <view class='jbfwjszc_msg' style="{{jbfwjszc_style}}">
+        <view class='jbfwjszc_msg_bg' bindtap='jbfwjszc_close_click'></view>
+        <view class='jbfwjszc_msg_c' style="{{jbfwjszc_c_style}}">
+            <view class='jbfwjszc_msg_c_fr'>
+                <view class="p1">技术支持</view>
+                <view class='p2'>技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字技术支持内容文字</view>
+                <view class='close' bindtap='jbfwjszc_close_click'>关闭</view>
+            </view>
+        </view>
+    </view>
+
+
+
+
+</view>

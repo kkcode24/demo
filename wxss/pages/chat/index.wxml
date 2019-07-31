@@ -1,0 +1,55 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>天外天</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap chat_01'>
+        <view class='wrap_c'>
+            <view class='chat_01_time'>
+                <view class='span'>2019-01-08 13:23<view class='i1'></view><view class='i2'></view></view>
+            </view>
+            <view class='chat_01_our'>
+                <view class='td td1'><image src='https://www.chengshishe.com/club/static/upimg/chat_01.jpg' mode='widthFix'></image></view>
+                <view class='td td2'>
+                    <view class='td2_l'></view>
+                    <view class='td2_r'>
+                        <view class='p'>怎样可以做个简单自动赚钱的网站大概像兼职网站，可以在平台做任务赚钱，可以发任务，可以吸引粉丝在平台玩又能赚钱，建自己的流量池。</view>
+                    </view>
+                </view>
+            </view>
+            <view class='chat_01_in'>
+                <view class='fr'>
+                    <view class='td2'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/chat_02.jpg'></image>
+                    </view>
+                    <view class='td1'>
+                        <view class='td2_l'>
+                            <view class='p'>您好</view>
+                        </view>
+                        <view class='td2_r'></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap chat_btn'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <input type='text'></input>
+            </view>
+            <view class='fr'>
+                <button>发送</button>
+                <image src='https://www.chengshishe.com/club/static/upimg/chat_03.png' mode='widthFix'></image>
+                <image src='https://www.chengshishe.com/club/static/upimg/chat_04.png' mode='widthFix'></image>
+            </view>
+        </view>
+    </view>
+
+</view>

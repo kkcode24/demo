@@ -1,0 +1,101 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>询价详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap xjxq_01'>
+        <view class="wrap_c">
+            <view class='p p1'>关于购买一台长安CS85的询价 <view class='i i1'></view></view>
+            <view class='p p2'>13524524525  |  2019-01-22 08:23:23 - 2019-02-22 09:00:12</view>
+            <view class='p p3'>具体描述部分具体描述部分具体描述部分具体描述具体描描述部述部分具体描述部分具体描述部分具体描述</view>
+            <view class='p p4'>
+                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/down_01.jpg'></image>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap xjxq_02'>
+        <view class='xjxq_02_t'>
+            <view class='wrap_c'>
+                <view class='fl'>报价清单</view>
+                <view class='fr'>48</view>
+            </view>
+        </view>
+        <view class='xjxq_02_c'>
+            <view class='wrap_c'>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sx_01.jpg'></image>
+                        <view class='em'>
+                            <view class='p p1'>你我和他</view>
+                            <view class='p p2'>2019-01-23 12:23:23</view>
+                        </view>
+                    </view>
+                    <view class='fr'>********</view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sx_01.jpg'></image>
+                        <view class='em'>
+                            <view class='p p1'>你我和他</view>
+                            <view class='p p2'>2019-01-23 12:23:23</view>
+                        </view>
+                    </view>
+                    <view class='fr'>********</view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sx_01.jpg'></image>
+                        <view class='em'>
+                            <view class='p p1'>你我和他</view>
+                            <view class='p p2'>2019-01-23 12:23:23</view>
+                        </view>
+                    </view>
+                    <view class='fr'>********</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='xjxq_02_btn_empty'></view>
+    <view class='xjxq_02_btn'>
+        <view class='wrap_c'>
+            <view class='a' bindtap='xjxqbj_click'>点击报价</view>
+        </view>
+    </view>
+
+    <!--Q64-我的-推荐功能-询价采购-询价列表-询价详情-报价无权提示-->
+    <view class='wqts_msg' style="{{wqts_style}}">
+        <view class='wqts_msg_bg' bindtap='wqts_msg_click'></view>
+        <view class='wqts_msg_c' style='{{wqts_c_style}}'>
+            <view class='wqts_msgc_c'>
+                <view class='p1'>提示</view>
+                <view class='p2'>权限不够，请<view class='i'>认证为商家</view> ！</view>
+                <view class='close' bindtap='wqts_msg_click'>关闭</view>
+            </view>
+        </view>
+    </view>
+
+    <!--Q65-我的-推荐功能-询价采购-询价列表-询价详情-报价-->
+    <view class='xjxqbj_msg' style="{{bjxqmsg_style}}">
+        <view class='xjxqbj_msg_bg' bindtap='bjxqmsg_click'></view>
+        <view class='xjxqbj_msg_c' style="{{bjxmgsc_style}}">
+            <view class='xjxqbj_msgc_c'>
+                <view class='p1'>报价</view>
+                <view class='p2'>
+                    <input type='text' placeholder='请输入价格'></input>
+                </view>
+                <view class='close' bindtap='bjxqmsg_click'>关闭</view>
+            </view>
+        </view>
+    </view>
+
+
+    
+</view>

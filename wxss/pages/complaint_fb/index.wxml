@@ -1,0 +1,42 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>投诉建议</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p p2' style='margin-bottom:0px;'>
+                <view class='span sp1'>选择</view>
+                <view class='sp2'>
+                    <view class='i'>投诉</view>
+                </view>
+            </view>
+            <view class='p p3'>
+                <view class='span sp1'>标题</view>
+                <view class='sp2'>
+                    <input type="text" value='陕西省西安市未央区渭滨街373'></input>
+                </view>
+            </view>
+            <view class='p'>
+                <textarea placeholder='请输入信息内容...'></textarea>
+            </view>
+            <view class='p p1'>0/200</view>
+        </view>
+    </view>
+
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>提交</button>
+            </view>
+        </view>
+    </view>
+
+</view>

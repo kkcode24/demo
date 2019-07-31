@@ -1,0 +1,104 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>我的关注</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    
+    <view class='wrap myfhy_01'>
+        <view class='li '>
+            <navigator hover-class='none' url="../myfollow_hy/index">
+                <view class='span'>用户</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+        <view class='li li_on'>
+            <view class='span'>商家</view>
+            <view class='b'></view>
+        </view>
+        <view class='li '>
+            <navigator hover-class='none' url="../myfollow_fl/index">
+                <view class='span'>分类</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+    </view>
+
+    <view class='wrap in_06'>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='lit_l'>
+                        <image class='lit_ll' src='https://www.chengshishe.com/club/static/upimg/sj_01.jpg' mode='widthFix'></image>
+                        <view class='lit_lr'>
+                            <view class='lit_lr_t'>
+                                <view class='span'>苏宁电器</view>
+                                <view class='lit_gz' style="color:#ccc;">已关注</view>
+                            </view>
+                            <view class='lit_lr_c'>
+                                <view class='span'>1135人浏览</view><view class='i'>|</view><view class='span'>10979.1公里</view><view class='i'>|</view><view class='span span1'>二级栏目</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='lit_r'>
+                        <image src='https://www.chengshishe.com/club/static/images/sj_01.jpg' mode='widthFix' bindtap='cellphone' data-tel="132456"></image>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/sj_02.jpg' mode='widthFix' class="lit_rimg_01"></image>
+                        </navigator>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='li_c_l'>简介：互联网金融的管家、顾问，等您加入</view>
+                    <view class='li_c_r'>
+                        <view class='span'>6个产品</view>
+                        <view class='i'>|</view>
+                        <image class='li_c_img' src='https://www.chengshishe.com/club/static/images/sj_03.jpg' mode='widthFix'></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='lit_l'>
+                        <image class='lit_ll' src='https://www.chengshishe.com/club/static/upimg/sj_01.jpg' mode='widthFix'></image>
+                        <view class='lit_lr'>
+                            <view class='lit_lr_t'>
+                                <view class='span'>苏宁电器</view>
+                                <view class='lit_gz' style="color:#ccc;">已关注</view>
+                            </view>
+                            <view class='lit_lr_c'>
+                                <view class='span'>1135人浏览</view><view class='i'>|</view><view class='span'>10979.1公里</view><view class='i'>|</view><view class='span span1'>二级栏目</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='lit_r'>
+                        <image src='https://www.chengshishe.com/club/static/images/sj_01.jpg' mode='widthFix' bindtap='cellphone' data-tel="132456"></image>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/sj_02.jpg' mode='widthFix' class="lit_rimg_01"></image>
+                        </navigator>
+                    </view>
+                </view>
+                <view class='li_c'>
+                    <view class='li_c_l'>简介：互联网金融的管家、顾问，等您加入</view>
+                    <view class='li_c_r'>
+                        <view class='span'>6个产品</view>
+                        <view class='i'>|</view>
+                        <image class='li_c_img' src='https://www.chengshishe.com/club/static/images/sj_03.jpg' mode='widthFix'></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+    </view>
+    
+
+
+
+</view>

@@ -1,0 +1,77 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr in_top'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>我的红包</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap wdhbzh_01'>
+        <view class='wrap_c'>
+            <view class='p p1'>2548.50<view class='i'>元</view></view>
+            <view class='p p2'>
+                <view class='a a1'>充值</view><view class='a a2'>提现</view>
+            </view>         
+        </view>
+    </view>
+
+    <view class='wrap cardt_02_n4' style='margin-top:20rpx;'>
+        <view class='li on'>
+            充值
+            <view class='i'></view>
+        </view>
+        <view class='li'>
+            提现
+            <view class='i'></view>
+        </view>
+        <view class='li'>
+            消费
+            <view class='i'></view>
+        </view>
+        <view class='li'>
+            收入
+            <view class='i'></view>
+        </view>
+        <view class='b'></view>
+    </view>
+
+    <view class='wrap wdhb_02'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>传奇妖灵师</view>
+                    <view class='p p2'>2018-01-17</view>
+                </view>
+                <view class='fr'>
+                    <view class='p3'>+7.94元</view>
+                </view>
+            </view>
+
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>传奇妖灵师</view>
+                    <view class='p p2'>2018-01-17</view>
+                </view>
+                <view class='fr'>
+                    <view class='p3'>+7.94元</view>
+                </view>
+            </view>
+
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>传奇妖灵师</view>
+                    <view class='p p2'>2018-01-17</view>
+                </view>
+                <view class='fr'>
+                    <view class='p3'>+7.94元</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+
+</view>

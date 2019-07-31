@@ -1,0 +1,1198 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+} 
+
+.wrap{width:100%;margin:0px auto;padding:0px;}
+.wrap_c{width:90%;margin:0px auto;padding:0px;}
+
+navigator:hover{background:none;opacity:1;}
+
+.text_wz{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.text_wz_lddj{text-align:justify;text-justify:inter-ideograph;}
+
+.table{display:table;}
+.table .tr{display:table-row;}
+.table .tr .th{display:table-cell;}
+.table .tr .td{display:table-cell;}
+
+button::after{border:0px;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+/*top*/
+.topfr{overflow:hidden;}
+.topfr .top_title{font-size:36rpx;}
+
+.topfr .top_return .re_page{float:left;color:#fff;font-size:36rpx;background:url("https://www.chengshishe.com/club/static/images/com_03.png") left 12rpx no-repeat;padding-left:30rpx;background-size:18rpx;}
+
+
+.in_top{position:absolute;left:0px;top:74rpx;}
+.in_top .top_title{color:#fff;}
+
+.top_red{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/sjzy_01.jpg") no-repeat;background-size:100% 100%;padding-top:76rpx;padding-bottom:40rpx;}
+.top_red .top_title{color:#fff;}
+
+
+/*index*/
+.intop_page{background-color:#fff;}
+
+.in_01{overflow:hidden;background-color:#fff;}
+.in_01 image{width:100%;display:block;border-radius:0px 0px 27rpx 27rpx;}
+
+.in_02{overflow:visible;position:relative;top:-40rpx;z-index:990;}
+.in_02 .wrap_c{overflow:visible;position:relative;}
+.in_02 .in_02_txt{width:100%;height:80rpx;line-height:80rpx;overflow:hidden;background-color:#fff;border-radius:40rpx;font-size:24rpx;color:#666;-moz-box-shadow:0px 10rpx 30rpx rgba(0,0,0,0.08); -webkit-box-shadow:0px 10rpx 30rpx rgba(0,0,0,0.08); box-shadow:0px 10rpx 30rpx rgba(0,0,0,0.08);}
+
+.in_02 .in_02_btn{width:52rpx;height:32rpx;border:0px;cursor:pointer;background:url('https://www.chengshishe.com/club/static/images/com_01.png') center no-repeat;background-size:32rpx;position:absolute;right:10rpx;top:24rpx;border-left:1rpx solid #e6e6e6;border-radius:0px;}
+
+.in_03{overflow:hidden;border-bottom:1rpx solid #eee;padding:0rpx 0px 30rpx 0px;background-color:#fff;}
+.in_03_l{float:left;line-height:50rpx;width:25%;}
+.in_03_l .in_03l_add{font-size:28rpx;color:#ff4443;background:url("https://www.chengshishe.com/club/static/images/com_02.png") left center no-repeat;background-size:20rpx;padding-left:30rpx;}
+
+.in_03_r{overflow:hidden;float:right;width:75%;}
+.in_03_r .li{float:Left;overflow:hidden;width:33.3333%;font-size:28rpx;color:#000;line-height:50rpx;}
+.in_03_r .li .i{float:left;}
+.in_03_r .li .span{float:left;color:#666;}
+
+.in_04{overflow:hidden;padding-top:30rpx;background-color:#fff;}
+.in_04 .li{width:18.4%;float:left;overflow:hidden;margin-right:2%;margin-bottom:30rpx;}
+.in_04 .li:nth-child(5n){margin-right:0px;}
+.in_04 .li image{width:100%;display:block;max-width:90rpx;margin:0px auto;padding:0px;}
+.in_04 .li .span{width:100%;display:block;overflow:hidden;margin:0px auto;padding:0px;text-align:center;font-size:26rpx;color:#000;line-height:40rpx;margin-top:12rpx;}
+
+
+.gg_01{overflow:hidden;border-top:1rpx solid #eee;border-bottom:1rpx solid #eee;padding:20rpx 0px;background-color:#fff;}
+.gg_01 image{width:100%;display:block;}
+
+.in_05{overflow:hidden;background-color:#fff;border-bottom:1rpx solid #eee;}
+.in_05 .li{width:33.3333%;float:left;overflow:hidden;text-align:center;font-size:32rpx;padding-top:10rpx;height:88rpx;}
+.in_05 .li .span{overflow:hidden;text-align:center;display:inline-block;height:80rpx;line-height:80rpx;padding-bottom:10rpx;position:relative;}
+.in_05 .li .span .i{width:100%;height:2rpx;display:none;overflow:hidden;position:absolute;left:0px;bottom:0px;background-color:#ff4443;z-index:999;}
+.in_05 .on{color:#ff4443}
+.in_05 .on .span .i{display:block;}
+
+.in_06{overflow:hidden;}
+.in_06 .li{width:100%;overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.li_no{font-size:20rpx;text-align:center;line-height:40rpx;padding:10rpx 0px;}
+.in_06 .li .li_t{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.in_06 .li .li_t .lit_l{width:85%;overflow:hidden;float:Left;}
+.in_06 .li .li_t .lit_l .lit_ll{width:90rpx;display:block;float:left;border-radius:50%;}
+.in_06 .li .li_t .lit_l .lit_lr{margin-left:20rpx;width:75%;float:left;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_t{width:100%;overflow:hidden;line-height:28rpx;margin-top:20rpx;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_t .span{float:left;font-size:30rpx;color:#000;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_t .icon_01{font-size:20rpx;height:28rpx;width:28rpx;border-radius:4rpx;background:url("https://www.chengshishe.com/club/static/images/sj_04.jpg") center no-repeat;background-size:100% 100%;color:#fff;float:left;margin-left:20rpx;}
+
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_t .lit_gz{float:left;font-size:22rpx;color:#ff4443;margin-left:20rpx;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_c{width:100%;overflow:hidden;font-size:20rpx;color:#666;line-height:30rpx;margin-top:10rpx;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_c .span{float:left;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_c .i{float:left;margin:0px 10rpx;}
+.in_06 .li .li_t .lit_l .lit_lr .lit_lr_c .span1{color:#ff4443;}
+
+.in_06 .li .li_t .lit_r{overflow:hidden;float:right;width:84rpx;margin-top:20rpx;}
+.in_06 .li .li_t .lit_r image{width:32rpx;display:block;float:left;}
+.in_06 .li .li_t .lit_r image.lit_rimg_01{margin-left:20rpx;}
+
+.in_06 .li .li_t .lit_r1{overflow:hidden;float:right;width:136rpx;margin-top:20rpx;}
+.in_06 .li .li_t .lit_r1 image{width:32rpx;display:block;float:left;}
+.in_06 .li .li_t .lit_r1 image.lit_rimg_01{margin-left:20rpx;}
+.in_06 .li .li_t .lit_r1 image.lit_rimg_02{margin-left:20rpx;}
+
+.in_06 .li .li_t .lit_r2{overflow:hidden;float:right;margin-top:20rpx;}
+.in_06 .li .li_t .lit_r2 image{width:32rpx;display:block;float:left;}
+.in_06 .li .li_t .lit_r2 image.lit_rimg_01{margin-left:20rpx;}
+.in_06 .li .li_t .lit_r2 image.lit_rimg_02{margin-left:20rpx;}
+
+.in_06 .li .li_t .lit_r2 checkbox .wx-checkbox-input {width:28rpx;height:28rpx;}
+.in_06 .li .li_t .lit_r2 checkbox .wx-checkbox-input.wx-checkbox-input-checked {background:none;}
+.in_06 .li .li_t .lit_r2 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{width:28rpx;height:28rpx;line-height: 28rpx;}
+
+
+.in_06 .li .li_c{width:100%;overflow:hidden;margin-top:20rpx;padding-bottom:20rpx;font-size:24rpx;color:#666;line-height:40rpx;}
+.in_06 .li .li_c .li_c_l{float:left;width:80%;}
+.in_06 .li .li_c .li_c_r{float:right;width:20%;}
+.in_06 .li .li_c .li_c_r .span{float:left;}
+.in_06 .li .li_c .li_c_r .i{float:left;margin:0px 10rpx;}
+.in_06 .li .li_c .li_c_r .li_c_img{width:20rpx;display:block;float:left;margin-top:7rpx;}
+.in_06 .li .li_gg_03{width:100%;overflow:hidden;margin-top:30rpx;}
+.in_06 .li .li_gg_03 image{width:100%;display:block;}
+
+.in_06 .li .li_nr{width:100%;overflow:hidden;margin-top:20rpx;margin-bottom:20rpx;}
+.in_06 .li .li_nr .p{width:100%;overflow:hidden;font-size:26rpx;line-height:46rpx;}
+.in_06 .li .li_nr .p1 .i{display:inline-block;color:#ff4443;}
+.in_06 .li .li_nr .p_img{margin-top:20rpx;width:90%;}
+.in_06 .li .li_nr .p_img image{width:30%;float:left;display:block;margin-right:5%;margin-bottom:20rpx;}
+.in_06 .li .li_nr .p_img image:nth-child(3n){margin-right:0px;}
+
+.in_06 .li .li_b{width:100%;overflow:hidden;border-top:1rpx solid #eee;padding:20rpx 0px;font-size:26rpx;color:#666;margin-top:20rpx;}
+.in_06 .li .li_b .lib_l{float:left;width:33.3333%;}
+.in_06 .li .li_b .lib_l .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_01.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+.in_06 .li .li_b .lib_c{float:left;width:33.3333%;text-align:center;}
+.in_06 .li .li_b .lib_c .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_02.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+.in_06 .li .li_b .lib_r{float:left;width:33.3333%;text-align:right;}
+.in_06 .li .li_b .lib_r .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_03.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+.in_06 .li .lyhh_c{margin-top:30rpx;width:98%;border:1rpx solid #eee;margin-bottom:20rpx;}
+.in_06 .li .lyhh_c .lyhhc_p{overflow:hidden;margin:20rpx;font-size:26rpx;color:#333;}
+.in_06 .li .lyhh_c .lyhhc_p .i{display:inline-block;color:#ff4443;} 
+
+
+
+/*btn*/
+.btn_01{overflow:hidden;background-color:#fff;border-top:1rpx solid #e6e6e6;padding:15rpx 0px 13rpx 0px;margin-top:40rpx;}
+.btn_01 .li{width:20%;float:left;overflow:hidden;text-align:center;}
+.btn_01 .li .li_icon{width:50rpx;height:50rpx;margin:0px auto;padding:0px;}
+.btn_01 .li .li_icon_01{background:url("https://www.chengshishe.com/club/static/upimg/btn_01.jpg") center no-repeat;background-size:100%;}
+.btn_01 .li .li_icon_02{background:url("https://www.chengshishe.com/club/static/upimg/btn_02.jpg") center no-repeat;background-size:100%;}
+.btn_01 .li .li_icon_03{background:url("https://www.chengshishe.com/club/static/upimg/btn_03.jpg") center no-repeat;background-size:100%;}
+.btn_01 .li .li_icon_04{background:url("https://www.chengshishe.com/club/static/upimg/btn_04.jpg") center no-repeat;background-size:100%;}
+.btn_01 .li .li_icon_05{background:url("https://www.chengshishe.com/club/static/upimg/btn_05.jpg") center no-repeat;background-size:100%;}
+
+.btn_01 .on .li_icon_01{background:url("https://www.chengshishe.com/club/static/upimg/btn_01_on.jpg") center no-repeat;background-size:100%;}
+.btn_01 .on .li_icon_02{background:url("https://www.chengshishe.com/club/static/upimg/btn_02_on.jpg") center no-repeat;background-size:100%;}
+.btn_01 .on .li_icon_03{background:url("https://www.chengshishe.com/club/static/upimg/btn_03_on.jpg") center no-repeat;background-size:100%;}
+.btn_01 .on .li_icon_04{background:url("https://www.chengshishe.com/club/static/upimg/btn_04_on.jpg") center no-repeat;background-size:100%;}
+.btn_01 .on .li_icon_05{background:url("https://www.chengshishe.com/club/static/upimg/btn_05_on.jpg") center no-repeat;background-size:100%;}
+.btn_01 .li .span{width:100%;display:block;overflow:hidden;font-size:24rpx;color:#666;line-height:40rpx;margin-top:5rpx;}
+.btn_01 .on .span{color:#ff4443;}
+
+
+/*Q2-商家-商家主页*/
+.seller_01{overflow:hidden;}
+.seller_01 image{width:100%;display:block;}
+
+.seller_02{overflow:hidden;background-color:#fff;padding:25rpx 0px;}
+.seller_02 .fl{width:76%;overflow:hidden;float:left;margin-left:4%;}
+.seller_02 .fl image{width:110rpx;height:110rpx;display:block;border-radius:50%;float:left;}
+.seller_02 .fl .em{width:70%;float:left;overflow:hidden;margin-left:30rpx;}
+.seller_02 .fl .em .span{width:100%;overflow:hidden;font-size:32rpx;color:#222;line-height:42rpx;margin-top:10rpx;}
+.seller_02 .fl .em .i{width:100%;overflow:hidden;font-size:24rpx;color:#999;line-height:54rpx;margin-top:5rpx;}
+.seller_02 .fl .em .i .i_wz{background:url("https://www.chengshishe.com/club/static/images/com_02.png") right 16rpx no-repeat;background-size:20rpx;}
+.seller_02 .fr{width:20%;overflow:hidden;position:relative;text-align:center;height:110rpx;}
+.seller_02 .fr .i{width:1rpx;height:100%;display:block;overflow:hidden;background-color:#eee;position:absolute;left:0px;top:0px;}
+.seller_02 .fr .seller_gz{display:inline-block;height:40rpx;line-height:40rpx;border:1rpx solid #ff4443;border-radius:8rpx;font-size:22rpx;color:#ff4443;padding:0px 28rpx;margin-top:34rpx;}
+
+.seller_03{overflow:hidden;border-top:1rpx solid #eee;padding:15rpx 0px;background-color:#fff;}
+.seller_03 image{width:70rpx;display:block;float:left;margin-right:20rpx;}
+.seller_03 .fr{float:right;line-height:70rpx;font-size:24rpx;color:#222;}
+
+
+.seller_04{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.seller_04 .table{width:100%;overflow:hidden;}
+.seller_04 .table .tr .td{border-bottom:1rpx solid #eee;vertical-align:top;padding:20rpx;}
+.seller_04 .table .tr .td1{font-size:30rpx;color:#222;width:120rpx;}
+.seller_04 .table .tr .td2{font-size:26rpx;color:#666;}
+
+.seller_05{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.seller_05_t{width:100%;overflow:hidden;}
+.seller_05_t .wrap_c{overflow:hidden;border-bottom:1rpx solid #eee;line-height:88rpx;font-size:30rpx;color:#222;font-weight:bold;}
+.seller_05_t .wrap_c .fr{color:#ff4443;}
+
+.seller_05_c{width:100%;overflow:hidden;margin:30rpx 0px;}
+.seller_05_c .wrap_c{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/sjzy_02.jpg") no-repeat;background-size:100% 100%;border-radius:10rpx;}
+.seller_05_c .wrap_on{width:90%;margin:0px auto;padding:0px;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/kjxq_01.jpg") no-repeat;background-size:100% 100%;border-radius:10rpx;}
+
+.ser_05c_t{width:90%;overflow:hidden;margin:0rpx auto;padding:27rpx 0px;border-bottom:1rpx solid #fff;}
+.ser_05c_t .fl{width:70%;overflow:hidden;float:left;}
+.ser_05c_t .fl .p{width:100%;overflow:hidden;color:#fff;}
+.ser_05c_t .fl .p1{font-size:32rpx;line-height:42rpx;}
+.ser_05c_t .fl .p2{font-size:24rpx;line-height:34rpx;margin-top:20rpx;}
+.ser_05c_t .fl .p3{margin-top:20rpx;}
+.ser_05c_t .fl .p3 .a_click{display:inline-block;line-height:50rpx;padding:0px 32rpx;border-radius:25rpx;background:url("https://www.chengshishe.com/club/static/images/sjzy_03.jpg") no-repeat;background-size:100% 100%;font-size:22rpx;}
+.ser_05c_t .fl .p3 .a_click1{display:inline-block;line-height:50rpx;padding:0px 32rpx;border-radius:25rpx;background:url("https://www.chengshishe.com/club/static/images/kjxq_02.jpg") no-repeat;background-size:100% 100%;font-size:22rpx;}
+
+
+.ser_05c_t .fr{float:right;color:#fff;margin-top:20rpx;}
+.ser_05c_t .fr .i{font-size:24rpx;float:left;margin-top:10rpx;}
+.ser_05c_t .fr .span{font-size:120rpx;float:left;line-height:120rpx;}
+
+.ser_05c_c{width:90%;overflow:hidden;margin:0px auto;padding:20rpx 0px;line-height:40rpx;font-size:22rpx;color:#fff;}
+
+.seller_06{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+
+.seller_06_c{overflow:hidden;width:100%;margin-top:30rpx;}
+.seller_06_c .li{width:48%;float:left;overflow:hidden;margin-right:4%;margin-bottom:30rpx;}
+.seller_06_c .li:nth-child(2n){margin-right:0rpx;}
+.seller_06_c .li image{width:100%;display:block;}
+.seller_06_c .li .li_c{width:100%;overflow:hidden;position:relative;padding:20rpx 0px;}
+.seller_06_c .li .li_c .b1{width:100%;height:1rpx;display:block;background-color:#eee;position:absolute;left:0px;bottom:0px;}
+.seller_06_c .li .li_c .b2{width:1rpx;height:100%;background-color:#eee;position:absolute;left:0px;top:0px;}
+.seller_06_c .li .li_c .b3{width:1rpx;height:100%;background-color:#eee;position:absolute;right:0px;top:0px;}
+.seller_06_c .li .li_c .p{width:90%;overflow:hidden;margin:0px auto;padding:0px;line-height:40rpx;font-size:28rpx;}
+.seller_06_c .li .li_c .p1{color:#000;}
+.seller_06_c .li .li_c .p2{color:#ff4443;}
+
+.seller_07{overflow:hidden;background-color:#fff;border-top:1rpx solid #eee;padding:20rpx 0px;margin-top:20rpx;}
+.seller_07 .fl .a{float:left;height:65rpx;line-height:65rpx;padding:0px 31rpx;font-size:26rpx;color:#fff;border-radius:65rpx;}
+.seller_07 .fl .a1{background:url("https://www.chengshishe.com/club/static/images/sjzy_04.jpg") no-repeat;background-size:100% 100%;}
+.seller_07 .fl .a1 .span{background:url("https://www.chengshishe.com/club/static/images/sjzy_07.png") left center no-repeat;background-size:32rpx;padding-left:42rpx;}
+.seller_07 .fl .a2{background:url("https://www.chengshishe.com/club/static/images/sjzy_05.jpg") no-repeat;background-size:100% 100%;margin-left:20rpx;}
+.seller_07 .fl .a2 .span{background:url("https://www.chengshishe.com/club/static/images/sjzy_06.png") left center no-repeat;background-size:32rpx;padding-left:42rpx;}
+.seller_07 .fr .a{width:65rpx;height:65rpx;display:block;border-radius:50%;background:url("https://www.chengshishe.com/club/static/images/sjzy_05.jpg") no-repeat;background-size:100% 100%;float:left;}
+.seller_07 .fr .a image{width:65rpx;display:block;}
+
+.seller_07 .fr .a1{width:65rpx;height:65rpx;display:block;border-radius:50%;background:url("https://www.chengshishe.com/club/static/images/kj_01.jpg") no-repeat;background-size:100% 100%;float:left;margin-left:20rpx;}
+.seller_07 .fr .a1 image{width:65rpx;display:block;}
+
+.seller_07 .fr .a2{width:65rpx;height:65rpx;display:block;border-radius:50%;background:url("https://www.chengshishe.com/club/static/images/kj_04.jpg") no-repeat;background-size:100% 100%;float:left;margin-left:0rpx;}
+.seller_07 .fr .a2 image{width:65rpx;display:block;}
+
+/*Q3-商家-商家主页-产品详情*/
+.prdxq_01{overflow:hidden;}
+.prdxq_01 image{width:100%;display:block;}
+
+.prdxq_02{overflow:hidden;background-color:#fff;padding:20rpx 0px;}
+.prdxq_02 .p{width:100%;overflow:hidden;font-size:32rpx;line-height:42rpx;}
+.prdxq_02 .p1{color:#222;}
+.prdxq_02 .p2{color:#ff4443;margin-top:20rpx;line-height:40rpx;}
+.prdxq_02 .p2 .i{float:left;background:url("https://www.chengshishe.com/club/static/images/jfdh_01.png") left center no-repeat;background-size:19rpx;padding-left:30rpx;}
+.prdxq_02 .p2 .a1{width:90rpx;height:40rpx;line-height:40rpx;text-align:center;background-color:#ff4443;font-size:22rpx;color:#fff;border-radius:40rpx;float:left;margin-left:30rpx;}
+.prdxq_02 .p2 .span{float:right;font-size:24rpx;color:#666;}
+
+.prdxq_03{overflow:hidden;background-color:#fff;margin-top:20rpx;padding-bottom:20rpx;}
+.prdxq_03_c{width:100%;overflow:hidden;margin-top:20rpx;font-size:24rpx;color:#222;line-height:34rpx;}
+
+.prdxq_04{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.prdxq_04_c{width:100%;overflow:hidden;}
+.prdxq_04_c .wrap_c{overflow:hidden;border-bottom:1rpx solid #eee;padding:20rpx 0px;display:table;}
+.prdxq_04_c .prdxq_cell{display:table-cell;vertical-align:top;}
+.prdxq_04_c .prdxq_fl{overflow:hidden;width:90rpx;height:90rpx}
+.prdxq_04_c .prdxq_fl image{width:100%;display:block;border-radius:50%;}
+.prdxq_04_c .prdxq_fr{padding-left:30rpx;}
+.prdxq_04_c .prdxq_fr .b{width:15rpx;height:18rpx;display:block;float:left;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/prd_01.jpg") no-repeat;background-size:100%;margin-top:17rpx;}
+.prdxq_04_c .prdxq_fr .p{overflow:hidden;background-color:#f7f7f7;position:relative;margin-top:8rpx;}
+.prdxq_04_c .prdxq_fr .p input.p_txt{width:70%;height:74rpx;overflow:hidden;padding:0px 20rpx;font-size:28rpx;color:#666;}
+.prdxq_04_c .prdxq_fr .p .p_btn{width:140rpx;height:74rpx;display:block;background:url("https://www.chengshishe.com/club/static/images/sjzy_05.jpg") no-repeat;background-size:100% 100%;border-radius:0px 8rpx 8rpx 0px;text-align:center;font-size:28rpx;color:#fff;padding:0px;line-height:74rpx;position:absolute;right:0px;top:0px;}
+
+.prdxq_04_li{overflow:hidden;width:100%;padding-bottom:40rpx;}
+.prdxq_04_li .table .tr .td{border-bottom:1rpx solid #eee;padding:25rpx 0px;vertical-align:top;}
+.prdxq_04_li .table .tr .pdxq_04_li_l{width:70rpx;}
+.prdxq_04_li .table .tr .pdxq_04_li_l image{width:100%;display:block;border-radius:50%;}
+.prdxq_04_li .table .tr .pdxq_04_li_r{padding-left:30rpx;}
+.prdxq_04_li .table .tr .pdxq_04_li_r .p{width:100%;overflow:hidden;}
+.prdxq_04_li .table .tr .pdxq_04_li_r .p1{font-size:30rpx;color:#000;line-height:50rpx;}
+.prdxq_04_li .table .tr .pdxq_04_li_r .p1 .fr{font-size:20rpx;color:#666;}
+.prdxq_04_li .table .tr .pdxq_04_li_r .p2{font-size:26rpx;color:#666;line-height:36rpx;margin-top:10rpx;}
+
+
+/*Q4-聚惠-红包*/
+.redpk_01{overflow:hidden;}
+.redpk_01 image{width:100%;display:block;}
+
+.redpk_02{overflow:hidden;margin-top:80rpx;}
+.redpk_02 .wrap_c{width:80%;}
+.redpk_02 .li{width:22%;float:left;overflow:hidden;margin-right:17%;margin-bottom:40rpx;position:relative;border-radius:10rpx;}
+.redpk_02 .li:nth-child(3n){margin-right:0px;}
+.redpk_02 .li .hd_01{width:100%;overflow:hidden;opacity:1;}
+.redpk_02 .li .hd_01 image{width:100%;display:block;}
+.redpk_02 .li .hd_02{width:100%;overflow:hidden;position:absolute;left:0px;top:0px;opacity:0;}
+.redpk_02 .li .hd_02 image{width:100%;display:block;}
+.redpk_02 .li .hd_02 .p{width:100%;overflow:hidden;position:absolute;left:0px;top:0px;text-align:center;font-size:22rpx;color:#9f051e;line-height:70rpx;font-weight:bold;}
+
+.redpk_03{overflow:hidden;margin-top:60rpx;margin-bottom:80rpx;}
+.redpk_03 .a{width:100%;display:block;overflow:hidden;border-radius:8rpx;background:url("https://www.chengshishe.com/club/static/images/hb_02.jpg") no-repeat;background-size:100% 100%;text-align:center;font-size:30rpx;color:#fff;line-height:80rpx;}
+
+
+/*Q5-聚惠-红包详情-普通红包*/
+.pthb_01{overflow:hidden;position:relative;}
+.pthb_01 image{width:100%;display:block;}
+.pthb_01 .p{width:100%;overflow:hidden;position:absolute;left:0px;top:50%;line-height:60rpx;margin-top:-40rpx;text-align:center;font-size:60rpx;color:#ff4443;}
+
+.pthb_02{overflow:hidden;line-height:64rpx;color:#222;font-size:28rpx;}
+.pthb_02 .span{color:#ff4443;display:inline-block;}
+
+.pthb_03{overflow:hidden;margin-top:20rpx;}
+.pthb_03 image{width:100%;display:block;}
+
+.pthb_04{overflow:hidden;margin-top:40rpx;margin-bottom:60rpx;}
+.pthb_04 .wrap_c{overflow:hidden;border-top:1rpx solid #eee;}
+.pthb_04 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:20rpx 0px;}
+.pthb_04 .li .fl .p{width:100%;overflow:hidden;}
+.pthb_04 .li .fl .p1{font-size:28rpx;color:#222;line-height:48rpx;}
+.pthb_04 .li .fl .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.pthb_04 .li .fr{line-height:82rpx;color:#ff4443;font-size:36rpx;}
+
+/*Q7-聚惠-卡券*/
+.cardt_01{overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;background-color:#fff;}
+.cardt_01 .wrap_c{overflow:hidden;background-color:#f7f7f7;border-radius:40rpx;height:80rpx;position:relative;}
+.cardt_01 .cat_txt{width:90%;height:80rpx;line-height:80rpx;position:absolute;left:5%;top:0px;font-size:24rpx;}
+.cardt_01 .cat_btn{width:72rpx;height:40rpx;border:0px;cursor:pointer;background:url("https://www.chengshishe.com/club/static/images/com_01.png") right center no-repeat;background-size:32rpx;border-left:1rpx solid #f1f1f1;position:absolute;right:4%;top:20rpx;}
+
+.cardt_02{overflow:hidden;background-color:#fff;position:relative;}
+.cardt_02 .b{width:100%;height:1rpx;background-color:#eee;position:absolute;left:0px;bottom:0px;}
+.cardt_02 .li{width:33.3333%;overflow:hidden;float:left;padding:20rpx 0px;position:relative;text-align:center;font-size:32rpx;color:#333333;z-index:990;}
+.cardt_02 .on .i{width:100%;height:1rpx;overflow:hidden;background-color:#ff4443;position:absolute;left:0px;bottom:0px;}
+.cardt_02 .on{color:#ff4443;}
+
+.cardt_02_n4{overflow:hidden;background-color:#fff;position:relative;}
+.cardt_02_n4 .b{width:100%;height:1rpx;background-color:#eee;position:absolute;left:0px;bottom:0px;}
+.cardt_02_n4 .li{width:25%;overflow:hidden;float:left;padding:20rpx 0px;position:relative;text-align:center;font-size:32rpx;color:#333333;z-index:990;}
+.cardt_02_n4 .on .i{width:100%;height:1rpx;overflow:hidden;background-color:#ff4443;position:absolute;left:0px;bottom:0px;}
+.cardt_02_n4 .on{color:#ff4443;}
+
+
+.cardt_03{overflow:hidden;margin-top:20rpx;}
+.cardt_03 .li{width:100%;overflow:hidden;background-color:#fff;border-radius:10rpx;margin-bottom:20rpx;position:relative;}
+.cardt_03 .li .table{width:100%;overflow:hidden;}
+.cardt_03 .li .table .tr .td{vertical-align:top;padding:0px;border-bottom:1rpx solid #eee;}
+.cardt_03 .li .table .tr .li_td1{width:185rpx;height:185rpx;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/kj_01.jpg") no-repeat;background-size:100% 100%;}
+.cardt_03 .li .table .tr .li_td1 .p{width:80%;overflow:hidden;margin:0px auto;padding:0px;color:#fff;}
+.cardt_03 .li .table .tr .li_td1 .p1{font-size:32rpx;text-align:center;line-height:70rpx;margin-top:29rpx;}
+.cardt_03 .li .table .tr .li_td1 .p1 .i{display:inline-block;font-size:68rpx;}
+.cardt_03 .li .table .tr .li_td1 .p2{font-size:18rpx;line-height:30rpx;text-align:center;margin-top:26rpx;}
+.cardt_03 .li .table .tr .li_td2{width:280rpx;padding-left:25rpx;}
+.cardt_03 .li .table .tr .li_td2 .p{width:100%;overflow:hidden;}
+.cardt_03 .li .table .tr .li_td2 .p1{font-size:28rpx;color:#222;line-height:46rpx;margin-top:22rpx;}
+.cardt_03 .li .table .tr .li_td2 .p1 .i{color:#ff4443;display:inline-block;}
+.cardt_03 .li .table .tr .li_td2 .p2{font-size:22rpx;color:#999;line-height:40rpx;}
+.cardt_03 .li .table .tr .li_td2 .p3{margin-top:20rpx;}
+.cardt_03 .li .table .tr .li_td2 .p3 .em{width:278rpx;height:28rpx;border:1rpx solid #ffc1c0;border-radius:28rpx;position:relative;}
+.cardt_03 .li .table .tr .li_td2 .p3 .em .i{height:28rpx;background-color:#ffdad9;position:absolute;left:0px;top:0px;}
+.cardt_03 .li .table .tr .li_td2 .p3 .em .span{width:100%;height:28rpx;line-height:28rpx;text-align:center;font-size:18rpx;color:#333;position:absolute;left:0px;top:0px;}
+.cardt_03 .li .table .tr .li_td3{text-align:center;vertical-align:middle;}
+.cardt_03 .li .table .tr .li_td3 .span{height:50rpx;line-height:50rpx;width:150rpx;text-align:center;border-radius:50rpx;font-size:22rpx;color:#fff;display:inline-block;}
+.cardt_03 .li .table .tr .li_td3 .span1{background:url("https://www.chengshishe.com/club/static/images/kj_03.jpg") no-repeat;background-size:100% 100%;}
+.cardt_03 .li .table .tr .li_td3 .span2{background:url("https://www.chengshishe.com/club/static/images/kj_04.jpg") no-repeat;background-size:100% 100%;}
+.cardt_03 .li .table .tr .li_td3 .span3{background:url("https://www.chengshishe.com/club/static/images/kj_05.jpg") no-repeat;background-size:100% 100%;}
+.cardt_03 .li .table .tr .li_td3 .span4{width:132rpx;height:132rpx;display:inline-block;background:url("https://www.chengshishe.com/club/static/images/kjxq_03.jpg") no-repeat;background-size:100% 100%;}
+
+.cardt_03 .li .table .tr .li_td4{text-align:center;vertical-align:top;}
+.cardt_03 .li .table .tr .li_td4 .p{overflow:hidden;text-align:right;margin-right:30rpx;}
+.cardt_03 .li .table .tr .li_td4 .p4{font-size:28rpx;color:#222;line-height:46rpx;margin-top:20rpx;}
+.cardt_03 .li .table .tr .li_td4 .p5{margin-top:20rpx;}
+.cardt_03 .li .table .tr .li_td4 .p5 .a1{width:90rpx;height:40rpx;line-height:40rpx;text-align:center;border:1rpx solid #ff4443;border-radius:8rpx;font-size: 22rpx;color:#ff4443;float:right;}
+.cardt_03 .li .table .tr .li_td4 .p5 .a2{width:90rpx;height:40rpx;line-height:40rpx;text-align:center;border:1rpx solid #fff;border-radius:8rpx;font-size: 22rpx;color:#fff;float:right;background-color:#ff4443;}
+
+.cardt_03 .li .b1{width:15rpx;height:31rpx;display:block;background-color:#f5f5f5;border-radius:0px 31rpx 31rpx 0px;position:absolute;left:0px;top:170rpx;}
+.cardt_03 .li .b2{width:15rpx;height:31rpx;display:block;background-color:#f5f5f5;border-radius:31rpx 0rpx 0rpx 31rpx;position:absolute;right:0px;top:170rpx;}
+.cardt_03 .li .li_c{width:90%;overflow:hidden;margin:0px auto;padding:20rpx 0px;}
+.cardt_03 .li .li_c .p{width:90%;overflow:hidden;float:left;font-size:22rpx;color:#999;line-height:32rpx;height:32rpx;}
+.cardt_03 .li .li_c .a_click{width:10%;height:32rpx;overflow:hidden;float:right;background:url("https://www.chengshishe.com/club/static/images/kj_02.png") right center no-repeat;background-size:23rpx;}
+
+.cardt_03 .li .table .tr .li_td5{text-align:center;vertical-align:top;}
+.cardt_03 .li .table .tr .li_td5 .icon_01{width:132rpx;height:132rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/kjxq_03.jpg") no-repeat;background-size:100%;float:right;margin:20rpx 20rpx 0px 0px;}
+
+/*Q8-聚惠-卡券详情-已领完,Q9-聚惠-卡券详情*/
+.kjxq_01{overflow:hidden;}
+
+.kjxq_02{overflow:hidden;border-top:1rpx solid #eee;padding-top:30rpx;background-color:#fff;}
+.kjxq_02 .p{width:100%;overflow:hidden;}
+.kjxq_02 .p_img image{width:100%;display:block;}
+
+.kjxq_03{overflow:hidden;background-color:#fff;border-top:1rpx solid #eee;margin-top:30rpx;padding-top:30rpx;padding-bottom:30rpx;}
+.kjxq_03 .h1{width:100%;overflow:hidden;font-size:30rpx;color:#222;line-height:40rpx;}
+.kjxq_03 text{width:100%;overflow:hidden;font-size:24rpx;line-height:34rpx;color:#222;margin:0px;padding:0px;}
+
+
+/**/
+.fbcs_01{width:116rpx;height:116rpx;overflow:hidden;border-radius:50%;position:fixed;right:10rpx;bottom:120rpx;z-index:9999;}
+.fbcs_01 image{width:100%;display:block;}
+
+
+/**/
+.fbxx_01{overflow:hidden;margin-top:20rpx;}
+.fbxx_01 .p{width:100%;overflow:hidden;}
+.fbxx_01 .p textarea{width:100%;overflow:hidden;height:300rpx;font-size:28rpx;}
+.fbxx_01 .p1{border-bottom:1rpx solid #eee;font-size:28rpx;color:#787878;line-height:48rpx;text-align:right;padding-bottom:10rpx;}
+.fbxx_01 .p2{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p2 .sp1{float:left;font-size:28rpx;color:#222;}
+.fbxx_01 .p2 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p2 .sp2{float:right;font-size:28rpx;color:#787878;}
+.fbxx_01 .p2 .sp2 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/fl_01.jpg") right center no-repeat;background-size:13rpx;padding-right:33rpx;}
+.fbxx_01 .p3{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p3 .sp1{float:left;font-size:28rpx;color:#222;}
+.fbxx_01 .p3 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p3 .sp2{float:right;font-size:28rpx;color:#787878;position:relative;}
+.fbxx_01 .p3 .sp2 input{width:500rpx;height:90rpx;padding:0px;font-size:28rpx;color:#222;text-align:right;}
+.fbxx_01 .p3 .sp2 input.txt1{color:#ff4443;}
+.fbxx_01 .p3 .sp2 input.txt2{width:450rpx;margin-right:50rpx;}
+.fbxx_01 .p3 .sp2 input.txt3{width:400rpx;margin-right:100rpx;}
+.fbxx_01 .p3 .sp2 .i_tip{display:inline-block;position:absolute;right:0px;top:0px;font-size:28rpx;color:#222;}
+.fbxx_01 .p3 .sp2 .i_tip1{display:inline-block;position:absolute;right:0px;top:0px;font-size:28rpx;color:#222;background:url("https://www.chengshishe.com/club/static/images/kjhb_01.jpg") left center no-repeat;background-size:28rpx;padding-left:38rpx;}
+
+.fbxx_01 .p4{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p4 .sp1{float:left;font-size:28rpx;color:#222;}
+.fbxx_01 .p4 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p4 .sp2{float:right;font-size:28rpx;color:#787878;}
+.fbxx_01 .p4 .sp2 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/ggtf_03.jpg") right center no-repeat;background-size:24rpx;padding-right:33rpx;}
+
+.fbxx_01 .p5{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p5 .sp1{float:left;font-size:28rpx;color:#222;}
+.fbxx_01 .p5 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p5 .sp2{float:right;font-size:28rpx;color:#222;}
+.fbxx_01 .p5 .sp2 .i_add{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") right center no-repeat;background-size:20rpx;padding-right:40rpx;}
+
+.fbxx_01 .p6{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p6 .sp1{float:left;font-size:28rpx;color:#222;vertical-align:top;line-height:40rpx;}
+.fbxx_01 .p6 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p6 .sp2{float:right;font-size:28rpx;color:#222;width:80%;}
+.fbxx_01 .p6 .sp2 .lb{float:left;margin-right:20rpx;font-size:28rpx;color:#222;line-height:40rpx;}
+.fbxx_01 .p6 .sp2 .lb radio{width:27rpx;height:27rpx;transform:scale(0.5);margin:0rpx 27rpx 20rpx 0px;float:left;}
+.fbxx_01 .p6 .sp2 .lb .i{float:left;}
+
+.fbxx_01 .p7{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p7 .sp1{font-size:28rpx;color:#222;vertical-align:top;line-height:40rpx;width:100%;overflow:hidden;}
+.fbxx_01 .p7 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p7 .sp2{width:100%;overflow:hidden;background-color:#f6f6f6;margin-top:20rpx;}
+.fbxx_01 .p7 .sp2 .fl{font-size:28rpx;color:#222;margin-left:2%;}
+.fbxx_01 .p7 .sp2 .fl .i{color:#ff4443;display:inline-block;}
+.fbxx_01 .p7 .sp2 radio{transform:scale(0.5);}
+
+.fbxx_01 .p8{line-height:90rpx;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.fbxx_01 .p8 .sp1{float:left;font-size:28rpx;color:#222;vertical-align:top;line-height:90rpx;}
+.fbxx_01 .p8 .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_01 .p8 .sp2{float:right;font-size:28rpx;color:#222;width:80%;}
+.fbxx_01 .p8 .sp2 input{width:500rpx;height:90rpx;padding:0px;font-size:28rpx;color:#222;text-align:right;}
+.fbxx_01 .p8 .sp2 input.txt4{float:left;width:200rpx;text-align:center;}
+.fbxx_01 .p8 .sp2 .i{float:left;margin:0px 20rpx;}
+
+.fbxx_01 .p_xx{font-size:24rpx;color:#ff4443;}
+
+.fbxx_02{overflow:hidden;}
+.fbxx_02_t{width:100%;overflow:hidden;line-height:90rpx;}
+.fbxx_02_t .fl{font-size:28rpx;color:#222;}
+.fbxx_02_t .fr{font-size:28rpx;color:#787878;}
+
+.fbxx_02_c{width:100%;overflow:hidden;}
+.fbxx_02_c image{width:140rpx;height:140rpx;display:block;float:left;margin-right:20rpx;margin-bottom:30rpx;}
+.fbxx_02_c .li{display:inline-block;position:relative;}
+.fbxx_02_c .li .close{width:30rpx;height:30rpx;display:block;background:url("https://www.chengshishe.com/club/static/images/close.png") no-repeat;background-size:100%;position:absolute;right:20rpx;top:0rpx;}
+
+.fbxx_03{overflow:hidden;}
+.fbxx_03 .p{width:100%;overflow:hidden;line-height:90rpx;}
+.fbxx_03 .p1{border-top:1rpx solid #eee;border-bottom:1rpx solid #eee;}
+.fbxx_03 .p .sp1{float:left;font-size:28rpx;color:#222;}
+.fbxx_03 .p .sp1 .i{display:inline-block;color:#ff4443;}
+.fbxx_03 .p .sp2{float:right;font-size:28rpx;color:#222;}
+.fbxx_03 .p1 .sp2 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") right center no-repeat;background-size:20rpx;padding-right:40rpx;}
+.fbxx_03 .p2{border-bottom:1rpx solid #eee;}
+.fbxx_03 .p .sp3{float:right;}
+.fbxx_03 .p2 .sp3 .i{width:138rpx;height:54rpx;margin-top:20rpx;margin-left:40rpx;display:inline-block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/fbxx_01.jpg") no-repeat;background-size:100%;}
+.fbxx_03 .p2 .sp3 .fbxx_on{background:url("https://www.chengshishe.com/club/static/images/fbxx_02.jpg") no-repeat;background-size:100%;}
+
+.fbxx_03 .p3{overflow:hidden;margin-top:50rpx;}
+.fbxx_03 .p3 .fbxx_btn{width:100%;height:80rpx;line-height:80rpx;border-radius:8rpx;background:url("https://www.chengshishe.com/club/static/images/sjzy_01.jpg") no-repeat;background-size:100% 100%;font-size:30rpx;color:#fff;}
+
+/**/
+.csxq_01{overflow:hidden;border-bottom:1rpx solid #eee;padding:25rpx 0px;}
+.csxq_01 .fl image{width:90rpx;height:90rpx;display:block;float:left;border-radius:50%;}
+.csxq_01 .fl .em1{float:left;display:block;overflow:hidden;margin-left:20rpx;}
+.csxq_01 .fl .em1 .p{width:100%;overflow:hidden;}
+.csxq_01 .fl .em1 .p1{font-size:30rpx;color:#000;line-height:40rpx;margin-top:10rpx;}
+.csxq_01 .fl .em1 .p2{font-size:20rpx;color:#666;line-height:40rpx;}
+.csxq_01 .fr .i{line-height:40rpx;padding:0px 30rpx;border-radius:8rpx;border:1rpx solid #ff4443;font-size:22rpx;color:#ff4443;margin-top:24rpx;}
+.csxq_01 .fr .i1{line-height:40rpx;padding:0px 30rpx;border-radius:8rpx;border:1rpx solid #ccc;font-size:22rpx;color:#ccc;margin-top:24rpx;}
+
+
+.csxq_02{overflow:hidden;margin-top:25rpx;border-bottom:1rpx solid #eee;}
+.csxq_02 .p{width:100%;overflow:hidden;}
+.csxq_02 .p1{font-size:26rpx;color:#333;line-height:46rpx;margin-bottom:25rpx;}
+.csxq_02 .p1 .i{color:#ff4443;}
+.csxq_02 .p_img{border-bottom:1rpx solid #eee;padding-bottom:25rpx;}
+.csxq_02 .p_img image{width:30%;float:left;margin-right:5%;margin-bottom:25rpx;}
+.csxq_02 .p_img image:nth-child(3n){margin-right:0px;}
+.csxq_02 .p_add{overflow:hidden;line-height:90rpx;}
+.csxq_02 .p_add .i{display:inline-block;font-size:24rpx;color:#000;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") left center no-repeat;background-size:20rpx;padding-left:40rpx;}
+
+.csxq_03{overflow:hidden;border-bottom:1rpx solid #eee;padding:25rpx 0px;}
+.csxq_03 image{width:100%;display:block;}
+
+
+/**/
+.yhzl_01{overflow:hidden;background-color:#fff;padding-top:30rpx;}
+.yhzl_01 .wrap_c{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/sjzy_02.jpg") center no-repeat;background-size:100% 100%;padding:30rpx 0px;}
+
+.yhzl_01_t{width:90%;overflow:hidden;margin:0px auto;}
+.yhzl_01_t .fl .p{width:100%;overflow:hidden;color:#fff;}
+.yhzl_01_t .fl .p1{font-size:40rpx;line-height:60rpx;}
+.yhzl_01_t .fl .p2{font-size:24rpx;line-height:44rpx;}
+.yhzl_01_t .fr image{width:150rpx;height:150rpx;display:block;border-radius:50%;border:2rpx solid #fff;}
+
+.yhzl_01_c{width:90%;overflow:hidden;margin:0px auto;padding:0px;}
+.yhzl_01_c .p{width:100%;overflow:hidden;line-height:50rpx;}
+.yhzl_01_c .p .i{display:inline-block;font-size:26rpx;color:#fff;padding-left:42rpx;}
+.yhzl_01_c .p1 .i{background:url("https://www.chengshishe.com/club/static/images/ui_01.png") left center no-repeat;background-size:32rpx;}
+.yhzl_01_c .p2 .i{background:url("https://www.chengshishe.com/club/static/images/ui_02.png") left center no-repeat;background-size:32rpx;}
+.yhzl_01_c .p3 .i{background:url("https://www.chengshishe.com/club/static/images/ui_03.png") left center no-repeat;background-size:32rpx;}
+
+.yhzl_02{overflow:hidden;background-color:#fff;}
+.yhzl_02 .wrap_c{overflow:hidden;border-top:1rpx solid #eee;margin-top:30rpx;padding:30rpx 0px;}
+.yhzl_02 .li{width:33.3333%;float:left;overflow:hidden;position:relative;}
+.yhzl_02 .li image{display:block;margin:0px auto;padding:0px;width:50rpx;}
+.yhzl_02 .li .p{width:100%;overflow:hidden;text-align:center;font-size:26rpx;color:#222;line-height:40rpx;margin-top:10rpx;}
+.yhzl_02 .li .b{width:1px;height:100%;display:block;overflow:hidden;background-color:#eee;position:absolute;right:0px;top:0px;}
+
+
+/**/
+.chat_01{overflow:hidden;}
+.chat_01 .chat_01_time{width:100%;overflow:hidden;text-align:center;margin-top:40rpx;line-height:40rpx;font-size:24rpx;color:#999;}
+.chat_01 .chat_01_time .span{display:inline-block;overflow:visible;position:relative;}
+.chat_01 .chat_01_time .span .i1{width:100rpx;height:1rpx;display:block;overflow:hidden;background-color:#eee;position:absolute;left:-150rpx;top:50rpx;margin-top:-0.5rpx;}
+.chat_01 .chat_01_time .span .i2{width:100rpx;height:1rpx;display:block;overflow:hidden;background-color:#eee;position:absolute;right:-150rpx;top:50rpx;margin-top:-0.5rpx;}
+
+.chat_01_our{overflow:hidden;width:100%;margin-top:30rpx;}
+.chat_01_our .td1{width:75rpx;float:left;}
+.chat_01_our .td1 image{width:100%;display:block;border-radius:50%;}
+.chat_01_our .td2{width:80%;float:left;margin-left:20rpx;position:relative;}
+.chat_01_our .td2 .td2_l{width:10rpx;height:14rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/chat_01.png") center no-repeat;float:left;background-size:10rpx;position:absolute;left:0px;top:30rpx;z-index:99;}
+.chat_01_our .td2 .td2_r{width:80%;overflow:hidden;float:left;background-color:#f4f5f9;border:1rpx solid #eee;border-radius:10rpx;margin-left:9rpx;}
+.chat_01_our .td2 .td2_r .p{overflow:hidden;margin:20rpx;font-size:26rpx;color:#222;line-height:36rpx;}
+
+.chat_01_in{width:100%;overflow:hidden;margin-top:30rpx;}
+.chat_01_in .td1{float:right;position:relative;margin-right:20rpx;}
+.chat_01_in .td1 .td2_l{display:inline-block;background-color:#a2e65b;border:1rpx solid #99ca68;border-radius:8rpx;margin-right:9rpx;}
+.chat_01_in .td1 .td2_l .p{overflow:hidden;margin:20rpx;font-size:26rpx;color:#222;line-height:36rpx;}
+.chat_01_in .td1 .td2_r{width:10rpx;height:14rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/chat_02.png") center no-repeat;background-size:100%;position:absolute;right:0px;top:30rpx;}
+
+.chat_01_in .td2{float:right;}
+.chat_01_in .td2 image{width:75rpx;height:75rpx;display:block;border-radius:50%;}
+
+.chat_btn{width:100%;overflow:hidden;background-color:#f2f6f7;padding:20rpx 0px;position:fixed;left:0px;bottom:0px;}
+.chat_btn .fl input{width:386rpx;height:64rpx;border-radius:64rpx;border:1rpx solid #eee;padding:0px 20rpx;background-color:#fff;font-size:26rpx;}
+.chat_btn .fr button{width:90rpx;height:44rpx;border:0px;background:url("https://www.chengshishe.com/club/static/images/sjzy_05.jpg") no-repeat;background-size:100% 100%;border-radius:8rpx;font-size:24rpx;color:#fff;text-align:center;line-height:44rpx;float:left;margin-top:13rpx;}
+.chat_btn .fr image{float:left;display:block;width:56rpx;margin-left:20rpx;margin-top:13rpx;}
+
+
+.flxz_01{overflow:hidden;}
+.flxz_01 .fl{width:200rpx;float:left;overflow:hidden;background-color:#f5f5f5;}
+.flxz_01 .fl .p{width:100%;overflow:hidden;position:relative;font-size:28rpx;color:222;text-align:center;line-height:90rpx;}
+.flxz_01 .fl .p .b{width:2px;height:100%;display:none;background-color:#ff4443;position:absolute;left:0px;top:0px;}
+.flxz_01 .fl .on{background-color:#fff;color:#ff4443;}
+.flxz_01 .fl .on .b{display:block;}
+.flxz_01 .fl .p_btn{margin-top:40rpx;}
+.flxz_01 .fl .p_btn image{width:150rpx;display:block;overflow:hidden;margin:0px auto;padding:0px;margin-bottom:20rpx;}
+.flxz_01 .fl .p_span{width:100%;overflow:hidden;line-height:40rpx;}
+.flxz_01 .fl .p_span .a{display:inline-block;line-height:50rpx;padding:0px 37rpx;font-size:24rpx;color:#fff;border-radius:50rpx;background-color:#ff3d50;}
+.flxz_01 .fl .p_a{margin:20rpx 0px;}
+
+.flxz_01 .flxz_fr{overflow:hidden;}
+.flxz_01_fr{overflow:hidden;margin:20rpx 60rpx;}
+.flxz_01_fr .li{width:50%;float:left;overflow:hidden;font-size:26rpx;color:#222;line-height:60rpx;}
+.flxz_01_fr .li .a{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/fl_02.jpg") left center no-repeat;background-size:4rpx;padding-left:15rpx;}
+.flxz_01_fr .li .a_hover{color:#ff4443;}
+
+
+/**/
+.bmhb_01{overflow:hidden;margin:20rpx 30rpx;}
+.bmhb_01 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;position:relative;}
+.bmhb_01 .li .p{width:100%;overflow:hidden;}
+.bmhb_01 .li .p1{font-size:26rpx;color:#222;line-height:40rpx;margin-bottom:10rpx;}
+.bmhb_01 .li .p2{font-size:26rpx;color:#7580f4;line-height:40rpx;}
+.bmhb_01 .li .b{width:20rpx;height:100%;display:block;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") center no-repeat;position:absolute;right:0px;top:0px;background-size:20rpx;}
+
+/**/
+.jzfh_01{overflow:hidden;background-color:#fff;}
+.jzfh_01_t{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.jzfh_01_t .wrap_c{overflow:visible;position:relative;}
+.jzfh_01_t .in_02_txt{width:90%;height:80rpx;line-height:80rpx;padding:0px 5%;overflow:hidden;background-color:#f7f7f7;border-radius:40rpx;font-size:24rpx;color:#666;}
+
+.jzfh_01_t .in_02_btn{width:52rpx;height:32rpx;border:0px;cursor:pointer;background:url('https://www.chengshishe.com/club/static/images/com_01.png') center no-repeat;background-size:32rpx;position:absolute;right:10rpx;top:24rpx;border-left:1rpx solid #e6e6e6;border-radius:0px;}
+
+.jzfh_01_c{width:100%;overflow:hidden;line-height:90rpx;border-bottom:1rpx solid #eee;}
+.jzfh_01_c .li{width:33.3333%;overflow:hidden;float:left;text-align:center;}
+.jzfh_01_c .li .span{display:inline-block;font-size:32rpx;color:#333;}
+.jzfh_01_c .li1 .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;}
+.jzfh_01_c .li2 .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_02.png") right center no-repeat;background-size:28rpx;padding-right:38rpx;}
+.jzfh_01_c .active3_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_02_on.png") right center no-repeat;background-size:28rpx;padding-right:38rpx;color:#ff4443;}
+
+.jzfh_01_c .active2_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01_on.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;color:#ff4443;}
+
+.jzfh_01_c .active1_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01_on.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;color:#ff4443;}
+
+.jzfh_01_c_n4{width:100%;overflow:hidden;line-height:90rpx;border-bottom:1rpx solid #eee;}
+.jzfh_01_c_n4 .li{width:25%;overflow:hidden;float:left;text-align:center;}
+.jzfh_01_c_n4 .li .span{display:inline-block;font-size:32rpx;color:#333;}
+.jzfh_01_c_n4 .li1 .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;}
+.jzfh_01_c_n4 .li2 .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_02.png") right center no-repeat;background-size:28rpx;padding-right:38rpx;}
+.jzfh_01_c_n4 .active4_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_02_on.png") right center no-repeat;background-size:28rpx;padding-right:38rpx;color:#ff4443;}
+
+.jzfh_01_c_n4 .active3_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01_on.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;color:#ff4443;}
+
+.jzfh_01_c_n4 .active2_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01_on.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;color:#ff4443;}
+
+.jzfh_01_c_n4 .active1_on .span{background:url("https://www.chengshishe.com/club/static/images/jzfh_01_on.png") right center no-repeat;background-size:17rpx;padding-right:27rpx;color:#ff4443;}
+
+
+.jzfw_01{background-color:#fff;}
+.jzfw_02{overflow:hidden;padding-top:20rpx;border-bottom:1rpx solid #eee;background-color:#fff;}
+.jzfw_02 .p{width:100%;overflow:hidden;}
+.jzfw_02 .p1{font-size:26rpx;color:#333;line-height:46rpx;margin-bottom:25rpx;}
+.jzfw_02 .p1 .i{color:#ff4443;display:inline-block;}
+.jzfw_02 .p_img{border-bottom:1rpx solid #eee;padding-bottom:25rpx;}
+.jzfw_02 .p_img image{width:30%;float:left;margin-right:5%;margin-bottom:25rpx;}
+.jzfw_02 .p_img image:nth-child(3n){margin-right:0px;}
+.jzfw_02 .p_add{overflow:hidden;line-height:90rpx;}
+.jzfw_02 .p_add .i{display:inline-block;font-size:24rpx;color:#000;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") left center no-repeat;background-size:20rpx;padding-left:40rpx;}
+
+.jzfw_03{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.jzfw_03_t{overflow:hidden;line-height:108rpx;border-bottom:1rpx solid #eee;text-align:center;}
+.jzfw_03_t .span{font-size:30rpx;color:#000;}
+
+.jzfw_03_c{overflow:hidden;width:100%;}
+.jzfw_03_c .table{width:100%;overflow:hidden;}
+.jzfw_03_c .tr .td{vertical-align:top;padding:25rpx 0px;border-bottom:1rpx solid #eee;}
+.jzfw_03_c .tr .td2{width:160rpx;height:160rpx;overflow:hidden;}
+.jzfw_03_c .tr .td2 image{width:100%;display:block;}
+
+.jzfw_03_c .tr .td1 .p{width:90%;overflow:hidden;}
+.jzfw_03_c .tr .td1 .p1{font-size:26rpx;color:#000;line-height:40rpx;min-height:130rpx;}
+.jzfw_03_c .tr .td1 .p1 .i{color:#ff4443;display:inline-block;}
+.jzfw_03_c .tr .td1 .p1 .span{display:inline-block;}
+.jzfw_03_c .tr .td1 .p1 .icon_01{width:70rpx;height:32rpx;display:inline-block;background:url("https://www.chengshishe.com/club/static/upimg/jzfw_04.jpg") center no-repeat;background-size:100%;margin:0rpx 0px 0px 10rpx;position:relative;top:5rpx;}
+
+.jzfw_03_c .tr .td1 .p2{position:relative;font-size:26rpx;color:#666;}
+.jzfw_03_c .tr .td1 .p2 .lib_l{float:left;width:33.3333%;}
+.jzfw_03_c .tr .td1 .p2 .lib_l .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_01.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+.jzfw_03_c .tr .td1 .p2 .lib_c{float:left;width:33.3333%;text-align:center;}
+.jzfw_03_c .tr .td1 .p2 .lib_c .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_02.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+.jzfw_03_c .tr .td1 .p2 .lib_r{float:left;width:33.3333%;text-align:right;}
+.jzfw_03_c .tr .td1 .p2 .lib_r .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/cs_03.jpg") left center no-repeat;background-size:27rpx;padding-left:47rpx;}
+
+/*Q21-分类-家政服务-筛选*/
+.jzfwsx_01{width:100%;overflow:hidden;position:absolute;left:0px;top:390rpx;z-index:999;border-top:1rpx solid #eee;}
+.jzfwsx_01 .bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.jzfwsx_01 .jzfwsx_01_c{width:100%;overflow:hidden;background-color:#fff;position:relative;z-index:9;}
+.jzfwsx_01 .jzfwsx_01_c .li{width:25%;overflow:hidden;float:left;font-size:28rpx;color:#000;text-align:center;line-height:90rpx;border-bottom:1rpx solid #eee;}
+.jzfwsx_01 .jzfwsx_01_c .li .a{color:#000;}
+.jzfwsx_01 .jzfwsx_01_c .li .a_hover{color:#ff4443;}
+
+/*Q22-分类-家政服务-按地区*/
+.jzfwsx_02{width:100%;overflow:hidden;position:absolute;left:0px;top:390rpx;z-index:999;border-top:1rpx solid #eee;}
+.jzfwsx_02 .bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.jzfwsx_02 .jzfwsx_02_c{width:100%;overflow:hidden;background-color:#fff;position:relative;z-index:9;}
+.jzfwsx_02 .jzfwsx_02_c .p{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;line-height:90rpx;font-size:28rpx;color:#000;}
+.jzfwsx_02 .jzfwsx_02_c .p .a_hover{color:#ff4443;}
+
+/*Q24-我的*/
+.userzy_01{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/wdzy_01.jpg") no-repeat;background-size:100% 90%;}
+.userzy_01_t{width:100%;overflow:hidden;margin-top:200rpx;}
+.userzy_01_t .fl{width:80%;}
+.userzy_01_t .fl image{width:129rpx;display:block;border-radius:50%;border:2rpx solid #fff;float:left;}
+.userzy_01_t .fl .uzy01t_r{float:left;margin-left:30rpx;}
+.userzy_01_t .fl .uzy01t_r .p{width:100%;overflow:hidden;color:#fff;}
+.userzy_01_t .fl .uzy01t_r .p1{font-size:34rpx;line-height:50rpx;margin-top:15rpx;}
+.userzy_01_t .fl .uzy01t_r .p2{font-size:26rpx;line-height:30rpx;margin-top:10rpx;}
+.userzy_01_t .fl .uzy01t_r .p2 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/us_01.png") left center no-repeat;background-size:19rpx;padding-left:29rpx;}
+.userzy_01_t .fr{margin-top:20rpx;}
+.userzy_01_t .fr .a{width:120rpx;height:50rpx;line-height:50rpx;text-align:center;border-radius:50rpx;background-color:rgba(255,255,255,0.15);font-size:24rpx;color:#fff;}
+
+.userzy_01_c{width:100%;overflow:hidden;background-color:#fff;border-radius:10rpx;margin-top:40rpx;padding:30rpx 0px;}
+.userzy_01_c .li{width:25%;overflow:hidden;text-align:center;float:left;position:relative;}
+.userzy_01_c .li image{width:50rpx;display:block;margin:0px auto;padding:0px;}
+.userzy_01_c .li .p{width:100%;overflow:hidden;text-align:center;font-size:24rpx;color:#222;line-height:40rpx;margin-top:10rpx;}
+.userzy_01_c .li .b{width:1rpx;height:100%;overflow:hidden;background-color:#eee;position:absolute;right:0px;top:0px;}
+
+.userzy_02{overflow:hidden;margin-top:20rpx;}
+.userzy_02 .uszy_02fr{overflow:hidden;background-color:#fff;border-radius:10rpx;border:1rpx solid #eee;}
+.userzy_02_t{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;line-height:80rpx;position:relative;font-size:32rpx;color:#222;}
+.userzy_02_t .b{width:5rpx;height:26rpx;display:block;background-color:#ff4443;overflow:hidden;position:absolute;left:0px;top:28rpx;}
+
+.userzy_02_c{width:100%;overflow:hidden;margin:30rpx 0px;}
+.userzy_02_c .li{width:25%;overflow:hidden;float:left;text-align:center;position:relative;}
+.userzy_02_c .li .p{width:100%;overflow:hidden;}
+.userzy_02_c .li .p1{font-size:36rpx;color:#222;line-height:50rpx;}
+.userzy_02_c .li .p1 .sp1{display:inline-block;}
+.userzy_02_c .li .p1 .sp2{font-size:24rpx;display:inline-block;}
+.userzy_02_c .li .p1 .sp_hid{opacity:0;}
+.userzy_02_c .li .p2{font-size:24rpx;color:#222;line-height:34rpx;}
+.userzy_02_c .li .i{width:1rpx;height:100%;display:block;overflow:hidden;background-color:#eee;position:absolute;right:0px;top:0px;}
+
+.userzy_icon{width:100%;overflow:hidden;margin:30rpx 0px 0px 0px;}
+.userzy_icon .li{width:25%;overflow:hidden;float:left;text-align:center;position:relative;margin-bottom:30rpx;}
+.userzy_icon .li image{width:50rpx;display:block;margin:0px auto;padding:0px;}
+.userzy_icon .li .p{width:100%;overflow:hidden;text-align:center;font-size:24rpx;color:#222;line-height:44rpx;margin-top:10rpx;}
+.userzy_icon .li .b{width:1rpx;height:100%;display:block;background-color:#eee;position:absolute;right:0px;top:0px;}
+.userzy_icon .li:nth-child(4n) .b{display:none;}
+
+.userzy_sj_c{width:100%;overflow:hidden;margin:30rpx 0px;text-align:center;}
+.userzy_sj_c .a{display:inline-block;line-height:60rpx;color:#fff;font-size:24rpx;border-radius:60rpx;background:url("https://www.chengshishe.com/club/static/images/sjzy_05.jpg") center no-repeat;background-size:100% 100%;padding:0px 70rpx;}
+
+
+/**/
+.tsjy_01{overflow:hidden;line-height:100rpx;border-bottom:1rpx solid #eee;background-color:#fff;}
+.tsjy_01 .li{width:50%;float:left;text-align:center;position:relative;}
+.tsjy_01 .li .span{font-size:32rpx;color:#222;}
+.tsjy_01 .li_on .span{color:#ff4443;}
+.tsjy_01 .li_on .b{width:100%;height:1rpx;display:block;overflow:hidden;border-bottom:1rpx solid #ff4443;position:absolute;left:0px;bottom:0px;}
+
+.tsjy_02{overflow:hidden;border-top:20rpx solid #f5f5f5;}
+.tsjy_02 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:25rpx 0px;}
+.tsjy_02 .li .li_t{width:100%;overflow:hidden;}
+.tsjy_02 .li .li_t .fl{width:90%;overflow:hidden;}
+.tsjy_02 .li .li_t .fl .p{width:100%;overflow:hidden;}
+.tsjy_02 .li .li_t .fl .p1{font-size:28rpx;color:#000;line-height:40rpx;}
+.tsjy_02 .li .li_t .fl .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.tsjy_02 .li .li_t .fr .a{width:40rpx;height:84rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/tsjy_01.png") center no-repeat;background-size:40rpx;}
+.tsjy_02 .li .li_c{width:100%;overflow:hidden;margin-top:20rpx;}
+.tsjy_02 .li .li_c .p{width:100%;overflow:hidden;font-size:24rpx;color:#666;line-height:34rpx;}
+.tsjy_02 .li .li_c .p1{margin-top:20rpx;width:98%;overflow:hidden;background-color:#fafafa;border:1rpx solid #eee;padding:20rpx 0px;}
+.tsjy_02 .li .li_c .p1 .p1_c{width:90%;overflow:hidden;margin:0px auto;padding:0px;font-size:24rpx;color:#333;line-height:44rpx;}
+.tsjy_02 .li .li_c .p1 .p1_c .i{color:#ff4443;display:inline-block;}
+.tsjy_02 .off .li_c{display:none;}
+.tsjy_02 .on .li_c{display:block;}
+.tsjy_02 .on .li_t .fl .p1{color:#ff4443;}
+.tsjy_02 .on .li_t .fr .a{background:url("https://www.chengshishe.com/club/static/images/tsjy_02.png") center no-repeat;background-size:40rpx;}
+
+/*Q28-我的-积分*/
+.wdjf_01{overflow:hidden;}
+.wdjf_01_t{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:50rpx 0px;}
+.wdjf_01_t .p{width:100%;overflow:hidden;text-align:center;}
+.wdjf_01_t .p1{font-size:48rpx;color:#ff4443;line-height:60rpx;}
+.wdjf_01_t .p2{font-size:28rpx;color:#222;line-height:40rpx;margin-top:10rpx;}
+
+.wdjf_01_c{width:100%;overflow:hidden;background-color:#fdfdfd;padding:20rpx 0px;border-bottom:1rpx solid #eee;}
+.wdjf_01_c .li{width:50%;overflow:hidden;float:left;position:relative;line-height:50rpx;text-align:center;font-size:28rpx;color:#222;}
+.wdjf_01_c .li .b{width:1rpx;height:100%;display:block;overflow:hidden;background-color:#eee;position:absolute;right:0px;top:0px;}
+.wdjf_01_c .li .i1{display:inline-block;color:#ff4443;}
+.wdjf_01_c .li .i2{display:inline-block;color:#666;}
+
+.wdjf_02{overflow:hidden;border-top:20rpx solid #f5f5f5;}
+.wdjf_02_t{width:100%;overflow:hidden;line-height:88rpx;font-size:32rpx;color:#222;border-bottom:1rpx solid #eee;}
+
+.wdjf_02_c{width:100%;overflow:hidden;}
+.wdjf_02_c .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.wdjf_02_c .li .p{width:100%;overflow:hidden;}
+.wdjf_02_c .li .p1{font-size:28rpx;color:#222;line-height:40rpx;}
+.wdjf_02_c .li .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.wdjf_02_c .li .fr{color:#ff4443;font-size:28rpx;}
+.wdjf_02_c .li .i2{color:#999;}
+
+
+/**/
+.qd_fr{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/wdzy_01.jpg") no-repeat;background-size:100% 100%;}
+
+.qd_01{width:100%;overflow:hidden;margin-top:200rpx;}
+.qd_01 image{width:129rpx;height:129rpx;display:block;overflow:hidden;border-radius:50%;border:2rpx solid #fff;margin:0px auto;padding:0px;}
+.qd_01 .p{width:100%;overflow:hidden;color:#fff;text-align:center;}
+.qd_01 .p1{font-size:33rpx;line-height:50rpx;margin-top:10rpx;}
+.qd_01 .p2{font-size:25rpx;line-height:35rpx;margin-top:10rpx;}
+.qd_01 .p2 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/us_01.png") left center no-repeat;background-size:19rpx;padding-left:29rpx;}
+
+.qd_02{overflow:hidden;margin-top:40rpx;}
+.qd_02 .a{display:block;line-height:95rpx;font-size:36rpx;color:#fff;border-radius:95rpx;background:url("https://www.chengshishe.com/club/static/images/hb_02.jpg") no-repeat;background-size:100% 100%;width:100%;text-align:center;}
+
+.qd_03{overflow:hidden;margin-top:30rpx;font-size:32rpx;color:#222;line-height:40rpx;}
+
+.qd_04{overflow:hidden;margin-top:30rpx;}
+
+.myinfo_top{overflow:hidden;padding-bottom:30rpx;}
+.myinfo_01{overflow:hidden;border-top:20rpx solid #f5f5f5;padding:40rpx 0px;}
+.myinfo_01 .li{width:100%;overflow:hidden;border-top:1rpx solid #eee;line-height:90rpx;}
+.myinfo_01 .li .fl{width:10%;float:left;overflow:hidden;font-size:28rpx;color:#222;}
+.myinfo_01 .li .fr{width:85%;overflow:hidden;position:relative;}
+.myinfo_01 .li .fr .myinfo_01_txt{width:100%;height:90rpx;line-height:90rpx;padding:0px;font-size:28rpx;color:#666;}
+.myinfo_01 .li .fr .a_address{width:40rpx;height:90rpx;display:block;background:url("https://www.chengshishe.com/club/static/images/sj_03.jpg") center no-repeat;background-size:20rpx;position:absolute;right:0px;top:0px;z-index:999;}
+.myinfo_01 .li .fr .a_tip{position:absolute;right:0px;top:0px;line-height:90rpx;font-size:24rpx;color:#666;}
+.myinfo_01 .li .fr .sel{width:100%;overflow:hidden;line-height:90rpx;font-size:28rpx;color:#666;background:url("https://www.chengshishe.com/club/static/images/kj_02.png") right center no-repeat;background-size:23rpx;}
+
+.myinfo_01 .li_btn{width:100%;overflow:hidden;margin-top:40rpx;}
+.myinfo_01 .li_btn button{width:100%;height:80rpx;line-height:80rpx;border-radius:8rpx;font-size:30rpx;color:#fff;background:url("https://www.chengshishe.com/club/static/images/sjzy_01.jpg") no-repeat;background-size:100% 100%;}
+
+
+/*Q32-我的-公告*/
+.wdgg_01{overflow:hidden;}
+.wdgg_01 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.wdgg_01 .li .fl{width:80%;}
+.wdgg_01 .li .fl .p{width:100%;overflow:hidden;}
+.wdgg_01 .li .fl .p1{font-size:28rpx;color:#222;line-height:40rpx;}
+.wdgg_01 .li .fl .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.wdgg_01 .li .fr .a{width:40rpx;height:84rpx;display:block;background:url("https://www.chengshishe.com/club/static/images/gg_01.jpg") center no-repeat;background-size:40rpx;}
+
+/*Q33-我的-公告-公告详情*/
+.ggxq_fr{width:100%;height:100%;overflow:hidden;position:fixed;left:0px;top:0px;z-index:999;}
+.ggxq_fr .ggxq_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.ggxq_fr .ggxq_c{width:90%;overflow:hidden;background-color:rgba(255,255,255,0.3);position:absolute;left:5%;top:50%;border-radius:15rpx;}
+.ggxq_fr .ggxq_c .ggxq_c_fr{overflow:hidden;margin:15rpx;background-color:#fff;border-radius:15rpx;padding:15rpx;}
+.ggxq_fr .ggxq_c .ggxq_c_fr .p{width:90%;overflow:hidden;margin:0px auto;padding:0px;}
+.ggxq_fr .ggxq_c .ggxq_c_fr .p1{font-size:32rpx;color:#ff4443;line-height:40rpx;margin-bottom:20rpx;text-align:center;margin-top:30rpx;}
+.ggxq_fr .ggxq_c .ggxq_c_fr .p2{font-size:26rpx;color:#222;line-height:36rpx;}
+.ggxq_fr .ggxq_c .ggxq_c_fr .p3{border-top:1rpx solid #eee;margin-top:30rpx;text-align:center;}
+.ggxq_fr .ggxq_c .ggxq_c_fr .p3 .close{display:inline-block;font-size:32rpx;color:#000;line-height:90rpx;}
+
+/**/
+.wdsx_01{overflow:hidden;}
+.wdsx_01 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.wdsx_01 .li .fl{width:80%;}
+.wdsx_01 .li .fl .em1{width:90rpx;height:90rpx;display:block;float:left;overflow:hidden;}
+.wdsx_01 .li .fl .em1 image{width:100%;display:block;border-radius:50%;}
+.wdsx_01 .li .fl .em2{float:left;margin-left:20rpx;}
+.wdsx_01 .li .fl .em2 .p{width:100%;overflow:hidden;}
+.wdsx_01 .li .fl .em2 .p1{font-size:28rpx;color:#222;line-height:40rpx;margin-top:2rpx;}
+.wdsx_01 .li .fl .em2 .p1 .em3{display:inline-block;margin-left:20rpx;font-size:24rpx;color:#999;}
+.wdsx_01 .li .fl .em2 .p1 .em3 .i{display:inline-block;color:#ff4443;}
+
+.wdsx_01 .li .fl .em2 .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.wdsx_01 .li .fr{width:20%;}
+.wdsx_01 .li .fr .p3{width:100%;overflow:hidden;text-align:right;font-size:24rpx;color:#999;line-height:40rpx;}
+.wdsx_01 .li .fr .p4{display:inline-block;line-height:50rpx;padding:0px 24rpx;border:1rpx solid #ccc;border-radius:8rpx;font-size:24rpx;color:#999;margin-top:20rpx;}
+
+/**/
+.myfhy_01{overflow:hidden;line-height:100rpx;border-bottom:20rpx solid #f5f5f5;background-color:#fff;}
+.myfhy_01 .li{width:33.3333%;float:left;text-align:center;position:relative;}
+.myfhy_01 .li .span{font-size:32rpx;color:#222;}
+.myfhy_01 .li_on .span{color:#ff4443;}
+.myfhy_01 .li_on .b{width:100%;height:1rpx;display:block;overflow:hidden;border-bottom:1rpx solid #ff4443;position:absolute;left:0px;bottom:0px;}
+
+.myfwfl_01{overflow:hidden;padding:40rpx 0px 10rpx 0px;border-bottom:1rpx solid #eee;}
+.myfwfl_01 .li{width:33.3333%;overflow:visible;float:left;margin-bottom:30rpx;}
+.myfwfl_01 .li .a{width:80%;display:block;overflow:visible;line-height:80rpx;border-radius:8rpx;text-align:center;font-size:28rpx;color:#222;background-color:#f4f5f7;position:relative;}
+.myfwfl_01 .li .a .i{width:37rpx;height:37rpx;display:block;border-radius:50%;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/gz_01.png") no-repeat;background-size:37rpx;position:absolute;right:-18.5rpx;top:-18.5rpx;}
+.myfwfl_01 .li .a_hover .i{background:url("https://www.chengshishe.com/club/static/images/gz_02.png") no-repeat;background-size:37rpx;}
+
+.myfwfl_02{overflow:hidden;margin-top:40rpx;}
+.myfwfl_02 .li{width:30%;float:left;overflow:hidden;margin:0px 5% 30rpx 0px;}
+.myfwfl_02 .li:nth-child(3n){margin-right:0px;}
+.myfwfl_02 .li .a{width:100%;line-height:80rpx;border-radius:8rpx;text-align:center;background-color:#f4f5f7;font-size:28rpx;color:#222;}
+.myfwfl_02 .li .a_hover{background:url("https://www.chengshishe.com/club/static/images/kj_03.jpg") no-repeat;background-size:100% 100%;color:#fff;}
+
+/**/
+.mywing_01{overflow:hidden;}
+.mywing_01 .table .tr .td{vertical-align:top;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.mywing_01 .table .tr .td1{width:180rpx;height:180rpx;overflow:hidden;}
+.mywing_01 .table .tr .td1 image{width:178rpx;height:178rpx;border:1rpx solid #eee;display:block;}
+.mywing_01 .table .tr .td2{padding-left:30rpx;}
+.mywing_01 .table .tr .td2 .p{width:100%;overflow:hidden;}
+.mywing_01 .table .tr .td2 .p1{font-size:30rpx;color:#222;line-height:50rpx;}
+.mywing_01 .table .tr .td2 .p2{font-size:24rpx;color:#999;line-height:40rpx;}
+.mywing_01 .table .tr .td2 .p3{margin-top:20rpx;}
+.mywing_01 .table .tr .td2 .p3 .a{width:150rpx;height:50rpx;display:inline-block;border-radius:50rpx;font-size:22rpx;color:#fff;text-align:center;line-height:50rpx;}
+.mywing_01 .table .tr .td2 .p3 .a1{background:url("https://www.chengshishe.com/club/static/images/kj_03.jpg") center no-repeat;background-size:100% 100%;}
+.mywing_01 .table .tr .td2 .p3 .a2{background:url("https://www.chengshishe.com/club/static/images/kj_04.jpg") center no-repeat;background-size:100% 100%;}
+.mywing_01 .table .tr .td2 .p3 .a3{background:url("https://www.chengshishe.com/club/static/images/kj_05.jpg") center no-repeat;background-size:100% 100%;}
+
+/**/
+.wdhb_01{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/wdhb_01.jpg") no-repeat;background-size:100% 100%;padding-bottom:60rpx;}
+.wdhb_01 .p{width:100%;overflow:hidden;}
+.wdhb_01 .p1{margin-top:200rpx;text-align:center;font-size:60rpx;line-height:80rpx;color:#fff;}
+.wdhb_01 .p1 .i{font-size:28rpx;display:inline-block;}
+.wdhb_01 .p2{text-align:center;margin-top:30rpx;}
+.wdhb_01 .p2 .a{width:330rpx;height:80rpx;line-height:80rpx;display:inline-block;text-align:center;font-size:36rpx;color:#fff;background:url("https://www.chengshishe.com/club/static/images/hb_02.jpg") no-repeat;background-size:100% 100%;border-radius:80rpx;}
+.wdhb_01 .p3{text-align:center;font-size:26rpx;color:#fff;line-height:40rpx;margin-top:30rpx;}
+
+
+.wdhb_02{overflow:hidden;margin-top:40rpx;}
+.wdhb_02 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.wdhb_02 .li .fl{width:80%;}
+.wdhb_02 .li .fl .p{width:100%;overflow:hidden;}
+.wdhb_02 .li .fl .p1{font-size:30rpx;color:#222;line-height:40rpx;}
+.wdhb_02 .li .fl .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.wdhb_02 .li .fr .p3{font-size:24rpx;color:#222;line-height:34rpx;}
+
+/**/
+.myhbtxfr{overflow:hidden;width:100%;height:100%;position:fixed;left:0px;top:0px;z-index:9999;}
+.myhbtxfr .myhbtx_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.myhbtxfr .myhbtx_c{width:90%;overflow:hidden;position:absolute;left:5%;top:50%;background-color:rgba(255,255,255,0.15);border-radius:15rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c{overflow:hidden;margin:15rpx;background-color:#fff;border-radius:15rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p{width:90%;overflow:hidden;margin:0px auto;padding:0px;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p1{font-size:32rpx;color:#ff4443;line-height:40rpx;border-bottom:1rpx solid #eee;text-align:center;padding:30rpx 0px;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p2{font-size:24rpx;color:#222;line-height:40rpx;margin-top:20rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p3{font-size:60rpx;color:#222;line-height:80rpx;position:relative;margin-top:10rpx;border-bottom:1rpx solid #f7f7f7;margin-bottom:20rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p3 .fl{position:absolute;left:0px;top:0px;line-height:80rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p3 .p3_txt{width:100%;overflow:hidden;height:80rpx;line-height:80rpx;padding:0px;text-align:right;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p4{font-size:24rpx;color:#666;line-height:40rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p4 .span{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/tx_01.jpg") left center no-repeat;background-size:11rpx;padding-left:30rpx;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p4 .span .i{display:inline-block;color:#ff4443;}
+.myhbtxfr .myhbtx_c .myhbtxc_c .p5{border-top:1rpx solid #eee;margin-top:20rpx;padding:30rpx 0px;text-align:center;font-size:30rpx;color:#222;}
+
+/*Q52-我的-推荐功能-广告投放*/
+.wdggtf_01{overflow:hidden;margin-top:30rpx;}
+.wdggtf_01 .li{width:100%;overflow:hidden;margin-bottom:20rpx;background-color:#fff;border-radius:10rpx;}
+.wdggtf_01 .li .li_b{width:100%;height:10rpx;display:block;overflow:hidden;background-color:#ff4443;}
+.wdggtf_01 .li .li_t{display:block;overflow:hidden;margin:20rpx;}
+.wdggtf_01 .li .li_t .fl{width:70%;overflow:hidden;}
+.wdggtf_01 .li .li_t .fl .p{width:100%;overflow:hidden;}
+.wdggtf_01 .li .li_t .fl .p1{font-size:28rpx;color:#222;line-height:40rpx;}
+.wdggtf_01 .li .li_t .fl .p2{font-size:24rpx;color:#222;line-height:34rpx;}
+.wdggtf_01 .li .li_t .fl .p2 .i{display:inline-block;color:#ff4443;}
+.wdggtf_01 .li .li_t .fr{overflow:hidden;width:30%;text-align:right;}
+.wdggtf_01 .li .li_t .fr .p{width:100%;overflow:hidden;}
+.wdggtf_01 .li .li_t .fr .p1{font-size:24rpx;color:#999;line-height:40rpx;}
+.wdggtf_01 .li .li_t .fr .p2{font-size:24rpx;color:#999;line-height:34rpx;margin-top:10rpx;}
+.wdggtf_01 .li .li_t .fr .p2 .i{display:inline-block;color:#ff4443;}
+.wdggtf_01 .li .li_c{overflow:hidden;margin:0px 20rpx;border-top:1rpx solid #eee;padding:0rpx 0px;line-height:60rpx;position:relative;}
+.wdggtf_01 .li .li_c .p{width:100%;overflow:hidden;font-size:22rpx;color:#222;}
+.wdggtf_01 .li .li_c .p .i{color:#666;display:inline-block;}
+.wdggtf_01 .li .li_c .a{width:40rpx;height:40rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/ggtf_01.jpg") no-repeat;background-size:100% 100%;position:absolute;right:0px;top:10rpx;}
+.wdggtf_01 .li .li_c .a_hover{background:url("https://www.chengshishe.com/club/static/images/ggtf_02.jpg") no-repeat;background-size:100% 100%;}
+.wdggtf_01 .off{background:url("https://www.chengshishe.com/club/static/images/kjxq_03.jpg") 75% 20rpx no-repeat #fff;background-size:102rpx;}
+.wdggtf_01 .off .li_b{background-color:#e7e7e7;}
+
+/*Q54-我的-推荐功能-广告投放-投放广告-广告位选择*/
+.wdgggfbxz_01{overflow:hidden;}
+.wdgggfbxz_01 .li{width:100%;overflow:hidden;background-color:#fff;border-bottom:1rpx solid #eee;margin-bottom:20rpx;}
+.wdgggfbxz_01 .li .li_t{border-bottom:1rpx solid #eee;line-height:90rpx;color:#000;font-size:32rpx;}
+.wdgggfbxz_01 .li .li_c{width:100%;overflow:hidden;}
+.wdgggfbxz_01 .li .li_c .p_li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.wdgggfbxz_01 .li .li_c .p_li .table{width:100%;overflow:hidden;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td{vertical-align:top;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td1{width:60rpx;text-align:left;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td1 checkbox .wx-checkbox-input{width:28rpx;height:28rpx;margin:0px;padding:0px;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td1 checkbox .wx-checkbox-input.wx-checkbox-input-checked{color:#000;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td1 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {width: 28rpx;height:28rpx;line-height:28rpx;text-align: center;font-size: 22rpx;color:#000;margin:0px;padding:0px;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td2 .p{width:100%;overflow:hidden;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td2 .p1{font-size:28rpx;color:#000;line-height:40rpx;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td2 .p2{font-size:24rpx;color:#666;line-height:34rpx;margin-top:10rpx;}
+.wdgggfbxz_01 .li .li_c .p_li .table .tr .td3 .a{width:30rpx;height:84rpx;display:block;overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/ggxz_02.jpg") center no-repeat;background-size:100%;float:right;}
+.wdgggfbxz_01 .li .li_c .p_c{width:100%;overflow:hidden;margin-top:30rpx;display:none;}
+.wdgggfbxz_01 .li .li_c .p_c image{width:100%;display:block;}
+.wdgggfbxz_01 .li .li_c .li_style_on .table .tr .td3 .a{background:url("https://www.chengshishe.com/club/static/images/ggxz_03.jpg") center no-repeat;background-size:100%;}
+.wdgggfbxz_01 .li .li_c .li_style_on .p_c{display:block;}
+
+/**/
+.wdxj_01{overflow:hidden;margin-top:20rpx;}
+.wdxj_01 .li{width:100%;overflow:hidden;background-color:#fff;margin-bottom:20rpx;}
+.wdxj_01 .li .li_t{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;margin-top:30rpx;}
+.wdxj_01 .li .li_t .p{width:100%;overflow:hidden;}
+.wdxj_01 .li .li_t .p1{font-size:30rpx;color:#000;line-height:50rpx;}
+.wdxj_01 .li .li_t .p1 .i{display:inline-block;width:85rpx;height:28rpx;margin-left:20rpx;margin-top:10rpx;}
+.wdxj_01 .li .li_t .p1 .i1{background:url("https://www.chengshishe.com/club/static/images/xjlb_01.jpg") no-repeat;background-size:100%;}
+.wdxj_01 .li .li_t .p2{font-size:20rpx;color:#666;line-height:30rpx;margin-bottom:20rpx;margin-top:10rpx;}
+.wdxj_01 .li .li_t .p2 .i{display:inline-block;font-size:32rpx;color:#ff4443;}
+.wdxj_01 .li .li_c{width:100%;overflow:hidden;line-height:40rpx;font-size:24rpx;color:#666;padding:20rpx 0px;position:relative;}
+.wdxj_01 .li .li_c .p{width:90%;}
+.wdxj_01 .li .li_c .a{width:40rpx;height:40rpx;display:block;background:url("https://www.chengshishe.com/club/static/images/gg_01.jpg") no-repeat;background-size:100%;position:absolute;right:0px;top:20rpx;border-radius:50%;}
+.wdxj_01 .li .li_c .a_hover{background:url("https://www.chengshishe.com/club/static/images/ggtf_02.jpg") no-repeat;background-size:100%;}
+
+/**/
+.wqts_msg{width:100%;height:100%;overflow:hidden;position:fixed;left:0px;top:0px;z-index:9999;}
+.wqts_msg .wqts_msg_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.wqts_msg .wqts_msg_c{width:90%;overflow:hidden;background-color:rgba(255,255,255,0.3);border-radius:15rpx;position:absolute;left:5%;top:50%;}
+.wqts_msg .wqts_msg_c .wqts_msgc_c{background-color:#fff;border-radius:15rpx;overflow:hidden;margin:15rpx;}
+.wqts_msg .wqts_msg_c .wqts_msgc_c .p1{width:100%;overflow:hidden;text-align:center;font-size:32rpx;color:#ff4443;line-height:60rpx;margin:30rpx 0px;}
+.wqts_msg .wqts_msg_c .wqts_msgc_c .p2{width:90%;overflow:hidden;margin:0px auto;padding:0px;font-size:28rpx;color:#222;line-height:40rpx;text-align:center;}
+.wqts_msg .wqts_msg_c .wqts_msgc_c .p2 .i{color:#ff4443;display:inline-block;}
+.wqts_msg .wqts_msg_c .wqts_msgc_c .close{width:100%;overflow:hidden;border-top:1rpx solid #eee;margin-top:50rpx;text-align:center;font-size:32rpx;color:#222;line-height:60rpx;padding:20rpx 0px;}
+
+/**/
+.xjxq_01{overflow:hidden;background-color:#fff;padding:30rpx 0px;}
+.xjxq_01 .p{width:100%;overflow:hidden;}
+.xjxq_01 .p1{font-size:30rpx;color:#000;line-height:40rpx;}
+.xjxq_01 .p1 .i{width:85rpx;height:28rpx;display:inline-block;background:url("https://www.chengshishe.com/club/static/images/xjlb_02.jpg") no-repeat;background-size:100%;margin-left:20rpx;}
+.xjxq_01 .p2{font-size:20rpx;color:#666;line-height:30rpx;margin-top:10rpx;border-bottom:1rpx solid #eee;padding-bottom:15rpx;}
+.xjxq_01 .p3{margin-top:15rpx;font-size:24rpx;color:#666;line-height:40rpx;}
+.xjxq_01 .p4{margin-top:20rpx;}
+.xjxq_01 .p4 image{width:50rpx;display:block;}
+
+.xjxq_02{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.xjxq_02 .xjxq_02_t{width:100%;overflow:hidden;line-height:90rpx;border-bottom:1rpx solid #eee;}
+.xjxq_02 .xjxq_02_t .fl{font-size:30rpx;color:#000;}
+.xjxq_02 .xjxq_02_t .fr{font-size:30rpx;color:#ff4443;}
+.xjxq_02 .xjxq_02_c{width:100%;overflow:hidden;}
+.xjxq_02 .xjxq_02_c .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.xjxq_02 .xjxq_02_c .li .fl{width:80%;overflow:hidden;}
+.xjxq_02 .xjxq_02_c .li .fl image{width:90rpx;height:90rpx;display:block;float:left;}
+.xjxq_02 .xjxq_02_c .li .fl .em{float:left;margin-left:30rpx;}
+.xjxq_02 .xjxq_02_c .li .fl .em .p{width:100%;overflow:hidden;}
+.xjxq_02 .xjxq_02_c .li .fl .em .p1{font-size:30rpx;color:#000;line-height:50rpx;}
+.xjxq_02 .xjxq_02_c .li .fl .em .p2{font-size:20rpx;color:#666;line-height:30rpx;margin-top:5rpx;}
+.xjxq_02 .xjxq_02_c .li .fr{width:20%;overflow:hidden;font-size:32rpx;color:#ff4443;line-height:50rpx;}
+
+.xjxq_02_btn_empty{width:100%;overflow:hidden;height:100rpx;}
+.xjxq_02_btn{overflow:hidden;position:fixed;left:0px;bottom:10rpx;z-index:990;width:100%;}
+.xjxq_02_btn .a{width:100%;height:85rpx;line-height:85rpx;text-align:center;font-size:32rpx;color:#fff;border-radius:85rpx;background-color:rgba(255,68,67,0.9);}
+
+/**/
+.xjxqbj_msg{width:100%;height:100%;overflow:hidden;position:fixed;left:0px;top:0px;z-index:9999;}
+.xjxqbj_msg .xjxqbj_msg_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.xjxqbj_msg .xjxqbj_msg_c{width:90%;overflow:hidden;background-color:rgba(255,255,255,0.3);border-radius:15rpx;position:absolute;left:5%;top:50%;}
+.xjxqbj_msg .xjxqbj_msg_c .xjxqbj_msgc_c{background-color:#fff;border-radius:15rpx;overflow:hidden;margin:15rpx;}
+.xjxqbj_msg .xjxqbj_msg_c .xjxqbj_msgc_c .p1{width:100%;overflow:hidden;text-align:center;font-size:32rpx;color:#ff4443;line-height:60rpx;margin:30rpx 0px;}
+.xjxqbj_msg .xjxqbj_msg_c .xjxqbj_msgc_c .p2{width:90%;overflow:hidden;margin:0px auto;padding:0px;text-align:center;}
+.xjxqbj_msg .xjxqbj_msg_c .xjxqbj_msgc_c .p2 input{width:100%;height:100rpx;line-height:100rpx;text-align:center;overflow:hidden;font-size:28rpx;background-color:#fafafa;}
+.xjxqbj_msg .xjxqbj_msg_c .xjxqbj_msgc_c .close{width:100%;overflow:hidden;border-top:1rpx solid #eee;margin-top:50rpx;text-align:center;font-size:32rpx;color:#222;line-height:60rpx;padding:20rpx 0px;}
+
+
+/**/
+.jgsp_01{overflow:hidden;margin-top:30rpx;}
+.jgsp_01 .li{width:48%;float:left;overflow:hidden;margin-right:4%;margin-bottom:30rpx;background-color:#fff;}
+.jgsp_01 .li:nth-child(2n){margin-right:0px;}
+.jgsp_01 .li image{width:100%;display:block;}
+.jgsp_01 .li .li_c{width:90%;overflow:hidden;margin:20rpx auto;padding:0px;}
+.jgsp_01 .li .li_c .p{width:100%;overflow:hidden;}
+.jgsp_01 .li .li_c .p1{font-size:28rpx;color:#222;line-height:40rpx;}
+.jgsp_01 .li .li_c .p2{font-size:28rpx;color:#ff4443;line-height:28rpx;margin-top:10rpx;}
+.jgsp_01 .li .li_c .p2 .fr .a{width:28rpx;height:28rpx;display:block;float:left;margin-left:10rpx;}
+.jgsp_01 .li .li_c .p2 .fr .a1{background:url("https://www.chengshishe.com/club/static/images/jgsp_01.jpg") no-repeat;background-size:100%;}
+.jgsp_01 .li .li_c .p2 .fr .a2{background:url("https://www.chengshishe.com/club/static/images/jgsp_02.jpg") no-repeat;background-size:100%;}
+
+
+/**/
+.mysqsq_01{overflow:hidden;background-color:#fff;margin-top:20rpx;}
+.mysqsq_01_c{width:100%;overflow:hidden;}
+.mysqsq_01_c .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.mysqsq_01_c .li .fl{width:70%;}
+.mysqsq_01_c .li .fl image{width:70rpx;height:70rpx;display:block;float:left;border-radius:50%;}
+.mysqsq_01_c .li .fl .span{float:left;color:#000;font-size:30rpx;line-height:70rpx;margin-left:20rpx;}
+.mysqsq_01_c .li .fr .a1{width:150rpx;height:50rpx;line-height:50rpx;border-radius:50rpx;background:url("https://www.chengshishe.com/club/static/images/kj_03.jpg") no-repeat;background-size:100% 100%;font-size:22rpx;color:#fff;text-align:center;margin-top:10rpx;}
+.mysqsq_01_c .li .fr .a2{width:148rpx;height:48rpx;line-height:50rpx;border-radius:50rpx;font-size:22rpx;color:#999;text-align:center;margin-top:10rpx;border:1rpx solid #eee;}
+
+
+/**/
+.mkjhb_01{overflow:hidden;line-height:100rpx;border-bottom:20rpx solid #f5f5f5;background-color:#fff;}
+.mkjhb_01 .li{width:50%;float:left;text-align:center;position:relative;}
+.mkjhb_01 .li .span{font-size:32rpx;color:#222;}
+.mkjhb_01 .li_on .span{color:#ff4443;}
+.mkjhb_01 .li_on .b{width:100%;height:1rpx;display:block;overflow:hidden;border-bottom:1rpx solid #ff4443;position:absolute;left:0px;bottom:0px;}
+
+.mkjhb_01_n{overflow:hidden;line-height:100rpx;border-bottom:20rpx solid #f5f5f5;background-color:#fff;}
+.mkjhb_01_n .li{width:33.3333%;float:left;text-align:center;position:relative;}
+.mkjhb_01_n .li .span{font-size:32rpx;color:#222;}
+.mkjhb_01_n .li_on .span{color:#ff4443;}
+.mkjhb_01_n .li_on .b{width:100%;height:1rpx;display:block;overflow:hidden;border-bottom:1rpx solid #ff4443;position:absolute;left:0px;bottom:0px;}
+
+
+
+.mkjhb_02{overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.mkjhb_02 .p{width:100%;overflow:hidden;}
+.mkjhb_02 .p1{font-size:72rpx;color:#000;line-height:100rpx;text-align:center;}
+.mkjhb_02 .p1 .i{display:inline-block;font-size:30rpx;}
+.mkjhb_02 .p2{text-align:center;font-size:24rpx;color:#999;}
+.mkjhb_02 .p2 .i{color:#ff4443;display:inline-block;}
+
+.mkjhb_03{overflow:hidden;}
+.mkjhb_03 .li{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;}
+.mkjhb_03 .li .fl{width:70%;}
+.mkjhb_03 .li .fl .p{width:100%;overflow:hidden;}
+.mkjhb_03 .li .fl .p1{font-size:28rpx;color:#222;line-height:35rpx;}
+.mkjhb_03 .li .fl .p1 .i1{width:35rpx;height:35rpx;display:inline-block;background:url("https://www.chengshishe.com/club/static/images/kjhb_01.jpg") no-repeat;background-size:100%;margin-left:10rpx;position:relative;top:10rpx;}
+.mkjhb_03 .li .fl .p2{font-size:24rpx;color:#999;margin-top:10rpx;}
+.mkjhb_03 .li .fr .p{width:100%;overflow:hidden;text-align:right;}
+.mkjhb_03 .li .fr .p1{font-size:28rpx;color:#222;line-height:35rpx;}
+.mkjhb_03 .li .fr .p2{font-size:24rpx;color:#999;margin-top:10rpx;}
+
+/**/
+.mkjkj_01{overflow:hidden;margin-top:30rpx;}
+.mkjkj_01 .sel{width:100%;overflow:hidden;border:1rpx solid #eee;height:80rpx;line-height:80rpx;background:url("https://www.chengshishe.com/club/static/images/kj_02.png") 98% center no-repeat #fff;background-size:23rpx;font-size:28rpx;color:#222;text-indent:20rpx;}
+
+
+/**/
+.kjkjxq_01{overflow:hidden;background-color:#f5f5f5;}
+
+/**/
+.wdhbzh_01{overflow:hidden;background:url("https://www.chengshishe.com/club/static/images/wdhb_01.jpg") no-repeat;background-size:100% 100%;padding-bottom:80rpx;}
+.wdhbzh_01 .p{width:100%;overflow:hidden;}
+.wdhbzh_01 .p1{margin-top:200rpx;text-align:center;font-size:60rpx;line-height:80rpx;color:#fff;}
+.wdhbzh_01 .p1 .i{font-size:28rpx;display:inline-block;}
+.wdhbzh_01 .p2{margin-top:30rpx;text-align:center;}
+.wdhbzh_01 .p2 .a{margin:0px 20rpx;line-height:80rpx;text-align:center;font-size:36rpx;color:#fff;border-radius:80rpx;display:inline-block;}
+.wdhbzh_01 .p2 .a1{width:210rpx;height:80rpx;background:url("https://www.chengshishe.com/club/static/images/kj_04.jpg") no-repeat;background-size:100% 100%;}
+.wdhbzh_01 .p2 .a2{width:208rpx;height:78rpx;background-color:rgba(255,255,255,0.15);border:1rpx solid #fff;}
+
+/**/
+.jbfwkf_msg{width:100%;height:100%;overflow:hidden;position:fixed;left:0px;top:0px;z-index:9999;}
+.jbfwkf_msg .jbfwkf_msg_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.jbfwkf_msg .jbfwkf_msg_c{width:90%;overflow:hidden;background-color:rgba(255,255,255,0.3);border-radius:15rpx;position:absolute;left:5%;top:50%;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr{background-color:#fff;border-radius:15rpx;overflow:hidden;margin:15rpx;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p{width:100%;overflow:hidden;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p1{width:100%;overflow:hidden;text-align:center;font-size:32rpx;color:#ff4443;line-height:60rpx;margin:30rpx 0px;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p2{width:350rpx;overflow:hidden;margin:0px auto;padding:0px;text-align:center;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p2 image{width:350rpx;display:block;margin:0px auto;padding:0px;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p2 .p2_c{width:100%;overflow:hidden;font-size:26rpx;color:#000;line-height:40rpx;margin-top:20rpx;}
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .p2 .p2_c .a{display:inline-block;line-height:60rpx;padding:0px 62rpx;background-color:#ff4443;border-radius:60rpx;color:#fff;font-size:24rpx;}
+
+.jbfwkf_msg .jbfwkf_msg_c .jbfwkf_msg_c_fr .close{width:100%;overflow:hidden;border-top:1rpx solid #eee;margin-top:50rpx;text-align:center;font-size:32rpx;color:#222;line-height:60rpx;padding:20rpx 0px;}
+
+/**/
+.jbfwjszc_msg{width:100%;height:100%;overflow:hidden;position:fixed;left:0px;top:0px;z-index:9999;}
+.jbfwjszc_msg .jbfwjszc_msg_bg{width:100%;height:100%;overflow:hidden;background-color:rgba(0,0,0,0.5);position:absolute;left:0px;top:0px;}
+.jbfwjszc_msg .jbfwjszc_msg_c{width:90%;overflow:hidden;background-color:rgba(255,255,255,0.3);border-radius:15rpx;position:absolute;left:5%;top:50%;}
+.jbfwjszc_msg .jbfwjszc_msg_c .jbfwjszc_msg_c_fr{background-color:#fff;border-radius:15rpx;overflow:hidden;margin:15rpx;}
+.jbfwjszc_msg .jbfwjszc_msg_c .jbfwjszc_msg_c_fr .p{width:100%;overflow:hidden;}
+.jbfwjszc_msg .jbfwjszc_msg_c .jbfwjszc_msg_c_fr .p1{width:100%;overflow:hidden;text-align:center;font-size:32rpx;color:#ff4443;line-height:60rpx;margin:30rpx 0px;}
+.jbfwjszc_msg .jbfwjszc_msg_c .jbfwjszc_msg_c_fr .p2{width:90%;overflow:hidden;margin:0px auto;padding:0px;font-size:26rpx;color:#222;}
+.jbfwjszc_msg .jbfwjszc_msg_c .jbfwjszc_msg_c_fr .close{width:100%;overflow:hidden;border-top:1rpx solid #eee;margin-top:50rpx;text-align:center;font-size:32rpx;color:#222;line-height:60rpx;padding:20rpx 0px;}
+
+/**/
+.about_01{overflow:hidden;margin-top:60rpx;}
+.about_01 .wrap_c{overflow:hidden;border-bottom:1rpx solid #eee;text-align:center;font-size:32rpx;color:#222;line-height:40rpx;padding-bottom:30rpx;}
+
+.about_02{overflow:hidden;margin-top:30rpx;}
+.about_02 text{width:100%;overflow:hidden;font-size:24rpx;color:#222;line-height:34rpx;}
+
+/**/
+.loginfr{overflow:hidden;margin-top:200rpx;position:absolute;left:0px;bottom:30rpx;}
+.loginfr .login_01{width:100%;overflow:hidden;text-align:center;}
+.loginfr .login_01 .btn{height:80rpx;line-height:80rpx;width:350rpx;display:inline-block;text-align:center;background:url("https://www.chengshishe.com/club/static/images/kj_03.jpg") no-repeat;background-size:100% 100%;border-radius:80rpx;font-size:34rpx;color:#fff;}
+.loginfr .login_02{width:100%;overflow:hidden;margin-top:30rpx;font-size:24rpx;color:#666;line-height:40rpx;text-align:center;}
+
+/**/
+.xyk_01{overflow:hidden;margin-top:20rpx;}
+.xyk_01 .li{width:100%;overflow:hidden;padding:20rpx 0px;margin-bottom:20rpx;background-color:#fff;}
+.xyk_01 .li .li_img{width:40%;float:left;overflow:hidden;}
+.xyk_01 .li .li_img image{width:100%;display:block;}
+.xyk_01 .li .li_r{width:56%;float:right;overflow:hidden;}
+.xyk_01 .li .li_r .p{width:100%;overflow:hidden;}
+.xyk_01 .li .li_r .p1{font-size:22rpx;color:#666;line-height:30rpx;}
+.xyk_01 .li .li_r .p2{margin-top:20rpx;line-height:50rpx;}
+.xyk_01 .li .li_r .p2 .p2_l{float:left;font-size:24rpx;color:#222;line-height:50rpx;margin-top:10rpx;}
+.xyk_01 .li .li_r .p2 .p2_l .i{color:#ff4443;display:inline-block;}
+.xyk_01 .li .li_r .p2 .p2_r{float:right;overflow:hidden;}
+.xyk_01 .li .li_r .p2 .p2_r .a{display:inline-block;line-height:50rpx;padding:0px 33rpx;border-radius:50rpx;background-color:#ff4443;color:#fff;font-size:22rpx;margin:0px;}
+
+/**/
+.cardjl_01{overflow:hidden;margin-top:20rpx;}
+.cardjl_01 .li{width:100%;overflow:hidden;background-color:#fff;margin-bottom:20rpx;padding:20rpx 0px;}
+.cardjl_01 .li .li_t{width:100%;overflow:hidden;line-height:50rpx;}
+.cardjl_01 .li .li_t .span{float:left;font-size:32rpx;color:#000;}
+.cardjl_01 .li .li_t .i{float:right;font-size:20rpx;color:#666;}
+.cardjl_01 .li .li_c{width:100%;overflow:hidden;border-bottom:1rpx solid #eee;padding:30rpx 0px;line-height:50rpx;}
+.cardjl_01 .li .li_c .img{float:left;}
+.cardjl_01 .li .li_c .img image{height:50rpx;display:block;width:272rpx;}
+.cardjl_01 .li .li_c .a{float:right;width:150rpx;height:50rpx;line-height:50rpx;text-align:center;font-size:22rpx;color:#fff;border-radius:50rpx;}
+.cardjl_01 .li .li_c .a1{background-color:#ffb53c;}
+.cardjl_01 .li .li_c .a2{background-color:#ff4443;}
+.cardjl_01 .li .li_b{width:100%;overflow:hidden;margin-top:20rpx;line-height:50rpx;font-size:24rpx;color:#666;}
+.cardjl_01 .li .li_b .span{float:left;}
+.cardjl_01 .li .li_b .i{float:right;}
+
+
+/**/
+.jfdh_01{overflow:hidden;margin-top:20rpx;}
+.jfdh_01 .li{width:48%;float:left;overflow:hidden;margin-right:4%;margin-bottom:20rpx;background-color:#fff;}
+.jfdh_01 .li:nth-child(2n){margin-right:0px;}
+.jfdh_01 .li .img{width:100%;overflow:hidden;}
+.jfdh_01 .li .img image{width:100%;display:block;}
+.jfdh_01 .li .info{width:100%;overflow:hidden;padding:20rpx 0px;}
+.jfdh_01 .li .info .p{overflow:hidden;margin:0px 20rpx;}
+.jfdh_01 .li .info .p1{font-size:28rpx;color:#222;line-height:48rpx;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.jfdh_01 .li .info .p2{margin-top:20rpx;line-height:40rpx;}
+.jfdh_01 .li .info .p2 .span{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/jfdh_01.png") left center no-repeat;background-size:19rpx;font-size:28rpx;color:#ff4443;padding-left:30rpx;}
+.jfdh_01 .li .info .p2 .a{float:right;width:90rpx;height:40rpx;line-height:40rpx;text-align:center;font-size:22rpx;color:#fff;border-radius:40rpx;}
+.jfdh_01 .li .info .p2 .a1{background-color:#ff4443;}
+.jfdh_01 .li .info .p2 .a2{background-color:#ffb53c;}
+
+
+.jfdh_03_empty{overflow:hidden;height:180rpx;}
+.jfdh_03{overflow:hidden;position:fixed;left:0px;bottom:40rpx;z-index:9999;}
+.jfdh_03 .a{width:100%;text-align:center;display:block;overflow:hidden;height:85rpx;line-height:85rpx;border-radius:85rpx;font-size:32rpx;color:#fff;background-color:rgba(255,68,67,0.9);}
+
+.jfdhjl_01{overflow:hidden;margin-top:20rpx;}
+.jfdhjl_01 .li{width:100%;overflow:hidden;background-color:#fff;padding:20rpx 0px;margin-bottom:20rpx;}
+.jfdhjl_01 .li .li_t{width:100%;overflow:hidden;line-height:50rpx;border-bottom:1rpx solid #eee;}
+.jfdhjl_01 .li .li_t .span{float:left;font-size:28rpx;color:#000;}
+.jfdhjl_01 .li .li_t .i{float:right;font-size:28rpx;}
+.jfdhjl_01 .li .li_t .i1{color:#ccc}
+.jfdhjl_01 .li .li_t .i2{color:#ff4443}
+.jfdhjl_01 .li .li_t .i3{color:#3ccf67}
+.jfdhjl_01 .li .li_c{width:100%;overflow:hidden;padding:20rpx 0px;}
+.jfdhjl_01 .li .li_c .img{width:36%;float:left;overflow:hidden;}
+.jfdhjl_01 .li .li_c .img image{width:100%;display:block;}
+.jfdhjl_01 .li .li_c .info{width:60%;float:right;}
+.jfdhjl_01 .li .li_c .info .p{width:100%;overflow:hidden;}
+.jfdhjl_01 .li .li_c .info .p1{font-size:28rpx;color:#000;line-height:48rpx;}
+.jfdhjl_01 .li .li_c .info .p2{margin-top:30rpx;line-height:50rpx;color:#333;}
+.jfdhjl_01 .li .li_c .info .p2 .sp1{float:left;font-size:32rpx;}
+.jfdhjl_01 .li .li_c .info .p2 .sp1 .i{display:inline-block;background:url("https://www.chengshishe.com/club/static/images/jfdh_01.png") left center no-repeat;background-size:19rpx;padding-left:30rpx;}
+.jfdhjl_01 .li .li_c .info .p2 .sp2{float:right;font-size:28rpx;}
+.jfdhjl_01 .li .li_b{width:100%;overflow:hidden;border-top:1rpx solid #eee;margin-top:20rpx;padding-top:20rpx;line-height:50rpx;}
+.jfdhjl_01 .li .li_b .p{width:100%;overflow:hidden;}
+.jfdhjl_01 .li .li_b .span{font-size:28rpx;color:#333;}
+.jfdhjl_01 .li .li_b .i{color:#ff4443;display:inline-block;}
+.jfdhjl_01 .li .li_b .i1{color:#3ccf67;display:inline-block;}
+
+

@@ -1,0 +1,140 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>信息详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap seller_01'>
+        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_01.jpg'></image>
+    </view>
+
+    <view class='wrap seller_02'>
+        <view class='fl'>
+            <image src='{{merchantAvatar}}' mode='widthFix'></image>
+            <view class='em'>
+                <view class='span'>{{merchantName}}</view>
+                <view class='i'><view class='i_wz'>{{merchantAddress}}</view></view>
+            </view>
+        </view>
+        <view class='fr'>
+            <view class='i'></view>
+            <view class='seller_gz' bindtap='gz_click'>{{trackId==-1?"关注":"已关注"}}</view>
+        </view>
+    </view>
+
+    <view class='wrap seller_03'>
+        <view class='wrap_c'>
+            <block wx:if="{{userStars!=-1}}">
+                <block wx:for="{{userStars}}" wx:key="key">
+                    <image mode='widthFix' src='{{item.src}}'></image>
+                </block>
+                <block wx:if="{{starUserCount>5}}">
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_08.jpg'></image>
+                </block>
+            </block>
+            <view class='fr'>{{starUserCount}}人已关注</view>
+        </view>
+    </view>
+
+    <view class='wrap seller_04'>
+        <view class='wrap_c'>
+            <view class='table'>
+                <view class='tr'>
+                    <view class='td td1'>商家简介</view>
+                    <view class='td td2'>{{merchantProfile}}</view>
+                </view>
+                <view class='tr'>
+                    <view class='td td1'>营业时间</view>
+                    <view class='td td2'>{{openHours}}</view>
+                </view>
+                <view class='tr'>
+                    <view class='td td1'>商家服务</view>
+                    <view class='td td2'>
+                        <block wx:if="{{merchantServes!=-1}}">
+                            <block wx:for="{{merchantServes}}" wx:key="{{key}}">{{item.name}} </block>
+                        </block>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap seller_05'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>优惠卡券</view>
+        </view>
+        <view class='seller_05_c'>
+            <view class='wrap_c'>
+                <view class='ser_05c_t'>
+                    <view class='fl'>
+                        <view class='p p1'>[代金券] 商铺名称</view>
+                        <view class='p p2'>满100可用</view>
+                        <view class='p p3'>
+                            <view class='a_click'>马上领取</view>
+                        </view>
+                    </view>
+                    <view class='fr'>
+                        <view class='i'>¥</view><view class='span'>50</view>
+                    </view>
+                </view>
+                <view class='ser_05c_c'>
+                    <view class='fl'>有效期至2019-06-05</view>
+                    <view class='fr'>剩余15/200</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap seller_06'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>产品列表</view>
+        </view>
+        <view class='seller_06_c'>
+            <view class='wrap_c'>
+                <block wx:if="{{cplist!=-1}}">
+                    <view class='li' wx:for="{{cplist}}" wx:key="goodsId">
+                        <navigator hover-class='none' url="../prd_details/index?goodsId={{item.goodsId}}&merchantId={{merchantId}}">
+                            <image mode='widthFix' src='{{item.goodsCover}}'></image>
+                            <view class='li_c'>
+                                <view class='p p1'>{{item.goodsName}}</view>
+                                <view class='p p2'>¥{{item.goodsPrice}}</view>
+                                <view class='b1'></view>
+                                <view class='b2'></view>
+                                <view class='b3'></view>
+                            </view>
+                        </navigator>
+                    </view>
+                </block>
+                <block wx:else>
+                    <view class='li_no'>暂无产品</view>
+                </block>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap seller_07'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <navigator class='a a1' hover-class='none'>
+                    <view class='span'>联系TA</view>
+                </navigator>
+                <navigator class='a a2' hover-class='none'>
+                    <view class='span'>聊一聊</view>
+                </navigator>
+            </view>
+            <view class='fr'>
+                <navigator hover-class='none' class='a'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/images/sjzy_08.png'></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+
+</view>

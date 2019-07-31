@@ -1,0 +1,21 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='top_title' bindtap='repage_click'>手机号码授权</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap loginfr'>
+        <view class='wrap_c'>
+            <view class='login_01'>
+                <button class='btn' wx:if="{{canIUse}}" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" lang="zh_CN">授权手机号码</button>
+            </view>
+            <view class='login_02'>同意微信授权，手机号码小程序</view>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,114 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>城事详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap csxq_01'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <image mode='widthFix' src='{{userAvatar}}' bindtap='userinfo_click'></image>
+                <view class='em1'>
+                    <view class='p p1'>{{userNickName}}</view>
+                    <view class='p p2'>{{createTime}} | {{browseCount}}人浏览</view>
+                </view>
+            </view>
+            <view class='fr'>
+                <view class='i'>关注</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap csxq_02'>
+        <view class='wrap_c'>
+            <view class='p p1'>{{context}}</view>
+            <view class='p p_img'>
+                <image wx:for="{{infoImgs}}" src='{{item.picUrl}}' mode='widthFix'></image>
+            </view>
+            <view class='p p_add'>
+                <view class='i'>{{infoAddress}}</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="wrap csxq_03">
+        <view class='wrap_c'>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/cs_02.jpg'></image>
+        </view>
+    </view>
+
+
+
+    <view class='wrap prdxq_04'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>
+                我要留言
+                <view class='fr'>{{records_num}}</view>
+            </view>
+        </view>
+        <view class='prdxq_04_c'>
+            <view class='wrap_c'>
+                <view class='prdxq_cell prdxq_fl'>
+                    <image src='https://www.chengshishe.com/club/static/upimg/prd_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='prdxq_cell prdxq_fr'>
+                    <view class='b'></view>
+                    <view class='p'>
+                        <input type='text' class='p_txt' placeholder='请输入你的留言内容' bindinput="inputs"></input>
+                        <button class='p_btn' bindtap='addLeaveMsg'>留言</button>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class='prdxq_04_li'>
+            <view class='wrap_c'>
+                <view class='table'>
+                    <view class='tr' wx:for="{{records}}" wx:key="id">
+                        <view class='td pdxq_04_li_l'>
+                            <image src='{{item.userAvatar}}' mode='widthFix'></image>
+                        </view>
+                        <view class='td pdxq_04_li_r'>
+                            <view class='p p1'>
+                                {{item.nickName}}
+                                <view class='fr'>{{item.createTime}}</view>
+                            </view>
+                            <view class='p p2'>{{item.context}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class='wrap seller_07'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <navigator class='a a1' hover-class='none'>
+                    <view class='span'>联系TA</view>
+                </navigator>
+                <navigator class='a a2' hover-class='none'>
+                    <view class='span'>聊一聊</view>
+                </navigator>
+            </view>
+            <view class='fr'>
+                <navigator hover-class='none' class='a2'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/images/sjzy_08.png'></image>
+                </navigator>
+                <navigator hover-class='none' class='a1'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/images/sjzy_09.png'></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+
+
+
+
+</view>

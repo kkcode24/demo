@@ -1,0 +1,201 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>广告位选择</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    <view class='wdgggfbxz_01'>
+        <checkbox-group>
+            <view class='li'>
+                <view class='li_t'>
+                    <view class='wrap_c'>城事版块广告位</view>
+                </view>
+                <view class='li_c'>
+                    <view class='wrap_c'>
+                        <view class='p_li {{pc_style=="1"?"li_style_on":"li_style_off"}}' data-id="1" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事banner广告位</view>
+                                        <view class='p p2'>编号01  |  750*480  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="2"?"li_style_on":"li_style_off"}}' data-id="2" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事统计数据处广告位</view>
+                                        <view class='p p2'>编号02  |  710*240  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="3"?"li_style_on":"li_style_off"}}' data-id="3" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事中间广告位</view>
+                                        <view class='p p2'>编号03  |  690*110  |  剩余4/8</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="4"?"li_style_on":"li_style_off"}}' data-id="4" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事详情广告位</view>
+                                        <view class='p p2'>编号04  |  710*240  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+
+            <view class='li'>
+                <view class='li_t'>
+                    <view class='wrap_c'>商家版块广告位</view>
+                </view>
+                <view class='li_c'>
+                    <view class='wrap_c'>
+                        <view class='p_li {{pc_style=="1"?"li_style_on":"li_style_off"}}' data-id="1" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事banner广告位</view>
+                                        <view class='p p2'>编号01  |  750*480  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="2"?"li_style_on":"li_style_off"}}' data-id="2" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事统计数据处广告位</view>
+                                        <view class='p p2'>编号02  |  710*240  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="3"?"li_style_on":"li_style_off"}}' data-id="3" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事中间广告位</view>
+                                        <view class='p p2'>编号03  |  690*110  |  剩余4/8</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+
+                        <view class='p_li {{pc_style=="4"?"li_style_on":"li_style_off"}}' data-id="4" bindtap='pcli_click'>
+                            <view class='table'>
+                                <view class='tr'>
+                                    <view class='td td1'>
+                                        <checkbox class='wdgg_box' checked='false'/>
+                                    </view>
+                                    <view class='td td2'>
+                                        <view class='p p1'>城事详情广告位</view>
+                                        <view class='p p2'>编号04  |  710*240  |  剩余1/1</view>
+                                    </view>
+                                    <view class='td td3'>
+                                        <view class='a'></view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class='p_c'>
+                                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/ggxz_01.jpg'></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </checkbox-group>        
+    </view>
+
+    <view class='wrap fbxx_03' style="margin-bottom:40rpx;">
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>确认</button>
+            </view>
+        </view>
+    </view>
+
+</view>

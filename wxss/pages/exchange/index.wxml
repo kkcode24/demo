@@ -1,0 +1,127 @@
+<view class="container" style="background-color:#f5f5f5;{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>积分兑换</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap jzfh_01'>
+        <view class='jzfh_01_c_n4'>
+            <view class='li li1 {{jzfh_01_active1}}' bindtap='jzfh_01_click1'>
+                <view class='span'>综合</view>
+            </view>
+            <view class='li li1 {{jzfh_01_active2}}' bindtap='jzfh_01_click2'>
+                <view class='span'>销量</view>
+            </view>
+            <view class='li li1 {{jzfh_01_active2}}' bindtap='jzfh_01_click3'>
+                <view class='span'>价格</view>
+            </view>
+            <view class='li li2 {{jzfh_01_active5}}' bindtap='jzfh_01_click4'>
+                <view class='span'>筛选</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jfdh_01'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a1'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a2'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a1'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a1'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a1'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' url="../exchange_xq/index">
+                    <view class='img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jgsp_01.jpg'></image>
+                    </view>
+                    <view class='info'>
+                        <view class='p p1'>产品名称产品名称产品</view>
+                        <view class='p p2'>
+                            <view class='span'>2850</view>
+                            <view class='a a1'>兑换</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jfdh_03_empty'></view>
+    <view class='wrap jfdh_03'>
+        <view class='wrap_c'>
+            <view class='a'>
+                <navigator hover-class='none' url="../exchange_jl/index">兑换记录</navigator>
+            </view>
+        </view>
+    </view>
+
+</view>

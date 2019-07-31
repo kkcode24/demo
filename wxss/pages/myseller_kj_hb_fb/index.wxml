@@ -1,0 +1,59 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>发布红包</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+      
+
+    <view class='wrap fbxx_01 fbxj_01'>
+        <view class='wrap_c'>
+            <view class='p p2'>
+                <view class='span sp1'>类别选择</view>
+                <view class='sp2'>
+                    <navigator hover-class='none' url="../myseller_kj_psq_fb/index">
+                        <view class='i'>普通红包</view>
+                    </navigator>
+                </view>
+            </view>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>单个金额</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='10' placeholder=''></input>
+                    <view class='i_tip'>元</view>
+                </view>
+            </view>
+            <view class='p p3'>
+                <view class='span sp1'>红包个数</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='48' placeholder=''></input>
+                    <view class='i_tip'>个</view>
+                </view>
+            </view>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>合计金额</view>
+                <view class='sp2'>
+                    <input type="text" class='txt2' value='480' placeholder=''></input>
+                    <view class='i_tip'>元</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>支付发布</button>
+            </view>
+        </view>
+    </view>
+
+
+
+
+</view>

@@ -1,0 +1,37 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr in_top'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>产品详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap qd_fr'>
+        <view class='wrap_c'>
+            <view class='qd_01'>
+                <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/cs_03.jpg'></image>
+                <view class='uzy01t_r'>
+                    <view class='p p1'>远方的家乡</view>
+                    <view class='p p2'><view class='i'>5248</view></view>
+                </view>
+            </view>
+            <view class='qd_02'>
+                <view class='a'>立即签到</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap qd_03'>
+        <view class='wrap_c'>十月月签到表</view>
+    </view>
+
+    <view class='wrap qd_04'>
+        <view class='wrap_c'>
+            <calendar weeks-type="cn" days-color="{{days_style}}" next="{{false}}" prev="{{false}}" header="{{false}}" />
+        </view>
+    </view>
+
+</view>

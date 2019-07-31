@@ -1,0 +1,60 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>发布询价</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap fbxx_01 fbxj_01'>
+        <view class='wrap_c'>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>询价标题</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入询价标题'></input>
+                </view>
+            </view>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>起始时间</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请选择开始时间'></input>
+                </view>
+            </view>
+            <view class='p p3'>
+                <view class='span sp1'>结束时间</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请选择结束时间'></input>
+                </view>
+            </view>
+            <view class='p'>
+                <textarea placeholder='请输入询价内容...'></textarea>
+            </view>
+            <view class='p p1'>0/50</view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_02'>
+        <view class='wrap_c'>
+            <view class='fbxx_02_t'>
+                <view class='fl'>上传附件</view>
+                <view class='fr'>1/1</view>
+            </view>
+            <view class='fbxx_02_c'>
+                <view class='li'><image src='https://www.chengshishe.com/club/static/upimg/fbcs_01.jpg' mode='widthFix'></image></view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>发布</button>
+            </view>
+        </view>
+    </view>
+
+</view>

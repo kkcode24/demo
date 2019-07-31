@@ -1,0 +1,149 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>商家入驻</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap fbxx_02'>
+        <view class='wrap_c'>
+            <view class='fbxx_02_t'>
+                <view class='fl'>商家头像</view>
+                <view class='fr'>1/1</view>
+            </view>
+            <view class='fbxx_02_c'>
+                <view class='li'><image src='https://www.chengshishe.com/club/static/upimg/fbcs_01.jpg' mode='widthFix'></image></view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p p3' style='border-top:1rpx solid #eee;margin-bottom:0px;'>
+                <view class='span sp1'>商家名称</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入商家名称'></input>
+                </view>
+            </view>
+
+            <view class='p p2' style='margin-bottom:0px;'>
+                <view class='span sp1'>入驻分类</view>
+                <view class='sp2'>
+                    <view class='i'>请选择入驻分类</view>
+                </view>
+            </view>
+
+            <view class='p p5'>
+                <view class='span sp1'>商家地址</view>
+                <view class='span sp2'><view class='i_add'>陕西省西安市未央区渭滨街373</view></view>
+            </view>
+
+            <view class='p p3' style='border-top:1rpx solid #eee;margin-bottom:0px;'>
+                <view class='span sp1'>联系电话</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入联系电话'></input>
+                </view>
+            </view>
+
+            <view class='p p2' style='margin-bottom:0px;'>
+                <view class='span sp1'>营业时间</view>
+                <view class='sp2'>
+                    <view class='i'>08:00-17:00</view>
+                </view>
+            </view>
+
+        </view>
+    </view>
+
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p'>
+                <textarea placeholder='请输入商家简介内容...'></textarea>
+            </view>
+            <view class='p p1'>0/50</view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p p6'>
+                <view class='span sp1'>商家服务</view>
+                <view class='span sp2'>
+                    <radio-group>
+                        <view class='lb'><radio></radio><view class='i'>wifi</view></view>
+                        <view class='lb'><radio></radio><view class='i'>充电</view></view>
+                        <view class='lb'><radio></radio><view class='i'>雨伞</view></view>
+                        <view class='lb'><radio></radio><view class='i'>洗手间</view></view>
+                        <view class='lb'><radio></radio><view class='i'>名称</view></view>
+                    </radio-group>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_02'>
+        <view class='wrap_c'>
+            <view class='fbxx_02_t'>
+                <view class='fl'>商家封面</view>
+                <view class='fr'>0/1</view>
+            </view>
+            <view class='fbxx_02_c' style='border-bottom:1rpx solid #eee;'>
+                <view class='li'><image src='https://www.chengshishe.com/club/static/upimg/fbcs_01.jpg' mode='widthFix'></image></view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_02'>
+        <view class='wrap_c'>
+            <view class='fbxx_02_t'>
+                <view class='fl'>营业执照</view>
+                <view class='fr'>请拍全再上传  0/1</view>
+            </view>
+            <view class='fbxx_02_c' style='border-bottom:1rpx solid #eee;'>
+                <view class='li'><image src='https://www.chengshishe.com/club/static/upimg/fbcs_01.jpg' mode='widthFix'></image></view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p p7'>
+                <view class='span sp1'>认证费用</view>
+                <view class='span sp2'>
+                    <view class='fl'><view class='i'>199元</view>/年</view>
+                    <view class='fr'>
+                      <radio-group>
+                          <radio></radio>
+                      </radio-group>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class='wrap fbxx_03' style='margin-bottom:20rpx;'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>确定</button>
+            </view>
+        </view>
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

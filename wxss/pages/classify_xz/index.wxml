@@ -1,0 +1,44 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='classify_xz_re' data-id="-1" data-value="-1">分类选择</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap flxz_01'>
+        <view class='fl' style="{{minheight}}">
+            <view class='li'>
+                <block wx:for="{{classify_yj}}" wx:key="id">
+                    <view class='p {{item.key==data_curr?"on":""}}' bindtap='classify_click' data-key="{{item.key}}" data-id="{{item.id}}" data-classifyType="{{item.classifyType}}"><view class='b'></view>{{item.classifyName}}</view>
+                </block>
+                <view class='p p_btn'>
+                    <view class="p_span">{{wxh_name}}</view>
+                    <view class='p_span p_a'><view class='a' bindtap='copyz_click' data-val="{{wxh_name}}">复制</view></view>
+                    <view class='p_span'>便民信息</view>
+                    <view class='p_span'>扫码登记</view>
+                </view>
+            </view>
+        </view>
+        <view class='flxz_fr'>
+            <view class='flxz_01_fr'>
+                <block wx:if="{{classify_yj_sub.length!=0}}">
+                  <block wx:for="{{classify_yj_sub}}" wx:key="id">
+                  <view class='li'>
+                      <view class='i' data-id="{{item.id}}" data-value="{{item.classifyName}}" bindtap='classify_xz_re'>{{item.classifyName}}</view>
+                  </view>
+                  </block>
+                </block>
+                <block wx:else>
+                  <view class='li_no'>暂无信息</view>
+                </block>
+            </view>
+        </view>
+    </view>
+
+
+
+</view>

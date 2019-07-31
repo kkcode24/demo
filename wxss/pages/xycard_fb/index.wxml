@@ -1,0 +1,46 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>发布询价</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap fbxx_01 fbxj_01'>
+        <view class='wrap_c'>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>姓名</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入申请人姓名'></input>
+                </view>
+            </view>
+            <view class='p p3' style='margin-bottom:0px;'>
+                <view class='span sp1'>手机</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入申请人电话号码'></input>
+                </view>
+            </view>
+            <view class='p p3'>
+                <view class='span sp1'>身份证</view>
+                <view class='sp2'>
+                    <input type="text" value='' placeholder='请输入申请人身份证号码'></input>
+                </view>
+            </view>
+            <view class='p p_xx'>
+                <view class='span'>* 请如实填写，确保佣金正常核放。</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>发布</button>
+            </view>
+        </view>
+    </view>
+
+</view>

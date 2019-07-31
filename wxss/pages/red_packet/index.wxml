@@ -1,0 +1,107 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_title'>城事社 • 聚惠</view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap redpk_01'>
+        <image src='https://www.chengshishe.com/club/static/upimg/hb_01.png' mode='widthFix'></image>
+    </view>
+
+    <view class='wrap redpk_02'>
+        <view class='wrap_c'>
+            <view class='li' bindtap='redpk_click1' data-anid="1" data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation1}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation2}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click2' data-id="1" data-type="2">
+                <view class='hd_01' animation="{{Animation3}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation4}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click3' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation5}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation6}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click4' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation7}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation8}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click5' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation9}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation10}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click6' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation11}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation12}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click7' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation13}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation14}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click8' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation15}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation16}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+            <view class='li' bindtap='redpk_click9' data-id="1" data-type="1">
+                <view class='hd_01' animation="{{Animation17}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='hd_02' animation="{{Animation18}}">
+                    <image src='https://www.chengshishe.com/club/static/upimg/hb_03.png' mode='widthFix'></image>
+                    <view class='p'>99.99</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap redpk_03'>
+        <view class='wrap_c'>
+            <view class='a' bindtap='kj_click'>免费领取卡券</view>
+        </view>
+    </view>
+
+
+</view>

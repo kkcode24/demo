@@ -1,0 +1,75 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>红包详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap pthb_01'>
+        <image src='https://www.chengshishe.com/club/static/upimg/pthb_01.jpg' mode='widthFix'></image>
+        <view class='p'>10.00</view>
+    </view>
+
+    <view class='wrap pthb_02'>
+        <view class='wrap_c'>
+            <view class='fl'><view class='span'>150.00元</view>/300.00元</view>
+            <view class='fr'>
+                <view class='span'>15</view>/30
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap pthb_03'>
+        <view class='wrap_c'>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/pthb_02.jpg'></image>
+        </view>
+    </view>
+
+    <view class='wrap pthb_04'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>安卓尼玛</view>
+                    <view class='p p2'>2019.01.20</view>
+                </view>
+                <view class='fr'>+10.00</view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>张三丰</view>
+                    <view class='p p2'>2019.01.20</view>
+                </view>
+                <view class='fr'>+10.00</view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>乐小天</view>
+                    <view class='p p2'>2019.01.20</view>
+                </view>
+                <view class='fr'>+10.00</view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>帕里姑娘</view>
+                    <view class='p p2'>2019.01.20</view>
+                </view>
+                <view class='fr'>+10.00</view>
+            </view>
+            <view class='li'>
+                <view class='fl'>
+                    <view class='p p1'>塔钦</view>
+                    <view class='p p2'>2019.01.20</view>
+                </view>
+                <view class='fr'>+10.00</view>
+            </view>
+        </view>
+    </view>
+
+
+
+
+</view>

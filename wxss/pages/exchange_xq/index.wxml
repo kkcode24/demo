@@ -1,0 +1,47 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>产品详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    
+    <view class='wrap prdxq_01'>
+        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/prd_01.jpg'></image>
+    </view>
+
+    <view class='wrap prdxq_02'>
+        <view class='wrap_c'>
+            <view class='p p1'>红旗串串 - 火热全中国</view>
+            <view class='p p2'>
+                <view class='i'>¥280.00</view><view class='a1'>兑换</view><view class='span'>234/2500</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap prdxq_03'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>产品简介</view>
+        </view>
+        <view class='prdxq_03_c'>
+            <view class='wrap_c'>
+                网店店铺描述主要是根据宝贝的特点以及优势来写的，把宝贝的规格，优点，以及良好的售后服务写出来即可。
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jfdh_03_empty'></view>
+    <view class='wrap jfdh_03'>
+        <view class='wrap_c'>
+            <view class='a'>
+                <navigator hover-class='none' url="../exchange_jl/index">兑换记录</navigator>
+            </view>
+        </view>
+    </view>
+
+
+
+</view>

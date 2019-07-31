@@ -1,0 +1,81 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>产品详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap prdxq_01'>
+        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/prd_01.jpg'></image>
+    </view>
+
+    <view class='wrap prdxq_02'>
+        <view class='wrap_c'>
+            <view class='p p1'>红旗串串 - 火热全中国</view>
+        </view>
+    </view>
+
+    <view class='wrap prdxq_03'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>商品简介</view>
+        </view>
+        <view class='prdxq_03_c' style="padding-bottom:20rpx;">
+            <view class='wrap_c'>
+                网店店铺描述主要是根据宝贝的特点以及优势来写的，把宝贝的规格，优点，以及良好的售后服务写出来即可。
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap mysqsq_01'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>获奖名单</view>
+        </view>
+        <view class='mysqsq_01_c'>
+            <view class="wrap_c">
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_03.jpg'></image>
+                        <view class='span'>高端大气</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a1'>确认核销</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_04.jpg'></image>
+                        <view class='span'>李大鹏</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_05.jpg'></image>
+                        <view class='span'>爱你的我快乐</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_06.jpg'></image>
+                        <view class='span'>爱奇小子</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    
+</view>

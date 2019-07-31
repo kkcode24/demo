@@ -1,0 +1,79 @@
+<view class="container" style='background-color:#f5f5f5;{{minheight}}'>
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>红包卡券</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap mkjhb_01'>
+        <view class='li '>
+            <navigator hover-class='none' url="../xycard/index">
+                <view class='span'>银行</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+        <view class='li li_on'>
+            <navigator hover-class='none' url="#">
+                <view class='span'>记录</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+    </view>
+
+    <view class='wrap cardjl_01'>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='span'>王晓天</view>
+                    <view class='i'>2019-02-03 11:23:23</view>
+                </view>
+                <view class='li_c'>
+                    <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_01.jpg'></image></view>
+                    <view class='a a1'>待反馈</view>
+                </view>
+                <view class='li_b'>
+                    <view class='span'>电话：13542542524</view>
+                    <view class='i'>身份证：610422198205253610</view>
+                </view>
+            </view>
+        </view>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='span'>王晓天</view>
+                    <view class='i'>2019-02-03 11:23:23</view>
+                </view>
+                <view class='li_c'>
+                    <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_02.jpg'></image></view>
+                    <view class='a a2'>¥15</view>
+                </view>
+                <view class='li_b'>
+                    <view class='span'>电话：13542542524</view>
+                    <view class='i'>身份证：610422198205253610</view>
+                </view>
+            </view>
+        </view>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='span'>王晓天</view>
+                    <view class='i'>2019-02-03 11:23:23</view>
+                </view>
+                <view class='li_c'>
+                    <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_02.jpg'></image></view>
+                    <view class='a a2'>¥15</view>
+                </view>
+                <view class='li_b'>
+                    <view class='span'>电话：13542542524</view>
+                    <view class='i'>身份证：610422198205253610</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+</view>

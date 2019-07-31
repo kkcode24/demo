@@ -1,0 +1,170 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>红包卡券</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap mkjhb_01'>
+        <view class='li '>
+            <navigator hover-class='none' url="../myseller_kj_hb/index">
+                <view class='span'>红包</view>
+                <view class='b'></view>
+            </navigator>
+        </view>
+        <view class='li li_on'>
+            <view class='span'>卡券</view>
+            <view class='b'></view>
+        </view>
+    </view>
+
+    <view class='wrap mkjkj_01'>
+        <view class='wrap_c'>
+            <view class='sel'>代金券</view>
+        </view>
+    </view>
+
+    <view class='wrap cardt_03'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <view class='table'>
+                    <view class='tr'>
+                        <view class='td li_td1'>
+                            <view class='p p1'>¥<view class='i'>16</view></view>
+                            <view class='p p2'>满100可用</view>
+                        </view>
+                        <view class='td li_td2'>
+                            <view class='p p1'><view class='i'>[代金券]</view> 商铺名称</view>
+                            <view class='p p2'>有效期至2019-06-05</view>
+                            <view class='p p3'>
+                                <view class='em'>
+                                    <view class='i' style='width:100%;'></view>
+                                    <view class='span'>已抢完</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class='td li_td4'>
+                            <view class='p p4'>50/50</view>
+                            <view class='p p5'><view class='a1' bindtap='xh_click'>核销</view></view>
+                        </view>
+                    </view>
+                </view>
+                <view class='b1'></view>
+                <view class='b2'></view>
+                <view class='li_c'>
+                    <view class='lic_p'>
+                        <view class='p' style='{{li_currid==0?"height:auto;":"height:32rpx;"}}'>此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同</view>
+                        <view class='a_click' data-id="0" bindtap='licp_click'></view>
+                    </view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='table'>
+                    <view class='tr'>
+                        <view class='td li_td1'>
+                            <view class='p p1'>¥<view class='i'>16</view></view>
+                            <view class='p p2'>满100可用</view>
+                        </view>
+                        <view class='td li_td2'>
+                            <view class='p p1'><view class='i'>[代金券]</view> 商铺名称</view>
+                            <view class='p p2'>有效期至2019-06-05</view>
+                            <view class='p p3'>
+                                <view class='em'>
+                                    <view class='i' style='width:50%;'></view>
+                                    <view class='span'>已抢50%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class='td li_td4'>
+                            <view class='p p4'>50/50</view>
+                            <view class='p p5'><view class='a2' bindtap='xh_click'>核销</view></view>
+                        </view>
+                    </view>
+                </view>
+                <view class='b1'></view>
+                <view class='b2'></view>
+                <view class='li_c'>
+                    <view class='lic_p'>
+                        <view class='p' style='{{li_currid==1?"height:auto;":"height:32rpx;"}}'>此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同</view>
+                        <view class='a_click' data-id="1" bindtap='licp_click'></view>
+                    </view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='table'>
+                    <view class='tr'>
+                        <view class='td li_td1'>
+                            <view class='p p1'>¥<view class='i'>16</view></view>
+                            <view class='p p2'>满100可用</view>
+                        </view>
+                        <view class='td li_td2'>
+                            <view class='p p1'><view class='i'>[代金券]</view> 商铺名称</view>
+                            <view class='p p2'>有效期至2019-06-05</view>
+                            <view class='p p3'>
+                                <view class='em'>
+                                    <view class='i' style='width:50%;'></view>
+                                    <view class='span'>已抢50%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class='td li_td4'>
+                            <view class='p p4'>50/50</view>
+                            <view class='p p5'><view class='a1' bindtap='xh_click'>核销</view></view>
+                        </view>
+                    </view>
+                </view>
+                <view class='b1'></view>
+                <view class='b2'></view>
+                <view class='li_c'>
+                    <view class='lic_p'>
+                        <view class='p' style='{{li_currid==2?"height:auto;":"height:32rpx;"}}'>此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同</view>
+                        <view class='a_click' data-id="2" bindtap='licp_click'></view>
+                    </view>
+                </view>
+            </view>
+            <view class='li'>
+                <view class='table'>
+                    <view class='tr'>
+                        <view class='td li_td1'>
+                            <view class='p p1'>¥<view class='i'>16</view></view>
+                            <view class='p p2'>满100可用</view>
+                        </view>
+                        <view class='td li_td2'>
+                            <view class='p p1'><view class='i'>[代金券]</view> 商铺名称</view>
+                            <view class='p p2'>有效期至2019-06-05</view>
+                            <view class='p p3'>
+                                <view class='em'>
+                                    <view class='i' style='width:50%;'></view>
+                                    <view class='span'>已抢50%</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class='td li_td5'>
+                            <view class='icon_01'></view>
+                        </view>
+                    </view>
+                </view>
+                <view class='b1'></view>
+                <view class='b2'></view>
+                <view class='li_c'>
+                    <view class='lic_p'>
+                        <view class='p' style='{{li_currid==2?"height:auto;":"height:32rpx;"}}'>此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同此优惠不可与满减、折扣商品、第二份半价活动同时享受；同</view>
+                        <view class='a_click' data-id="2" bindtap='licp_click'></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='fbcs_01'>
+        <image src='https://www.chengshishe.com/club/static/upimg/fbkj_01.png' mode='widthFix' bindtap='kjhb_click'></image>
+    </view>
+
+
+
+
+</view>

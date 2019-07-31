@@ -1,0 +1,62 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='relink_click'>发布城事</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    <view class='wrap fbxx_01'>
+        <view class='wrap_c'>
+            <view class='p p2'>
+                <view class='span sp1'>分类  <view class='i'>*</view></view>
+                <view class='sp2'>
+                    <view class='i' bindtap='classify_xz_click'>{{classify_xz}}</view>
+                </view>
+            </view>
+            <view class='p'>
+                <textarea placeholder='请输入信息内容...' maxlength="1000" auto-focus="true" bindinput="inputs"></textarea>
+            </view>
+            <view class='p p1'>{{input_num}}/1000</view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_02'>
+        <view class='wrap_c'>
+            <view class='fbxx_02_t'>
+                <view class='fl'>上传图片</view>
+                <view class='fr'>{{picNum}}/9</view>
+            </view>
+            <view class='fbxx_02_c'>
+                <view class='li' wx:for="{{upimg_list}}" wx:key="{{id}}">
+                  <image src='{{item.src}}' mode='widthFix' data-id="{{item.id}}" bindtap='chooseImage'></image>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap fbxx_03'>
+        <view class='wrap_c'>
+            <view class='p p1'>
+                <view class='span sp1'>地址  <view class='i'>*</view></view>
+                <view class='span sp2'><view class='i'>陕西省西安市未央区渭滨街373</view></view>
+            </view>
+            <view class='p p2'>
+                <view class='span sp1'>手机  <view class='i'>*</view></view>
+                <view class='span sp3'>
+                    <view class='i {{fbxx_data==0?"fbxx_on":"fbxx_off"}}' bindtap='fbxx_click'></view>
+                </view>
+                <view class='span sp2'>15258588585</view>
+            </view>
+            <view class='p p3'>
+                <button class='fbxx_btn' hover-class='none'>发布</button>
+            </view>
+        </view>
+    </view>
+
+
+
+
+</view>

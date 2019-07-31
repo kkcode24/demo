@@ -1,0 +1,67 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>询价采购</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap cardt_02'>
+        <view class='li '>
+            <navigator hover-class='none' url="../myinquiry/index">
+                询价列表
+              <view class='i'></view>
+            </navigator>
+        </view>
+        <view class='li '>
+            <navigator hover-class='none' url="../myinquiry_xj/index">
+                我的询价
+                <view class='i'></view>
+            </navigator>
+        </view>
+        <view class='li on'>
+            我的报价
+            <view class='i'></view>
+        </view>
+        <view class='b'></view>
+    </view>
+
+    <view class='wrap wdxj_01'>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                     <navigator hover-class='none' url='../myinquiry_xq/index'>
+                        <view class='p p1'>关于购买一台长安CS85的询价 <view class='i i1'></view></view>
+                        <view class='p p2'>13524524525  |  2019-01-22 08:23:23 - 2019-02-22 09:00:12</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                     <navigator hover-class='none' url='../myinquiry_xq/index'>
+                        <view class='p p1'>关于购买一台长安CS85的询价 <view class='i i1'></view></view>
+                        <view class='p p2'>13524524525  |  2019-01-22 08:23:23 - 2019-02-22 09:00:12</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+
+
+    </view>
+
+
+    <view class='fbcs_01'>
+        <navigator hover-class='none' url="../myinquiry_fb/index">
+            <image src='https://www.chengshishe.com/club/static/upimg/fbxj_01.png' mode='widthFix'></image>
+        </navigator>
+    </view>
+
+
+    
+</view>

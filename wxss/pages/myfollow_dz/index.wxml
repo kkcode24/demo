@@ -1,0 +1,94 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>我的点赞</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap in_06'>
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='lit_l'>
+                        <image class='lit_ll' src='https://www.chengshishe.com/club/static/upimg/sj_01.jpg' mode='widthFix'></image>
+                        <view class='lit_lr'>
+                            <view class='lit_lr_t'>
+                                <view class='span'>来古冰川</view>
+                                <view class='lit_gz'>关注</view>
+                            </view>
+                            <view class='lit_lr_c'>
+                                <view class='span'>23小时前</view><view class='i'>|</view><view class='span'>259公里</view><view class='i'>|</view><view class='span'>西藏林芝</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='lit_r1'>
+                        <image src='https://www.chengshishe.com/club/static/images/sj_01.jpg' mode='widthFix' bindtap='cellphone' data-tel="132456"></image>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/sj_02.jpg' mode='widthFix' class="lit_rimg_01"></image>
+                        </navigator>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/cs_04.jpg' mode='widthFix' class="lit_rimg_02"></image>
+                        </navigator>
+                    </view>
+                </view>
+                <view class='li_nr'>
+                    <view class='p p1'><view class='i'>[二手]</view> 分类信息分类信息分类分类信息分类信息分类分类信息分类信息分类</view>
+                    <view class='p p_img'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/cs_03.jpg'></image>
+                    </view>
+                </view>
+                <view class='li_b'>
+                    <view class='lib_l'><view class='i'>15</view></view>
+                    <view class='lib_c'><view class='i'>56</view></view>
+                    <view class='lib_r'><view class='i'>10</view></view>
+                </view>
+            </view>
+        </view>
+
+        <view class='li'>
+            <view class='wrap_c'>
+                <view class='li_t'>
+                    <view class='lit_l'>
+                        <image class='lit_ll' src='https://www.chengshishe.com/club/static/upimg/sj_01.jpg' mode='widthFix'></image>
+                        <view class='lit_lr'>
+                            <view class='lit_lr_t'>
+                                <view class='span'>霍尔果斯</view>
+                                <view class='lit_gz' style="color:#ccc;">已关注</view>
+                            </view>
+                            <view class='lit_lr_c'>
+                                <view class='span'>23小时前</view><view class='i'>|</view><view class='span'>259公里</view><view class='i'>|</view><view class='span'>西藏林芝</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class='lit_r1'>
+                        <image src='https://www.chengshishe.com/club/static/images/sj_01.jpg' mode='widthFix' bindtap='cellphone' data-tel="132456"></image>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/sj_02.jpg' mode='widthFix' class="lit_rimg_01"></image>
+                        </navigator>
+                        <navigator hover-class='none'>
+                            <image src='https://www.chengshishe.com/club/static/images/cs_04.jpg' mode='widthFix' class="lit_rimg_02"></image>
+                        </navigator>
+                    </view>
+                </view>
+                <view class='li_nr'>
+                    <view class='p p1'>城事信息城事逆袭城事信息城事逆袭城事信息城事逆袭</view>
+                    
+                </view>
+                <view class='li_b'>
+                    <view class='lib_l'><view class='i'>15</view></view>
+                    <view class='lib_c'><view class='i'>56</view></view>
+                    <view class='lib_r'><view class='i'>10</view></view>
+                </view>
+            </view>
+        </view>
+
+
+
+    </view>
+
+
+</view>

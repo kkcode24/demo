@@ -1,0 +1,131 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>信息详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap csxq_01 jzfw_01'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <image mode='widthFix' src='{{merchantAvatar}}'></image>
+                <view class='em1'>
+                    <view class='p p1'>{{merchantName}}</view>
+                    <view class='p p2'>{{createTime}} | {{browseCount}}人浏览</view>
+                </view>
+            </view>
+            <view class='fr'>
+                <view class='i1'>{{merchantStarFlag==1?"关注":"未关注"}}</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jzfw_02'>
+        <view class='wrap_c'>
+            <view class='p p1'><view class='i'>[{{classifySecondName}}]</view> {{context}}</view>
+            <view class='p p_img'>
+                <image src='https://www.chengshishe.com/club/static/upimg/cs_03.jpg' mode='widthFix'></image>
+                <image src='https://www.chengshishe.com/club/static/upimg/cs_04.jpg' mode='widthFix'></image>
+            </view>
+            <view class='p p_add'>
+                <view class='i'>{{infoAddress}}</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jzfw_03'>
+        <view class='wrap_c'>
+            <view class='jzfw_03_t'>
+                <view class='span'>-- 推荐信息 --</view>
+            </view>
+            <view class='jzfw_03_c'>
+                <view class='table'>
+                    <view class='tr' wx:for="{{tjxx_list}}" wx:key="id">
+                        <view class='td td1'>
+                            <view class='p p1'>
+                                <view class='i'>[月嫂]</view>{{item.context}}<view class='icon_01'></view>
+                            </view>
+                            <view class='p p2'>
+                                <view class='lib_l'><view class='i'>{{item.browseCount}}</view></view>
+                                <view class='lib_c'><view class='i'>{{item.likeCount}}</view></view>
+                                <view class='lib_r'><view class='i'>{{item.msgCount}}</view></view>
+                            </view>
+                        </view>
+                        <view class='td td2'>
+                            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jzfw_01.jpg'></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap prdxq_04'>
+        <view class='seller_05_t'>
+            <view class='wrap_c'>
+                我要留言
+                <view class='fr'>{{leavemsg_num}}</view>
+            </view>
+        </view>
+        <view class='prdxq_04_c'>
+            <view class='wrap_c'>
+                <view class='prdxq_cell prdxq_fl'>
+                    <image src='https://www.chengshishe.com/club/static/upimg/prd_02.jpg' mode='widthFix'></image>
+                </view>
+                <view class='prdxq_cell prdxq_fr'>
+                    <view class='b'></view>
+                    <view class='p'>
+                        <input type='text' class='p_txt' placeholder='请输入你的留言内容' bindinput="inputs"></input>
+                        <button class='p_btn' bindtap='addLeaveMsg'>留言</button>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class='prdxq_04_li'>
+            <view class='wrap_c'>
+                <view class='table'>
+                    <view class='tr' wx:for="{{leavemsg}}" wx:key="id">
+                        <view class='td pdxq_04_li_l'>
+                            <image src='https://www.chengshishe.com/club/static/upimg/prd_03.jpg' mode='widthFix'></image>
+                        </view>
+                        <view class='td pdxq_04_li_r'>
+                            <view class='p p1'>
+                                远方
+                                <view class='fr'>2小时前</view>
+                            </view>
+                            <view class='p p2'>好多个精心准备，这个平台真心的不错，感谢分享这个平台真心不错。</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class='wrap seller_07'>
+        <view class='wrap_c'>
+            <view class='fl'>
+                <navigator class='a a1' hover-class='none'>
+                    <view class='span'>联系TA</view>
+                </navigator>
+                <navigator class='a a2' hover-class='none'>
+                    <view class='span'>聊一聊</view>
+                </navigator>
+            </view>
+            <view class='fr'>
+                <navigator hover-class='none' class='a2'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/images/sjzy_08.png'></image>
+                </navigator>
+                <navigator hover-class='none' class='a1'>
+                    <image mode='widthFix' src='https://www.chengshishe.com/club/static/images/sjzy_09.png'></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+
+</view>

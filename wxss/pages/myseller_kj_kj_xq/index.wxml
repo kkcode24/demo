@@ -1,0 +1,93 @@
+<view class="container">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>卡券详情</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+    <view class='wrap kjkjxq_01'>
+        <view class='seller_05_c'>            
+            <view class='wrap_c'>
+                <view class='ser_05c_t'>
+                    <view class='fl'>
+                        <view class='p p1'>[代金券] 商铺名称</view>
+                        <view class='p p2'>满100可用</view>
+                        <view class='p p3'>
+                            <view class='a_click'>马上领取</view>
+                        </view>
+                    </view>
+                    <view class='fr'>
+                        <view class='i'>¥</view><view class='span'>50</view>
+                    </view>
+                </view>
+                <view class='ser_05c_c'>
+                    <view class='fl'>有效期至2019-06-05</view>
+                    <view class='fr'>剩余15/200</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap seller_03'>
+        <view class='wrap_c'>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_03.jpg'></image>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_04.jpg'></image>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_05.jpg'></image>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_06.jpg'></image>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_07.jpg'></image>
+            <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_08.jpg'></image>
+            <view class='fr'>195人已关注</view>
+        </view>
+    </view>
+
+    <view class='wrap mysqsq_01'>
+        <view class='mysqsq_01_c'>
+            <view class="wrap_c">
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_03.jpg'></image>
+                        <view class='span'>高端大气</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a1'>确认核销</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_04.jpg'></image>
+                        <view class='span'>李大鹏</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_05.jpg'></image>
+                        <view class='span'>爱你的我快乐</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+                <view class='li'>
+                    <view class='fl'>
+                        <image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/sjzy_06.jpg'></image>
+                        <view class='span'>爱奇小子</view>
+                    </view>
+                    <view class='fr'>
+                        <view class='a2'>待使用</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+
+
+
+</view>

@@ -1,0 +1,63 @@
+<view class="container" style="{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>用户资料</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap yhzl_01'>
+        <view class='wrap_c'>
+            <view class='yhzl_01_t'>
+                <view class='fl'>
+                    <view class='p p1'>远方的家</view>
+                    <view class='p p2'>财务总监</view>
+                </view>
+                <view class='fr'>
+                    <image src='https://www.chengshishe.com/club/static/upimg/cs_04.jpg' mode="widthFix"></image>
+                </view>
+            </view>
+            <view class='yhzl_01_c'>
+                <view class='p p1'>
+                    <view class='i'>18525821173</view>
+                </view>
+                <view class='p p2'>
+                    <view class='i'>中国铝业西安分公司高新营业部</view>
+                </view>
+                <view class='p p3'>
+                    <view class='i'>陕西省西安市未央区渭滨路373号</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap yhzl_02'>
+        <view class='wrap_c'>
+            <view class='li'>
+                <navigator hover-class='none' class='a'>
+                    <image src='https://www.chengshishe.com/club/static/upimg/ui_01.jpg' mode='widthFix'></image>
+                    <view class='p'>关注</view>
+                    <view class='b'></view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' class='a'>
+                    <image src='https://www.chengshishe.com/club/static/upimg/ui_02.jpg' mode='widthFix'></image>
+                    <view class='p'>分享</view>
+                    <view class='b'></view>
+                </navigator>
+            </view>
+            <view class='li'>
+                <navigator hover-class='none' class='a' url="../chat/index">
+                    <image src='https://www.chengshishe.com/club/static/upimg/ui_03.jpg' mode='widthFix'></image>
+                    <view class='p'>私信</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+
+</view>

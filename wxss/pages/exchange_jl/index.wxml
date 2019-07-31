@@ -1,0 +1,117 @@
+<view class="container" style="background-color:#f5f5f5;{{minheight}}">
+    <!--头部-->
+    <view class='wrap topfr top_red'>
+        <view class='wrap_c'>
+            <view class='fl top_return'>
+                <view class='re_page' bindtap='repage_click'>积分兑换</view>
+            </view>
+        </view>
+    </view>
+    <!--end 头部-->
+
+    <view class='wrap jzfh_01'>
+        <view class='jzfh_01_c_n4'>
+            <view class='li li1 {{jzfh_01_active1}}' bindtap='jzfh_01_click1'>
+                <view class='span'>综合</view>
+            </view>
+            <view class='li li1 {{jzfh_01_active2}}' bindtap='jzfh_01_click2'>
+                <view class='span'>销量</view>
+            </view>
+            <view class='li li1 {{jzfh_01_active2}}' bindtap='jzfh_01_click3'>
+                <view class='span'>价格</view>
+            </view>
+            <view class='li li2 {{jzfh_01_active5}}' bindtap='jzfh_01_click4'>
+                <view class='span'>筛选</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='wrap jfdhjl_01'>
+    
+        <view class='li'>
+          <view class='wrap_c'>
+              <view class='li_t'>
+                  <view class='span'>NO.2019032029873019</view>
+                  <view class='i i1'>已完成</view>
+              </view>
+              <view class='li_c'>
+                  <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_03.jpg'></image></view>
+                  <view class='info'>
+                      <view class='p p1'>美特斯邦威T恤男2018秋装新款漫威潮流长袖</view>
+                      <view class='p p2'>
+                          <view class='sp1'><view class='i'>2000</view></view>
+                          <view class='sp2'>×3</view>
+                      </view>
+                  </view>
+              </view>
+              <view class='li_b'>
+                  <view class='p'>
+                      <view class='fr'>
+                          <view class='span'>共 3 件商品  实付 <view class='i'>6000</view></view>
+                      </view>
+                  </view>
+              </view>
+          </view>
+        </view>
+
+        <view class='li'>
+          <view class='wrap_c'>
+              <view class='li_t'>
+                  <view class='span'>NO.2019032029873019</view>
+                  <view class='i i2'>待发货</view>
+              </view>
+              <view class='li_c'>
+                  <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_03.jpg'></image></view>
+                  <view class='info'>
+                      <view class='p p1'>美特斯邦威T恤男2018秋装新款漫威潮流长袖</view>
+                      <view class='p p2'>
+                          <view class='sp1'><view class='i'>2000</view></view>
+                          <view class='sp2'>×3</view>
+                      </view>
+                  </view>
+              </view>
+              <view class='li_b'>
+                  <view class='p'>
+                      <view class='fr'>
+                          <view class='span'>共 3 件商品  实付 <view class='i'>6000</view></view>
+                      </view>
+                  </view>
+              </view>
+          </view>
+        </view>
+
+        <view class='li'>
+          <view class='wrap_c'>
+              <view class='li_t'>
+                  <view class='span'>NO.2019032029873019</view>
+                  <view class='i i3'>已发货</view>
+              </view>
+              <view class='li_c'>
+                  <view class='img'><image mode='widthFix' src='https://www.chengshishe.com/club/static/upimg/jl_03.jpg'></image></view>
+                  <view class='info'>
+                      <view class='p p1'>美特斯邦威T恤男2018秋装新款漫威潮流长袖</view>
+                      <view class='p p2'>
+                          <view class='sp1'><view class='i'>2000</view></view>
+                          <view class='sp2'>×3</view>
+                      </view>
+                  </view>
+              </view>
+              <view class='li_b'>
+                  <view class='p'>
+                      <view class='fr'>
+                          <view class='span'>共 3 件商品  实付 <view class='i'>6000</view></view>
+                      </view>
+                  </view>
+                  <view class='p'>
+                      <view class='fr'>
+                          <view class='span'>中通快递 <view class='i1'>628021239684</view></view>
+                      </view>
+                  </view>
+              </view>
+          </view>
+        </view>
+
+
+
+    </view>
+</view>
